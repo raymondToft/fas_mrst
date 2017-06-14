@@ -1,0 +1,9 @@
+[submodule "hfm"]
+	path = hfm
+	url = git@bitbucket.org:mrst/mrst-hfm.git
+[submodule "upr"]
+	path = upr
+	url = https://github.com/moyner/UPR.git
+[submodule "fvbiot"]
+	path = fvbiot
+	url = https://github.com/keileg/fvbiot.git
