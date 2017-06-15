@@ -54,8 +54,8 @@ function [p_ad, sW_ad,nit,resNorm] =  ...
           [water, oil] = computeBoundaryCondition(model,p_ad,sW_ad,water,oil);      
       else
           boundaryCondition = varargin{1};
-          water =  boundaryCondition.water + water;
-          oil =   boundaryCondition.oil + oil;
+          water =  -boundaryCondition.water + water;
+          oil =   -boundaryCondition.oil + oil;
 %           
 %          
 %           water_val = water(model.well.prodIndex).val;
@@ -81,7 +81,8 @@ function [p_ad, sW_ad,nit,resNorm] =  ...
       res = eq.val;     % residual
       upd = -(J \ res); % Newton update
       
-%       %% Update variables V1
+      %% Update variables V1
+
 %       pUpd = upd(model.pIx);
 %       pUpdCheck = pUpd > p_ad.val*0.2; 
 %       pUpd(pUpdCheck) = p_ad(pUpdCheck)*0.2;

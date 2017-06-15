@@ -17,7 +17,7 @@ grid = computeGeometry(grid);
   % permeability range: {poor: 1-15, moderate: 15-20, good: 50-250, very
   % good: 250-1000
   % porosity range: {fair: 0.25, very low: 0.1}
-  perm = 10*milli*darcy; 
+  perm = 30*milli*darcy; 
   poro = 0.25;
 
   perm_range = [0.1 0.4];
@@ -90,7 +90,7 @@ sW_init = zeros(model.grid.cells.num, 1);
 [p_ad, sW_ad] = initVariablesADI(p_init, sW_init);
 
 numSteps = 100;                 % number of time-steps
-totTime  = 40*365*day;             % total simulation time
+totTime  = 10*365*day;             % total simulation time
 dt       = totTime / numSteps;  % constant time step
 tol      = 1e-5;                % Newton tolerance
 maxits   = 100;                  % max number of Newton its

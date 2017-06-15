@@ -68,10 +68,12 @@ while t < totTime
   
 %   while(model.residual > tol)
   [p_ad, sW_ad,nit,res] = FASCycle(model,p_ad,sW_ad,p_ad_0,sW_ad_0,tol,maxits,dt);
-  model.residual = res;
+%   model.residual = res;
 %   end
-%   [p_ad, sW_ad,nit,res] = newtonTwoPhaseAD(model,p_ad,sW_ad,p_ad_0,sW_ad_0,tol,10+0*model.cycle.v2,dt);
-  
+  if(res > tol)
+    [p_ad, sW_ad,nit,res] = ...
+    newtonTwoPhaseAD(model,p_ad,sW_ad,p_ad_0,sW_ad_0,tol,10+0*model.cycle.v2,dt);
+  end
 %   if(nit == model.cycle.v2)
 %       model.cycle.v1 = v1+2;
 %   else

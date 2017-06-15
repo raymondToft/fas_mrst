@@ -35,18 +35,18 @@ function [p_approx, sW_approx,nit,resNorm] ...
   if(model.residual < tol)
     v1 = model.cycle.v1;
   else
-    v1 = (model.cycle.grids-model.cycle.level+1)^2;
+    v1 = model.cycle.v1 + (model.cycle.grids-model.cycle.level)*2;
   end
-    [p_ad,sW_ad] = newtonTwoPhaseAD(model,p_ad,sW_ad,p_ad_0,sW_ad_0,tol,v1,dt, varargin);
+    [p_ad,sW_ad] = newtonTwoPhaseAD(model, p_ad,sW_ad,p_ad_0,sW_ad_0,tol,v1,dt, varargin);
   
       
   %% Find the defect
   [water, oil] = computePhaseFlux(model,p_ad,sW_ad,p_ad_0,sW_ad_0,dt);
-  water.val = (-1)*water.val;
-  oil.val = (-1)*oil.val;
+  water = (-1)*water;
+  oil = (-1)*oil;
   [water, oil] = computeBoundaryCondition(model,p_ad,sW_ad,water,oil,true);
-%   water.val = -water.val;
-%   oil.val = -oil.val;
+  water.val = -water.val;
+  oil.val = -oil.val;
   defect = struct('water',water,'oil', oil);
   
   %% Set up of coarse grid
@@ -71,7 +71,7 @@ function [p_approx, sW_approx,nit,resNorm] ...
       coarse_model.cycle.level = coarse_model.cycle.level + 1; 
 %       fprintf('Leve1 %d, return FASCycle: \n',coarse_model.cycle.level);
       
-      if(~isempty(coarse_model.cycle.index) && coarse_model.cycle.level == coarse_model.cycle.index(1))
+      if(strcmp(model.cycle.type,'F_cycle') && ~isempty(coarse_model.cycle.index) && coarse_model.cycle.level == coarse_model.cycle.index(1))
           coarse_model.cycle.index(1) = []; %Pop current index
 %           fprintf('Leve1 %d, reSend FASCycle: \n',coarse_model.cycle.level);
           coarse_model.cycle.level = coarse_model.cycle.level - 1; 
@@ -103,6 +103,6 @@ function [p_approx, sW_approx,nit,resNorm] ...
   %% Postsmoothing
   
 %   fprintf('Level %d, Postsmooth: \n',model.cycle.level);
-   [p_approx,sW_approx,nit,resNorm] = newtonTwoPhaseAD(model,p_ad,sW_ad,p_ad_0,sW_ad_0,tol,model.cycle.v2*(model.cycle.grids-model.cycle.level+1),dt);
+   [p_approx,sW_approx,nit,resNorm] = newtonTwoPhaseAD(model,p_ad,sW_ad,p_ad_0,sW_ad_0,tol,model.cycle.v2*(model.cycle.grids-model.cycle.level+3),dt);
    
 end
