@@ -4,7 +4,7 @@ mrstModule add coarsegrid;
 
 %% Set up model
  % Set up model geometry
-[nx,ny,nz] = deal( 48,  48, 4);
+[nx,ny,nz] = deal( 64,  64, 8);
 [Dx,Dy,Dz] = deal(500, 500, 50);
 grid = cartGrid([nx, ny, nz], [Dx, Dy, Dz]);
 grid = computeGeometry(grid);
@@ -38,7 +38,7 @@ grid = computeGeometry(grid);
   
   % Define a lighter, more viscous oil phase with different relative
   % permeability function
-  muO   = 0.8*centi*poise;
+  muO   = 10*centi*poise;
   % Compressibility range: {slighly: 10^-5 to 10^-6, compressible: 10^-3 to
   % 10^-4}psi^-1
   co      = 1e-3/barsa; %1e-4

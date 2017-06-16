@@ -38,7 +38,7 @@ grid = computeGeometry(grid);
   
   % Define a lighter, more viscous oil phase with different relative
   % permeability function
-  muO   = 1*centi*poise;
+  muO   = 5*centi*poise;
   % Compressibility range: {slighly: 10^-5 to 10^-6, compressible: 10^-3 to
   % 10^-4}psi^-1
   co      = 1e-3/barsa; %1e-4
