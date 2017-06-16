@@ -17,7 +17,7 @@ grid = computeGeometry(grid);
   % permeability range: {poor: 1-15, moderate: 15-20, good: 50-250, very
   % good: 250-1000
   % porosity range: {fair: 0.25, very low: 0.1}
-  perm = 30*milli*darcy; 
+  perm = 10*milli*darcy; 
   poro = 0.25;
 
   perm_range = [0.1 0.4];
@@ -38,13 +38,14 @@ grid = computeGeometry(grid);
   
   % Define a lighter, more viscous oil phase with different relative
   % permeability function
-  muO   = 1*centi*poise;
+  muO   = 5*centi*poise;
   % Compressibility range: {slighly: 10^-5 to 10^-6, compressible: 10^-3 to
   % 10^-4}psi^-1
   co      = 1e-3/barsa; %1e-4
   rho_ro = 1050*kilogram/meter^3; % 850
   rhoOS  = 750*kilogram/meter^3; % 750
-     v1_iter = 0;              %Number of presmoothing steps
+  
+  v1_iter = 0;              %Number of presmoothing steps
   v2_iter = 0;            %Number of postmoothing steps
   cycle_type = 'V_cycle';  % F_cycle or V_cycle
   cycle = struct('v1', v1_iter, 'v2',v2_iter,'type',cycle_type); 

@@ -44,7 +44,7 @@ function [p_approx, sW_approx,nit,resNorm] ...
   [water, oil] = computePhaseFlux(model,p_ad,sW_ad,p_ad_0,sW_ad_0,dt);
   water = (-1)*water;
   oil = (-1)*oil;
-  [water, oil] = computeBoundaryCondition(model,p_ad,sW_ad,water,oil,true);
+  [water, oil] = computeBoundaryCondition(model,p_ad_0,sW_ad_0,water,oil,true);
   water.val = -water.val;
   oil.val = -oil.val;
   defect = struct('water',water,'oil', oil);
@@ -103,6 +103,6 @@ function [p_approx, sW_approx,nit,resNorm] ...
   %% Postsmoothing
   
 %   fprintf('Level %d, Postsmooth: \n',model.cycle.level);
-   [p_approx,sW_approx,nit,resNorm] = newtonTwoPhaseAD(model,p_ad,sW_ad,p_ad_0,sW_ad_0,tol,model.cycle.v2*(model.cycle.grids-model.cycle.level+3),dt);
+   [p_approx,sW_approx,nit,resNorm] = newtonTwoPhaseAD(model,p_ad,sW_ad,p_ad_0,sW_ad_0,tol,model.cycle.v2*(model.cycle.grids-model.cycle.level+2),dt);
    
 end
