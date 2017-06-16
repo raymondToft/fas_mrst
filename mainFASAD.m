@@ -17,7 +17,7 @@ grid = computeGeometry(grid);
   % permeability range: {poor: 1-15, moderate: 15-20, good: 50-250, very
   % good: 250-1000
   % porosity range: {fair: 0.25, very low: 0.1}
-  perm = 30*milli*darcy; 
+  perm = 200*milli*darcy; 
   poro = 0.25;
 
   perm_range = [0.1 0.4];
@@ -38,7 +38,11 @@ grid = computeGeometry(grid);
   
   % Define a lighter, more viscous oil phase with different relative
   % permeability function
+<<<<<<< HEAD
   muO   = 10*centi*poise;
+=======
+  muO   = 5*centi*poise;
+>>>>>>> 3dc044e4aceef9e532317b7d04432b6d1ea800e7
   % Compressibility range: {slighly: 10^-5 to 10^-6, compressible: 10^-3 to
   % 10^-4}psi^-1
   co      = 1e-3/barsa; %1e-4
@@ -90,21 +94,21 @@ fprintf('Runtime: %.2f, Residual: %.4e, Iterations: %d \n', runTime, res,nit);
 
 %% Plot pressure evolution
 
-for i = 1:numSteps
-    figure(1); clf
-    subplot(1, 2, 1)
-    plotCellData(G, sol(i).pressure, 'edgecolor', 'none');
-    title('Pressure')
-    axis equal tight
-    view(0, 90);
-    subplot(1, 2, 2)
-    plotCellData(G, sol(i).s, 'edgecolor', 'none');
-    caxis([0, 1])
-    view(0, 90);
-    title('Water saturation')
-    axis equal tight
-    drawnow
-end
+% for i = 1:numSteps
+%     figure(1); clf
+%     subplot(1, 2, 1)
+%     plotCellData(G, sol(i).pressure, 'edgecolor', 'none');
+%     title('Pressure')
+%     axis equal tight
+%     view(0, 90);
+%     subplot(1, 2, 2)
+%     plotCellData(G, sol(i).s, 'edgecolor', 'none');
+%     caxis([0, 1])
+%     view(0, 90);
+%     title('Water saturation')
+%     axis equal tight
+%     drawnow
+% end
 % 
 % for i = 1:numSteps
 %     figure(1); clf

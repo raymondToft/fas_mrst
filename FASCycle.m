@@ -103,6 +103,6 @@ function [p_approx, sW_approx,nit,resNorm] ...
   %% Postsmoothing
   
 %   fprintf('Level %d, Postsmooth: \n',model.cycle.level);
-   [p_approx,sW_approx,nit,resNorm] = newtonTwoPhaseAD(model,p_ad,sW_ad,p_ad_0,sW_ad_0,tol,model.cycle.v2*(model.cycle.grids-model.cycle.level+3),dt);
+   [p_approx,sW_approx,nit,resNorm] = newtonTwoPhaseAD(model,p_ad,sW_ad,p_ad_0,sW_ad_0,tol,model.cycle.v2*(model.cycle.grids-model.cycle.level+2),dt);
    
 end
