@@ -1,0 +1,50 @@
+This is the testing results from running FAS with different mobility ratios
+ FAS Test F: Mobility ratio 5:4
+ RunTime, Residual, Iterations 
+349.06 2.2855e-08 4 
+348.60 2.2855e-08 4 
+346.30 2.2855e-08 4 
+344.00 2.2855e-08 4 
+345.88 2.2855e-08 4 
+
+ FAS Test A: Mobility ratio 1:1
+ RunTime, Residual, Iterations 
+336.35 2.5172e-08 4 
+339.09 2.5172e-08 4 
+335.93 2.5172e-08 4 
+333.74 2.5172e-08 4 
+333.93 2.5172e-08 4 
+
+ FAS Test B: Mobility ratio 1:2
+ RunTime, Residual, Iterations 
+341.30 9.8944e-08 4 
+345.50 9.8944e-08 4 
+343.57 9.8944e-08 4 
+344.18 9.8944e-08 4 
+344.02 9.8944e-08 4 
+
+ FAS Test C: Mobility ratio 1:5
+ RunTime, Residual, Iterations 
+300.18 1.8455e-07 4 
+298.26 1.8455e-07 4 
+302.03 1.8455e-07 4 
+299.99 1.8455e-07 4 
+300.71 1.8455e-07 4 
+
+ FAS Test D: Mobility ratio 1:10
+ RunTime, Residual, Iterations 
+313.43 5.9859e-08 4 
+313.01 5.9859e-08 4 
+311.92 5.9859e-08 4 
+315.79 5.9859e-08 4 
+311.85 5.9859e-08 4 
+
+ FAS Test E: Mobility ratio 1:15
+ RunTime, Residual, Iterations 
+315.67 2.0784e-08 4 
+316.80 2.0784e-08 4 
+315.55 2.0784e-08 4 
+318.20 2.0784e-08 4 
+317.53 2.0784e-08 4 
+
+diary off

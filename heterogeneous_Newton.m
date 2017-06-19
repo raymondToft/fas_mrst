@@ -102,6 +102,16 @@ grid = computeGeometry(grid);
 newModel.grid = grid;
 result_C = runSumulation(newModel, constraints,nSimulations);
 
+%Test F 
+fprintf('\n Newton Test F: 40*40*4\n');
+fprintf(' RunTime, Residual, Iterations \n');
+[nx,ny,nz] = deal( 40,  40, 4);
+grid = cartGrid([nx, ny, nz], [Dx, Dy, Dz]);
+grid = computeGeometry(grid);
+newModel.grid = grid;
+result_F = runSumulation(newModel, constraints, nSimulations);
+
+
 %Test D 
 fprintf('\n Newton Test D: 48*48*4\n');
 fprintf(' RunTime, Residual, Iterations \n');
@@ -119,15 +129,6 @@ grid = cartGrid([nx, ny, nz], [Dx, Dy, Dz]);
 grid = computeGeometry(grid);
 newModel.grid = grid;
 result_E = runSumulation(newModel, constraints, nSimulations);
-
-%Test F 
-fprintf('\n Newton Test F: 40*40*4\n');
-fprintf(' RunTime, Residual, Iterations \n');
-[nx,ny,nz] = deal( 40,  40, 4);
-grid = cartGrid([nx, ny, nz], [Dx, Dy, Dz]);
-grid = computeGeometry(grid);
-newModel.grid = grid;
-result_F = runSumulation(newModel, constraints, nSimulations);
 
 
 

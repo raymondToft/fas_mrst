@@ -74,6 +74,13 @@ nSimulations = 5;
 diary 'TestCase_Mobility_48*48*4Grid_Newton.txt'
 fprintf('This is the testing results from running Newton with different mobility ratios');
 
+%Test F -> Mobility ratio 5:4
+fprintf('\n Newton Test F: Mobility ratio 5:4\n');
+fprintf(' RunTime, Residual, Iterations \n');
+
+newModel.muO = 0.8*centi*poise;
+result_F = runSumulation(newModel, constraints, nSimulations);
+
 %Test A -> Mobility ratio 1:1
 fprintf('\n Newton Test A: Mobility ratio 1:1\n');
 fprintf(' RunTime, Residual, Iterations \n');
@@ -109,27 +116,21 @@ newModel.muO = 15*centi*poise;
 result_E = runSumulation(newModel, constraints, nSimulations);
 
 
-%Test F -> Mobility ratio 5:4
-fprintf('\n Newton Test F: Mobility ratio 5:4\n');
-fprintf(' RunTime, Residual, Iterations \n');
-
-newModel.muO = 0.8*centi*poise;
-result_F = runSumulation(newModel, constraints, nSimulations);
 
 
-fprintf('MobilityRatio Maximum Average relAverage Variance relVariance')
+%fprintf('MobilityRatio Maximum Average relAverage Variance relVariance')
 
-refineAndPrintResults(result_A,'MobilityRatio')
+%refineAndPrintResults(result_A,'MobilityRatio')
 
-refineAndPrintResults(result_B,'MobilityRatio')
+%refineAndPrintResults(result_B,'MobilityRatio')
 
-refineAndPrintResults(result_C,'MobilityRatio')
+%refineAndPrintResults(result_C,'MobilityRatio')
 
-refineAndPrintResults(result_D,'MobilityRatio')
+%refineAndPrintResults(result_D,'MobilityRatio')
 
-refineAndPrintResults(result_E,'MobilityRatio')
+%refineAndPrintResults(result_E,'MobilityRatio')
 
-refineAndPrintResults(result_F,'MobilityRatio')
+%refineAndPrintResults(result_F,'MobilityRatio')
 
 diary off
 
