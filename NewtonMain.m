@@ -4,7 +4,7 @@ mrstModule add coarsegrid;
 
 %% Set up model
  % Set up model geometry
-[nx,ny,nz] = deal( 48,  48, 4);
+[nx,ny,nz] = deal( 24,  24, 8);
 [Dx,Dy,Dz] = deal(500, 500, 50);
 grid = cartGrid([nx, ny, nz], [Dx, Dy, Dz]);
 grid = computeGeometry(grid);
@@ -17,7 +17,7 @@ grid = computeGeometry(grid);
   % permeability range: {poor: 1-15, moderate: 15-20, good: 50-250, very
   % good: 250-1000
   % porosity range: {fair: 0.25, very low: 0.1}
-  perm = 10*milli*darcy; 
+  perm = 30*milli*darcy; 
   poro = 0.25;
 
   perm_range = [0.1 0.4];
@@ -44,8 +44,7 @@ grid = computeGeometry(grid);
   co      = 1e-3/barsa; %1e-4
   rho_ro = 1050*kilogram/meter^3; % 850
   rhoOS  = 750*kilogram/meter^3; % 750
-  
-  v1_iter = 0;              %Number of presmoothing steps
+     v1_iter = 0;              %Number of presmoothing steps
   v2_iter = 0;            %Number of postmoothing steps
   cycle_type = 'V_cycle';  % F_cycle or V_cycle
   cycle = struct('v1', v1_iter, 'v2',v2_iter,'type',cycle_type); 

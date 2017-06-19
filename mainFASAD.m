@@ -9,7 +9,7 @@ mrstModule add coarsegrid;
 grid = cartGrid([nx, ny, nz], [Dx, Dy, Dz]);
 grid = computeGeometry(grid);
 
-% plotGrid(grid); view(3); axis tight
+ plotGrid(grid); view(3); axis tight
 
 % Set rock properties
   homogeneous = 'true';
@@ -17,8 +17,15 @@ grid = computeGeometry(grid);
   % permeability range: {poor: 1-15, moderate: 15-20, good: 50-250, very
   % good: 250-1000
   % porosity range: {fair: 0.25, very low: 0.1}
-  perm = 200*milli*darcy; 
+  perm = 30*milli*darcy; 
   poro = 0.25;
+
+% spe10
+%[grid,W,rock] = getSPE10setup(1);
+%mp =0.1;
+%rock.poro(rock.poro < mp) = mp;
+%rock.perm = rock.perm(:,1);
+
 
   perm_range = [0.1 0.4];
   gauss_filter_size = [3 3 3];
@@ -38,11 +45,9 @@ grid = computeGeometry(grid);
   
   % Define a lighter, more viscous oil phase with different relative
   % permeability function
-<<<<<<< HEAD
-  muO   = 10*centi*poise;
-=======
+
+
   muO   = 5*centi*poise;
->>>>>>> 3dc044e4aceef9e532317b7d04432b6d1ea800e7
   % Compressibility range: {slighly: 10^-5 to 10^-6, compressible: 10^-3 to
   % 10^-4}psi^-1
   co      = 1e-3/barsa; %1e-4
