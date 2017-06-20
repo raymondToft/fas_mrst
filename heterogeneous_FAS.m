@@ -74,54 +74,35 @@ nSimulations = 5;
 
 diary 'TestCase_heterogeneous[0.1-0.4]_FAS.txt'
 fprintf('This is the testing results from running FAS with different grid sizes for a homogeneous permeability field');
-% 
-% %Test A 
-% fprintf('\n FAS Test A: 16*16*4 \n');
-% fprintf(' RunTime, Residual, Iterations \n');
-% [nx,ny,nz] = deal( 16,  16, 4);
-% grid = cartGrid([nx, ny, nz], [Dx, Dy, Dz]);
-% grid = computeGeometry(grid);
-% newModel.grid = grid;
-% result_A = runSumulation(newModel, constraints, nSimulations);
-% 
-% %Test B 
-% fprintf('\n FAS Test B: 24*24*4\n');
-% fprintf(' RunTime, Residual, Iterations \n');
-% [nx,ny,nz] = deal( 24,  24, 4);
-% grid = cartGrid([nx, ny, nz], [Dx, Dy, Dz]);
-% grid = computeGeometry(grid);
-% newModel.grid = grid;
-% result_B = runSumulation(newModel, constraints, nSimulations);
-% 
-% %Test C 
-% fprintf('\n FAS Test C: 32*32*4\n');
-% fprintf(' RunTime, Residual, Iterations \n');
-% [nx,ny,nz] = deal( 32,  32, 4);
-% grid = cartGrid([nx, ny, nz], [Dx, Dy, Dz]);
-% grid = computeGeometry(grid);
-% newModel.grid = grid;
-% result_C = runSumulation(newModel, constraints,nSimulations);
-% 
-% %Test D 
-% fprintf('\n FAS Test D: 48*48*4\n');
-% fprintf(' RunTime, Residual, Iterations \n');
-% [nx,ny,nz] = deal( 48,  48, 4);
-% grid = cartGrid([nx, ny, nz], [Dx, Dy, Dz]);
-% grid = computeGeometry(grid);
-% newModel.grid = grid;
-% result_D = runSumulation(newModel, constraints,nSimulations);
-% 
-% %Test E 
-% fprintf('\n FAS Test E: 64*64*4\n');
-% fprintf(' RunTime, Residual, Iterations \n');
-% [nx,ny,nz] = deal( 64,  64, 4);
-% grid = cartGrid([nx, ny, nz], [Dx, Dy, Dz]);
-% grid = computeGeometry(grid);
-% newModel.grid = grid;
-% result_E = runSumulation(newModel, constraints, nSimulations);
+ 
+ %Test A 
+ fprintf('\n FAS Test A: 16*16*4 \n');
+ fprintf(' RunTime, Residual, Iterations \n');
+ [nx,ny,nz] = deal( 16,  16, 4);
+ grid = cartGrid([nx, ny, nz], [Dx, Dy, Dz]);
+ grid = computeGeometry(grid);
+ newModel.grid = grid;
+ result_A = runSumulation(newModel, constraints, nSimulations);
+ 
+ %Test B 
+ fprintf('\n FAS Test B: 24*24*4\n');
+ fprintf(' RunTime, Residual, Iterations \n');
+ [nx,ny,nz] = deal( 24,  24, 4);
+ grid = cartGrid([nx, ny, nz], [Dx, Dy, Dz]);
+ grid = computeGeometry(grid);
+ newModel.grid = grid;
+ result_B = runSumulation(newModel, constraints, nSimulations);
+ 
+ %Test C 
+ fprintf('\n FAS Test C: 32*32*4\n');
+ fprintf(' RunTime, Residual, Iterations \n');
+ [nx,ny,nz] = deal( 32,  32, 4);
+ grid = cartGrid([nx, ny, nz], [Dx, Dy, Dz]);
+ grid = computeGeometry(grid);
+ newModel.grid = grid;
+ result_C = runSumulation(newModel, constraints,nSimulations);
 
-
-%Test F 
+ %Test F 
 fprintf('\n FAS Test F: 40*40*4\n');
 fprintf(' RunTime, Residual, Iterations \n');
 [nx,ny,nz] = deal( 40,  40, 4);
@@ -129,6 +110,26 @@ grid = cartGrid([nx, ny, nz], [Dx, Dy, Dz]);
 grid = computeGeometry(grid);
 newModel.grid = grid;
 result_F = runSumulation(newModel, constraints, nSimulations);
+
+
+ %Test D 
+ fprintf('\n FAS Test D: 48*48*4\n');
+ fprintf(' RunTime, Residual, Iterations \n');
+ [nx,ny,nz] = deal( 48,  48, 4);
+ grid = cartGrid([nx, ny, nz], [Dx, Dy, Dz]);
+ grid = computeGeometry(grid);
+ newModel.grid = grid;
+ result_D = runSumulation(newModel, constraints,nSimulations);
+ 
+ %Test E 
+ fprintf('\n FAS Test E: 64*64*4\n');
+ fprintf(' RunTime, Residual, Iterations \n');
+ [nx,ny,nz] = deal( 64,  64, 4);
+ grid = cartGrid([nx, ny, nz], [Dx, Dy, Dz]);
+ grid = computeGeometry(grid);
+ newModel.grid = grid;
+ result_E = runSumulation(newModel, constraints, nSimulations);
+
 
 
 % 
