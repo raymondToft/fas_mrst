@@ -35,8 +35,8 @@ tic;
 while t < totTime
    t = t + dt;
    step = step + 1;
- %  fprintf('\nTime step %d: Time %.2f -> %.2f days\n', ...
- %     step, convertTo(t - dt, day), convertTo(t, day));
+%    fprintf('\nTime step %d: Time %.2f -> %.2f days\n', ...
+%       step, convertTo(t - dt, day), convertTo(t, day));
    
    [p_ad, sW_ad,nit,res] = ...
     newtonTwoPhaseAD(model,p_ad,sW_ad,p_ad,sW_ad,tol,maxits,dt);
@@ -49,7 +49,7 @@ while t < totTime
                             's', double(sW_ad));
 %       waitbar(t/totTime,hwb);
    end
-  %   fprintf('Iteration %3d:  Res = %.4e \n', nit, res)
+%      fprintf('Iteration %3d:  Res = %.4e \n', nit, res)
 
 end
 runTime = toc;

@@ -78,7 +78,6 @@ function [model] = initNewModel(model)
         plotCellData (model.grid , convertTo ( rock.perm , milli * darcy ));
         colorbar (); axis equal tight ; view (3);
   end
-  
   % Compressibility
   cr   = model.cr;
   % Reference pressure
@@ -90,7 +89,7 @@ function [model] = initNewModel(model)
   % redefine rock struct
   rock = struct('perm',rock.perm,'poro',rock.poro, ...
       'cr', cr, 'p_r',p_r, 'pv_r', pv_r, 'pv',pv);
-  %% Define model for two-phase compressible fluid
+  %% Define model518.11 for two-phase compressible fluid
   % Define a water phase
   muW    = model.muW;
   cw     = model.cw;

@@ -4,15 +4,15 @@ mrstModule add coarsegrid;
 
 %% Set up model
  % Set up model geometry
-[nx,ny,nz] = deal( 64,  64, 8);
+[nx,ny,nz] = deal( 48,  48, 4);
 [Dx,Dy,Dz] = deal(500, 500, 50);
 grid = cartGrid([nx, ny, nz], [Dx, Dy, Dz]);
 grid = computeGeometry(grid);
 
- plotGrid(grid); view(3); axis tight
+% plotGrid(grid); view(3); axis tight
 
 % Set rock properties
-  homogeneous = 'true';
+  homogeneous = 'false';
   % (Outdated) value ranges
   % permeability range: {poor: 1-15, moderate: 15-20, good: 50-250, very
   % good: 250-1000
@@ -20,16 +20,21 @@ grid = computeGeometry(grid);
   perm = 30*milli*darcy; 
   poro = 0.25;
 
-% spe10
-%[grid,W,rock] = getSPE10setup(1);
-%mp =0.1;
-%rock.poro(rock.poro < mp) = mp;
-%rock.perm = rock.perm(:,1);
-
-
-  perm_range = [0.1 0.4];
+  perm_range = [0.25 0.52];
   gauss_filter_size = [3 3 3];
   std = 2.5;
+ 
+%   %% SPE10
+%   homogeneous = 'spe10';
+% [grid, W, rock] = getSPE10setup(2);
+% mp = 0.1;
+% rock.poro(rock.poro < mp) = mp;
+% poro = rock.poro;
+% rock.perm = rock.perm(:, 1);
+% perm = rock.perm;
+% % plotGrid(G); view(3); axis tight
+
+  
   % Compressibility: normally in the range of 10^-6 to 10^-7, assumed to be
   % constant
   cr   = 1e-6/barsa;
@@ -45,8 +50,6 @@ grid = computeGeometry(grid);
   
   % Define a lighter, more viscous oil phase with different relative
   % permeability function
-
-
   muO   = 5*centi*poise;
   % Compressibility range: {slighly: 10^-5 to 10^-6, compressible: 10^-3 to
   % 10^-4}psi^-1
@@ -69,6 +72,15 @@ numSteps = 100;                 % number of time-steps
 totTime  = 10*365*day;             % total simulation time
 tol      = 1e-5;                % Newton tolerance
 maxits   = 100;                  % max number of Newton its
+
+mode = 'newModel';
+initMode = struct('mode', mode, 'model',newModel);
+ 
+model = initiateModel(initMode);
+plotCellData (model.grid , convertTo ( model.rock.perm , milli * darcy ),'edgecolor','none');
+convertTo ( max(model.rock.perm) , milli * darcy )
+convertTo ( min(model.rock.perm) , milli * darcy )
+colorbar ( ); axis equal tight ; view (3);
 
 constraints = struct('numSteps',numSteps,'totTime',totTime, 'tol',tol, 'maxits', maxits);
   
@@ -116,7 +128,7 @@ fprintf('Runtime: %.2f, Residual: %.4e, Iterations: %d \n', runTime, res,nit);
 % end
 % 
 % for i = 1:numSteps
-%     figure(1); clf
+%     figure(2); clf
 %     subplot(2, 1, 1)
 %     plotCellData(grid, sol(i).pressure);
 %     title('Pressure')
@@ -128,3 +140,34 @@ fprintf('Runtime: %.2f, Residual: %.4e, Iterations: %d \n', runTime, res,nit);
 %     title('Water saturation')
 %     drawnow
 % end
+% 
+%  figure(3); clf
+%     subplot(2, 1, 1)
+%     plotCellData(G, sol(20).pressure);
+%     colorbar (); axis equal tight ; view (3);
+%     title('Pressure')
+%     view(30, 40);
+%     subplot(2, 1, 2)
+%     plotCellData(G, sol(20).s);
+%     colorbar (); axis equal tight ; view (3);
+%     caxis([0, 1])
+%     view(30, 40);
+%     title('Water saturation')
+%     drawnow
+% 
+%  figure(4); clf
+%     subplot(2, 1, 1)
+%     plotCellData(grid, sol(20).pressure, 'edgecolor', 'none');
+%     colorbar (); axis equal tight ; view (3);
+%     title('Pressure')
+%     axis equal tight
+%     view(0, 90);
+%     subplot(2, 1, 2)
+%     plotCellData(grid, sol(20).s, 'edgecolor', 'none');
+%     colorbar (); axis equal tight ; view (3);
+%     caxis([0, 1])
+%     view(0, 90);
+%     title('Water saturation')
+%     axis equal tight
+%     colorbar ( ' horiz ' ); axis equal tight ; view (3);
+%     drawnow

@@ -134,7 +134,7 @@ function [p_ad, sW_ad,nit,resNorm] =  ...
 %   if(~isempty(varargin))
 %       fprintf('%s \n',varargin{2});
 %   end
-  %   fprintf('Grid %d, Iterration %3d:  Res = %.4e \n',model.grid.cartDims(1), nit, resNorm)
+%      fprintf('Grid %d, Iteration %3d:  Res = %.4e \n',model.grid.cartDims(1), nit, resNorm)
 %    if(pMaxUpd > 0 || sWMaxUpd > 0)
 %    fprintf('  pMaxUpd: %d, sWMaxUpd: %d \n', pMaxUpd, sWMaxUpd);
 %    end
