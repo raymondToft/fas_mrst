@@ -53,11 +53,11 @@ v1 = model.cycle.v1;
 t = 0; step = 0;
 % hwb = waitbar(t,'Simulation ..');
 tic;
-while t < totTime
+while t < 30*dt
    t = t + dt;
    step = step + 1;
- %  fprintf('\nTime step %d: Time %.2f -> %.2f days\n', ...
-  %    step, convertTo(t - dt, day), convertTo(t, day));
+%    fprintf('\nTime step %d: Time %.2f -> %.2f days\n', ...
+%       step, convertTo(t - dt, day), convertTo(t, day));
   p_ad_0 = p_ad;
   sW_ad_0 = sW_ad;
   res = 99e10;

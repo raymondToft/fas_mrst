@@ -1,0 +1,21 @@
+permRanges_FAS
+This is the testing results from running FAS with different grid sizes for a homogeneous permeability field
+ FAS Test A: [10 - 300] 
+ RunTime, Residual, Iterations 
+138.32 7.3930e-06 3 
+
+ FAS Test B: [100 500]
+ RunTime, Residual, Iterations 
+130.75 7.3930e-06 3 
+
+ FAS Test C: [10 100]
+ RunTime, Residual, Iterations 
+131.29 7.3930e-06 3 
+
+ FAS Test D: [50 1000]
+ RunTime, Residual, Iterations 
+127.61 7.3930e-06 3 
+
+ FAS Test E: [300 1000]
+ RunTime, Residual, Iterations 
+135.24 7.3930e-06 3 

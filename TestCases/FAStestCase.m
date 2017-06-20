@@ -1,15 +1,15 @@
 mrstModule add coarsegrid;
 
-% close all;
+close all;
 
 %% Set up model
  % Set up model geometry
-[nx,ny,nz] = deal( 48,  48, 4);
+[nx,ny,nz] = deal( 24,  24, 2);
 [Dx,Dy,Dz] = deal(500, 500, 50);
 grid = cartGrid([nx, ny, nz], [Dx, Dy, Dz]);
 grid = computeGeometry(grid);
 
-% plotGrid(grid); view(3); axis tight
+plotGrid(grid); view(3); axis tight
 
 % Set rock properties
   homogeneous = 'true';
@@ -44,17 +44,12 @@ grid = computeGeometry(grid);
   co      = 1e-3/barsa; %1e-4
   rho_ro = 1050*kilogram/meter^3; % 850
   rhoOS  = 750*kilogram/meter^3; % 750
-  
-  v1_iter = 0;              %Number of presmoothing steps
-  v2_iter = 0;            %Number of postmoothing steps
-  cycle_type = 'V_cycle';  % F_cycle or V_cycle
-  cycle = struct('v1', v1_iter, 'v2',v2_iter,'type',cycle_type); 
- 
+    
   newModel = struct('grid',grid, 'muW',muW, 'cw',cw, 'rho_rw',rho_rw,  ...
                     'rhoWS',rhoWS, 'muO', muO, 'co',co, 'rho_ro',rho_ro, ...
                     'rhoOS', rhoOS, 'cr',cr,'p_r',p_r, 'poro',poro,'perm', perm, ...
                     'homogeneous',homogeneous, 'perm_range',perm_range, ... 
-                    'gauss_filter_size',gauss_filter_size, 'std',std,'cycle',cycle);
+                    'gauss_filter_size',gauss_filter_size, 'std',std);
   mode = 'newModel';
   initMode = struct('mode', mode, 'model',newModel);
   
@@ -91,10 +86,10 @@ sW_init = zeros(model.grid.cells.num, 1);
 [p_ad, sW_ad] = initVariablesADI(p_init, sW_init);
 
 numSteps = 100;                 % number of time-steps
-totTime  = 10*365*day;             % total simulation time
+totTime  = 365*day;             % total simulation time
 dt       = totTime / numSteps;  % constant time step
 tol      = 1e-5;                % Newton tolerance
-maxits   = 100;                  % max number of Newton its
+maxits   = 20;                  % max number of Newton its
 
 
 model.well.inRate = 1*sum(model.rock.pv(p_init))/totTime;
@@ -106,10 +101,34 @@ sol(1)  = struct('time', 0, 'pressure', double(p_ad), ...
 
 %% Initiate multigrid variables
 
+% Presmoothing steps
+v1_iter = 1;
+
+% Postsmoothing steps
+v2_iter = 4;
+
+% Number of levels
+
+if(model.grid.cartDims(3)>1)
+  k_level = floor(log(model.grid.cells.num) /log(2^3));
+else
+  k_level = floor(log(model.grid.cells.num) /log(2^2));
+end
+
+%Set to 1 in order to run with F-cycle
+F_cycle = 0;
+
+if(k_level < 3 || F_cycle == 0)
+    % V -cycle
+    cycle_index = 1;
+else
+    % F - cycle
+    cycle_index = 2:k_level-1;
+end
 
 %% Main loop
 t = 0; step = 0;
-% hwb = waitbar(t,'Simulation ..');
+hwb = waitbar(t,'Simulation ..');
 tic;
 while t < totTime
    t = t + dt;
@@ -117,9 +136,12 @@ while t < totTime
    fprintf('\nTime step %d: Time %.2f -> %.2f days\n', ...
       step, convertTo(t - dt, day), convertTo(t, day));
 
+  % Multigrid
+  
+%   [p_ad, sW_ad,nit] = multigridCycleV3(v1_iter,v2_iter,model,p_ad,sW_ad,tol,maxits,g,dt);
    
-   [p_ad, sW_ad,nit,resNorm] = ...
-    newtonTwoPhaseAD(model,p_ad,sW_ad,p_ad,sW_ad,tol,maxits,dt);
+  [p_ad, sW_ad,nit] = FASCycle(v1_iter,v2_iter,model,p_ad,sW_ad,tol,maxits,dt,k_level,cycle_index);
+   
 %   if mod(step,10) == 0
 %     figure
 %     subplot(2, 1, 1); plot(model.grid.cells.indexMap,p_ad.val);
@@ -136,25 +158,43 @@ while t < totTime
       sol(step+1)  = struct('time', t, ...
                             'pressure', double(p_ad), ...
                             's', double(sW_ad));
-%       waitbar(t/totTime,hwb);
+      waitbar(t/totTime,hwb);
    end
 end
+toc;
+close(hwb);
 
-fprintf('Runtime: %.2f, Residual: %.4e, Iterations: %d \n', toc, resNorm,nit);
-
-% close(hwb);
 %% Plot pressure evolution
-% 
-% for i = 1:numSteps
-%     figure(1); clf
-%     subplot(2, 1, 1)
-%     plotCellData(grid, sol(i).pressure);
-%     title('Pressure')
-%     view(30, 40);
-%     subplot(2, 1, 2)
-%     plotCellData(grid, sol(i).s);
-%     caxis([0, 1])
-%     view(30, 40);
-%     title('Watersaturation')
-%     drawnow
-% end
+
+for i = 1:numSteps
+    figure(1); clf
+    subplot(2, 1, 1)
+    plotCellData(grid, sol(i).pressure);
+    title('Pressure')
+    view(30, 40);
+    subplot(2, 1, 2)
+    plotCellData(grid, sol(i).s);
+    caxis([0, 1])
+    view(30, 40);
+    title('Watersaturation')
+    drawnow
+end
+
+%{
+Copyright 2009-2016 SINTEF ICT, Applied Mathematics.
+
+This file is part of The MATLAB Reservoir Simulation Toolbox (MRST).
+
+MRST is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+MRST is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with MRST.  If not, see <http://www.gnu.org/licenses/>.
+%}
