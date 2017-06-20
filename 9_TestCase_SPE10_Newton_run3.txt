@@ -1,0 +1,12 @@
+This is the testing results from running FAS with different number of SPE10 layers
+ FAS Test C: SPE10 1:8 
+ RunTime, Residual, Iterations 
+2460.49 3.6170e-01 2 
+2459.64 3.6170e-01 2 
+2463.83 3.6170e-01 2 
+
+ FAS Test C: SPE10 1:6 
+ RunTime, Residual, Iterations 
+883.95 2.7366e-01 2 
+888.94 2.7366e-01 2 
+884.07 2.7366e-01 2 

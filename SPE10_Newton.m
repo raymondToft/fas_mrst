@@ -5,7 +5,7 @@
 % call to the FAS script
 
 mrstModule add coarsegrid;
-
+mrstModule add spe10;
 close all;
 
 %% Set up model
@@ -71,43 +71,57 @@ maxits   = 100;                  % max number of Newton its
 constraints = struct('numSteps',numSteps,'totTime',totTime, 'tol',tol, 'maxits', maxits);
   
 %% Run Simulations
-nSimulations = 5;
+nSimulations = 3;
 
-diary '9_TestCase_SPE10_Newton.txt'
+diary '9_TestCase_SPE10_Newton_run3.txt'
 fprintf('This is the testing results from running FAS with different number of SPE10 layers');
 % 
 %Test A 
-fprintf('\n FAS Test A: SPE10 1:2 \n');
-fprintf(' RunTime, Residual, Iterations \n');
+%fprintf('\n FAS Test A: SPE10 1:2 \n');
+%fprintf(' RunTime, Residual, Iterations \n');
 
-newModel.homogeneous = 'spe10';
-[newModel.grid, W, rock] = getSPE10setup(1:2);
-mp = 0.1;
-rock.poro(rock.poro < mp) = mp;
-newModel.poro = rock.poro;
-rock.perm = rock.perm(:, 1);
-newModel.perm = rock.perm;
-result_A = runSumulation(newModel, constraints, nSimulations);
+%newModel.homogeneous = 'spe10';
+%[newModel.grid, W, rock] = getSPE10setup(1:2);
+%mp = 0.1;
+%rock.poro(rock.poro < mp) = mp;
+%newModel.poro = rock.poro;
+%rock.perm = rock.perm(:, 1);
+%newModel.perm = rock.perm;
+%result_A = runSumulation(newModel, constraints, nSimulations);
 
 %Test B 
-fprintf('\n FAS Test B: SPE10 1:4\n');
-fprintf(' RunTime, Residual, Iterations \n');
+%fprintf('\n FAS Test B: SPE10 1:4\n');
+%fprintf(' RunTime, Residual, Iterations \n');
 
+%newModel.homogeneous = 'spe10';
+%[newModel.grid, W, rock] = getSPE10setup(1:4);
+%mp = 0.1;
+%rock.poro(rock.poro < mp) = mp;
+%newModel.poro = rock.poro;
+%rock.perm = rock.perm(:, 1);
+%newModel.perm = rock.perm;
+
+%result_B = runSumulation(newModel, constraints, nSimulations);
+
+%Test C 
+fprintf('\n FAS Test C: SPE10 1:8 \n');
+fprintf(' RunTime, Residual, Iterations \n');
 newModel.homogeneous = 'spe10';
-[newModel.grid, W, rock] = getSPE10setup(1:4);
+[newModel.grid, W, rock] = getSPE10setup(1:8);
 mp = 0.1;
 rock.poro(rock.poro < mp) = mp;
 newModel.poro = rock.poro;
 rock.perm = rock.perm(:, 1);
 newModel.perm = rock.perm;
 
-result_B = runSumulation(newModel, constraints, nSimulations);
+result_C = runSumulation(newModel, constraints,nSimulations);
+% 
 
 %Test C 
-fprintf('\n FAS Test C: SPE10 1:16 \n');
+fprintf('\n FAS Test C: SPE10 1:6 \n');
 fprintf(' RunTime, Residual, Iterations \n');
 newModel.homogeneous = 'spe10';
-[newModel.grid, W, rock] = getSPE10setup(1:16);
+[newModel.grid, W, rock] = getSPE10setup(1:6);
 mp = 0.1;
 rock.poro(rock.poro < mp) = mp;
 newModel.poro = rock.poro;

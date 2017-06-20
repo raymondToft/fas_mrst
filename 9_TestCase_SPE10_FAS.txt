@@ -1,0 +1,41 @@
+This is the testing results from running FAS with different number of SPE10 layers
+ FAS Test A: SPE10 1:2 
+ RunTime, Residual, Iterations 
+{Undefined function or variable 'getSPE10setup'.
+
+Error in SPE10_FAS (line 84)
+[newModel.grid, W, rock] = getSPE10setup(1:2);
+} 
+diary off
+This is the testing results from running FAS with different number of SPE10 layers
+ FAS Test A: SPE10 1:2 
+ RunTime, Residual, Iterations 
+516.36 7.0908e+01 10 
+513.86 7.0908e+01 10 
+517.51 7.0908e+01 10 
+514.06 7.0908e+01 10 
+513.54 7.0908e+01 10 
+
+ FAS Test B: SPE10 1:4
+ RunTime, Residual, Iterations 
+1070.50 6.5753e-06 2 
+1062.47 6.5753e-06 2 
+1067.42 6.5753e-06 2 
+{Operation terminated by user during newtonTwoPhaseAD (line 82)
+
+
+In FASCycle (line 106)
+   [p_approx,sW_approx,nit,resNorm] =
+   newtonTwoPhaseAD(model,p_ad,sW_ad,p_ad_0,sW_ad_0,tol,model.cycle.v2*(model.cycle.grids-model.cycle.level+2),dt);
+   
+In FASTwoPhaseAD (line 70)
+  [p_ad, sW_ad,nit,res] =
+  FASCycle(model,p_ad,sW_ad,p_ad_0,sW_ad_0,tol,maxits,dt);
+
+In SPE10_FAS>runSumulation (line 171)
+        [runTime, res, nit]  = FASTwoPhaseAD(newModel,constraints);
+
+In SPE10_FAS (line 104)
+result_B = runSumulation(newModel, constraints, nSimulations);
+} 
+SPE10_FAS
