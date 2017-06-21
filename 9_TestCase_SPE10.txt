@@ -1,0 +1,13 @@
+This is the testing results from running both FAS and Newton with different number of SPE10 layers{Operation terminated by user during getSPE10rock>load_mat_file (line 124)
+
+
+In getSPE10rock (line 66)
+   rock = load_mat_file();
+
+In getSPE10setup (line 65)
+   rock = getSPE10rock(layers);
+
+In SPE10_FAS_Newton (line 81)
+[newModel.grid, W, rock] = getSPE10setup(1:2);
+} 
+exit

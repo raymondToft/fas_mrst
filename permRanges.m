@@ -72,77 +72,76 @@ constraints = struct('numSteps',numSteps,'totTime',totTime, 'tol',tol, 'maxits',
 %% Run Simulations
 nSimulations = 5;
 
-diary '8_TestCase_permRanges_part2.txt'
+diary '8_TestCase_permRanges_banach03.txt'
 fprintf('This is the testing results from running FAS and Newton with different heterogeneous permeability fields');
 % 
-% %Test A 
-% newModel.perm_range = [0.15 0.4];
-% 
-%         p = gaussianField(grid.cartDims, perm_range, gauss_filter_size, std);
-%         K = p.^3. * (1e-5)^2./(0.81 * 72 * (1-p).^2);
-%         rock = makeRock(grid, K(:), p (:));
-%         figure;
-%         plotCellData (grid , convertTo ( rock.perm , milli * darcy ));
-%         colorbar (); axis equal tight ; view (3);
-% newModel.perm = rock.perm;
-% newModel.poro = rock.poro;
-%         
-% fprintf('\n FAS Test A: [10 - 300] \n');
-% fprintf(' RunTime, Residual, Iterations \n');
-% result_A_FAS = runSumulationFAS(newModel, constraints, nSimulations);
-% 
-% 
-% fprintf('\n Newton Test A: [10 - 300] \n');
-% fprintf(' RunTime, Residual, Iterations \n');
-% result_A_N = runSumulationNewton(newModel, constraints, nSimulations);
-% 
-% %Test B 
-% newModel.perm_range = [0.3 0.45];
-%         p = gaussianField(grid.cartDims, perm_range, gauss_filter_size, std);
-%         K = p.^3. * (1e-5)^2./(0.81 * 72 * (1-p).^2);
-%         rock = makeRock(grid, K(:), p (:));
-%         figure;
-%         plotCellData (grid , convertTo ( rock.perm , milli * darcy ));
-%         colorbar (); axis equal tight ; view (3);
-% newModel.perm = rock.perm;
-% newModel.poro = rock.poro;
+ %Test A 
+ newModel.perm_range = [0.15 0.4];
+ 
+         p = gaussianField(grid.cartDims, perm_range, gauss_filter_size, std);
+         K = p.^3. * (1e-5)^2./(0.81 * 72 * (1-p).^2);
+         rock = makeRock(grid, K(:), p (:));
+         figure;
+         plotCellData (grid , convertTo ( rock.perm , milli * darcy ));
+         colorbar (); axis equal tight ; view (3);
+ newModel.perm = rock.perm;
+ newModel.poro = rock.poro;
+         
+ fprintf('\n FAS Test A: [10 - 300] \n');
+ fprintf(' RunTime, Residual, Iterations \n');
+ result_A_FAS = runSumulationFAS(newModel, constraints, nSimulations);
 % 
 % 
-% fprintf('\n FAS Test B: [100 500]\n');
-% fprintf(' RunTime, Residual, Iterations \n');
-% result_B = runSumulationFAS(newModel, constraints, nSimulations);
-% 
-% fprintf('\n Newton Test B: [100 500]\n');
-% fprintf(' RunTime, Residual, Iterations \n');
-% result_B_N = runSumulationNewton(newModel, constraints, nSimulations);
-% % 
-% %Test C 
-% newModel.perm_range = [0.15 0.3];
-%         p = gaussianField(grid.cartDims, perm_range, gauss_filter_size, std);
-%         K = p.^3. * (1e-5)^2./(0.81 * 72 * (1-p).^2);
-%         rock = makeRock(grid, K(:), p (:));
-%         figure;
-%         plotCellData (grid , convertTo ( rock.perm , milli * darcy ));
-%         colorbar (); axis equal tight ; view (3);
-% newModel.perm = rock.perm;
-% newModel.poro = rock.poro;
-%         
-% fprintf('\n FAS Test C: [10 100]\n');
-% fprintf(' RunTime, Residual, Iterations \n');
-% result_C = runSumulationFAS(newModel, constraints,nSimulations);
-% 
-% fprintf('\n NewtonTest C: [10 100]\n');
-% fprintf(' RunTime, Residual, Iterations \n');
-% result_C_N = runSumulationNewton(newModel, constraints,nSimulations);
-
+ fprintf('\n Newton Test A: [10 - 300] \n');
+ fprintf(' RunTime, Residual, Iterations \n');
+ result_A_N = runSumulationNewton(newModel, constraints, nSimulations);
+ 
+ %Test B 
+ newModel.perm_range = [0.3 0.45];
+         p = gaussianField(grid.cartDims, perm_range, gauss_filter_size, std);
+         K = p.^3. * (1e-5)^2./(0.81 * 72 * (1-p).^2);
+         rock = makeRock(grid, K(:), p (:));
+         figure;
+         plotCellData (grid , convertTo ( rock.perm , milli * darcy ));
+         colorbar (); axis equal tight ; view (3);
+ newModel.perm = rock.perm;
+ newModel.poro = rock.poro;
+ 
+ 
+ fprintf('\n FAS Test B: [100 500]\n');
+ fprintf(' RunTime, Residual, Iterations \n');
+ result_B = runSumulationFAS(newModel, constraints, nSimulations);
+ 
+ fprintf('\n Newton Test B: [100 500]\n');
+ fprintf(' RunTime, Residual, Iterations \n');
+ result_B_N = runSumulationNewton(newModel, constraints, nSimulations);
+ % 
+ %Test C 
+ newModel.perm_range = [0.15 0.3];
+         p = gaussianField(grid.cartDims, perm_range, gauss_filter_size, std);
+         K = p.^3. * (1e-5)^2./(0.81 * 72 * (1-p).^2);
+         rock = makeRock(grid, K(:), p (:));
+         figure;
+         plotCellData (grid , convertTo ( rock.perm , milli * darcy ));
+         colorbar (); axis equal tight ; view (3);
+ newModel.perm = rock.perm;
+ newModel.poro = rock.poro;
+         
+ fprintf('\n FAS Test C: [10 100]\n');
+ fprintf(' RunTime, Residual, Iterations \n');
+ result_C = runSumulationFAS(newModel, constraints,nSimulations);
+ 
+ fprintf('\n NewtonTest C: [10 100]\n');
+ fprintf(' RunTime, Residual, Iterations \n');
+ result_C_N = runSumulationNewton(newModel, constraints,nSimulations);
 %Test D 
-newModel.perm_range = [0.25 0.52];
-        p = gaussianField(grid.cartDims, perm_range, gauss_filter_size, std);
-        K = p.^3. * (1e-5)^2./(0.81 * 72 * (1-p).^2);
-        rock = makeRock(grid, K(:), p (:));
-        figure;
-        plotCellData (grid , convertTo ( rock.perm , milli * darcy ));
-        colorbar (); axis equal tight ; view (3);
+ewModel.perm_range = [0.25 0.52];
+       p = gaussianField(grid.cartDims, perm_range, gauss_filter_size, std);
+       K = p.^3. * (1e-5)^2./(0.81 * 72 * (1-p).^2);
+       rock = makeRock(grid, K(:), p (:));
+       figure;
+       plotCellData (grid , convertTo ( rock.perm , milli * darcy ));
+       colorbar (); axis equal tight ; view (3);
 newModel.perm = rock.perm;
 newModel.poro = rock.poro;
         

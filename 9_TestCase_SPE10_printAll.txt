@@ -1,0 +1,3299 @@
+This is the testing results from running both FAS and Newton with different number of SPE10 layers
+ FAS Test A: SPE10 1:2 
+ RunTime, Residual, Iterations 
+
+Time step 1: Time 0.00 -> 36.50 days
+Grid 60, Iteration   1:  Res = 9.4160e+03 
+Grid 30, Iteration   3:  Res = 9.9303e+04 
+Grid 15, Iteration   5:  Res = 9.9303e+04 
+Grid 8, Iteration   3:  Res = 9.9303e+04 
+Grid 4, Iteration   4:  Res = 9.9303e+04 
+Grid 8, Iteration  21:  Res = 4.8695e-07 
+Grid 15, Iteration   8:  Res = 8.4467e-07 
+Grid 30, Iteration  15:  Res = 1.5958e-02 
+Grid 60, Iteration   5:  Res = 5.2064e-07 
+
+Time step 2: Time 36.50 -> 73.00 days
+Grid 60, Iteration   1:  Res = 6.8357e-03 
+Grid 30, Iteration   2:  Res = 6.7249e+00 
+Grid 15, Iteration   2:  Res = 5.3069e+01 
+Grid 8, Iteration   2:  Res = 1.7812e+04 
+Grid 4, Iteration   2:  Res = 9.5063e+04 
+Grid 8, Iteration  25:  Res = 2.0620e+05 
+Grid 15, Iteration  20:  Res = 1.8369e+05 
+Grid 30, Iteration  15:  Res = 1.8124e+05 
+Grid 60, Iteration  10:  Res = 1.7133e+04 
+Grid 60, Iteration  10:  Res = 1.7133e+04 
+
+Time step 3: Time 73.00 -> 109.50 days
+Grid 60, Iteration   1:  Res = 1.7133e+04 
+Grid 30, Iteration   3:  Res = 1.8111e+05 
+Grid 15, Iteration   5:  Res = 1.8286e+05 
+Grid 8, Iteration   7:  Res = 1.8970e+05 
+Grid 4, Iteration  25:  Res = 2.2151e+05 
+Grid 8, Iteration  25:  Res = 1.6379e+08 
+Grid 15, Iteration  17:  Res = 8.4769e-08 
+Grid 30, Iteration  15:  Res = 2.0032e+01 
+Grid 60, Iteration   7:  Res = 2.7512e-06 
+
+Time step 4: Time 109.50 -> 146.00 days
+Grid 60, Iteration   1:  Res = 5.9292e-03 
+Grid 30, Iteration   2:  Res = 8.9507e+00 
+Grid 15, Iteration   2:  Res = 4.8436e+03 
+Grid 8, Iteration   2:  Res = 4.2988e+04 
+Grid 4, Iteration   9:  Res = 6.1937e+04 
+Grid 8, Iteration  20:  Res = 9.5807e-09 
+Grid 15, Iteration  10:  Res = 5.7366e-10 
+Grid 30, Iteration  15:  Res = 1.1100e+02 
+Grid 60, Iteration  10:  Res = 2.7853e+01 
+Grid 60, Iteration  10:  Res = 2.7834e+01 
+
+Time step 5: Time 146.00 -> 182.50 days
+Grid 60, Iteration   1:  Res = 2.7833e+01 
+Grid 30, Iteration   3:  Res = 3.5940e+02 
+Grid 15, Iteration   2:  Res = 2.8893e+02 
+Grid 8, Iteration   2:  Res = 9.7939e+03 
+Grid 4, Iteration   2:  Res = 1.2936e+04 
+Grid 8, Iteration  18:  Res = 4.7561e-06 
+Grid 15, Iteration   4:  Res = 5.5254e-01 
+Grid 30, Iteration  11:  Res = 1.3679e+02 
+Grid 60, Iteration  10:  Res = 3.1176e+01 
+Grid 60, Iteration  10:  Res = 3.1141e+01 
+
+Time step 6: Time 182.50 -> 219.00 days
+Grid 60, Iteration   1:  Res = 3.1138e+01 
+Grid 30, Iteration   3:  Res = 4.1573e+02 
+Grid 15, Iteration   2:  Res = 4.0525e+02 
+Grid 8, Iteration   2:  Res = 3.5268e+04 
+Grid 4, Iteration   3:  Res = 3.0304e+04 
+Grid 8, Iteration  12:  Res = 8.1651e-07 
+Grid 15, Iteration   7:  Res = 6.3128e-10 
+Grid 30, Iteration   8:  Res = 1.3884e+02 
+Grid 60, Iteration  10:  Res = 2.8615e+01 
+Grid 60, Iteration  10:  Res = 2.8463e+01 
+
+Time step 7: Time 219.00 -> 255.50 days
+Grid 60, Iteration   1:  Res = 2.8452e+01 
+Grid 30, Iteration   3:  Res = 3.8384e+02 
+Grid 15, Iteration   2:  Res = 7.5314e+02 
+Grid 8, Iteration   2:  Res = 3.7839e+04 
+Grid 4, Iteration   4:  Res = 4.1055e+04 
+Grid 8, Iteration  11:  Res = 5.3200e-08 
+Grid 15, Iteration   7:  Res = 1.1671e-08 
+Grid 30, Iteration  11:  Res = 1.3661e+02 
+Grid 60, Iteration  10:  Res = 2.4545e+01 
+Grid 60, Iteration  10:  Res = 2.4123e+01 
+
+Time step 8: Time 255.50 -> 292.00 days
+Grid 60, Iteration   1:  Res = 2.4086e+01 
+Grid 30, Iteration   3:  Res = 3.1758e+02 
+Grid 15, Iteration   2:  Res = 2.3593e+03 
+Grid 8, Iteration   2:  Res = 3.6046e+04 
+Grid 4, Iteration   3:  Res = 4.8438e+04 
+Grid 8, Iteration  10:  Res = 1.1839e-07 
+Grid 15, Iteration   7:  Res = 1.8352e-07 
+Grid 30, Iteration   3:  Res = 1.5571e+02 
+Grid 60, Iteration  10:  Res = 3.1374e+01 
+Grid 60, Iteration  10:  Res = 3.0580e+01 
+
+Time step 9: Time 292.00 -> 328.50 days
+Grid 60, Iteration   1:  Res = 3.0496e+01 
+Grid 30, Iteration   3:  Res = 3.8044e+02 
+Grid 15, Iteration   2:  Res = 1.7686e+03 
+Grid 8, Iteration   2:  Res = 2.9989e+04 
+Grid 4, Iteration   3:  Res = 3.8374e+04 
+Grid 8, Iteration  25:  Res = 2.0069e+06 
+Grid 15, Iteration  20:  Res = 2.0021e+06 
+Grid 30, Iteration  15:  Res = 2.0014e+06 
+Grid 60, Iteration  10:  Res = 1.8972e+05 
+Grid 60, Iteration  10:  Res = 1.8961e+05 
+
+Time step 10: Time 328.50 -> 365.00 days
+Grid 60, Iteration   1:  Res = 1.8961e+05 
+Grid 30, Iteration   3:  Res = 1.9997e+06 
+Grid 15, Iteration   4:  Res = 1.9997e+06 
+Grid 8, Iteration   3:  Res = 1.9999e+06 
+Grid 4, Iteration   3:  Res = 2.0015e+06 
+Grid 8, Iteration  25:  Res = 1.7819e+08 
+Grid 15, Iteration  20:  Res = 5.0670e-07 
+Grid 30, Iteration  15:  Res = 3.2668e+01 
+Grid 60, Iteration   4:  Res = 3.0568e-01 
+Grid 60, Iteration   7:  Res = 4.0425e-07 
+
+Time step 11: Time 365.00 -> 401.50 days
+Grid 60, Iteration   1:  Res = 1.1855e-02 
+Grid 30, Iteration   2:  Res = 1.0607e+01 
+Grid 15, Iteration   2:  Res = 4.0361e+03 
+Grid 8, Iteration   2:  Res = 4.5671e+04 
+Grid 4, Iteration   3:  Res = 7.4707e+04 
+Grid 8, Iteration  25:  Res = 2.9581e+06 
+Grid 15, Iteration  20:  Res = 2.9410e+06 
+Grid 30, Iteration  15:  Res = 2.9312e+06 
+Grid 60, Iteration  10:  Res = 2.7786e+05 
+Grid 60, Iteration  10:  Res = 2.7775e+05 
+
+Time step 12: Time 401.50 -> 438.00 days
+Grid 60, Iteration   1:  Res = 2.7775e+05 
+Grid 30, Iteration   3:  Res = 2.9292e+06 
+Grid 15, Iteration   5:  Res = 2.9292e+06 
+Grid 8, Iteration   4:  Res = 2.9293e+06 
+Grid 4, Iteration  80:  Res = 2.9295e+06 
+Grid 8, Iteration  25:  Res = 2.1092e+08 
+Grid 15, Iteration  20:  Res = 2.1092e+08 
+Grid 30, Iteration  15:  Res = 2.1090e+08 
+Grid 60, Iteration  10:  Res = 1.9996e+07 
+Grid 60, Iteration  10:  Res = 1.9996e+07 
+
+Time step 13: Time 438.00 -> 474.50 days
+Grid 60, Iteration   1:  Res = 1.9996e+07 
+Grid 30, Iteration   3:  Res = 2.1088e+08 
+Grid 15, Iteration   4:  Res = 2.1088e+08 
+Grid 8, Iteration   3:  Res = 2.1088e+08 
+Grid 4, Iteration   3:  Res = 2.1088e+08 
+Grid 8, Iteration  25:  Res = 1.9577e+08 
+Grid 15, Iteration  20:  Res = 4.8228e-02 
+Grid 30, Iteration  12:  Res = 2.2999e+02 
+Grid 60, Iteration  10:  Res = 2.9566e+01 
+Grid 60, Iteration  10:  Res = 2.9365e+01 
+
+Time step 14: Time 474.50 -> 511.00 days
+Grid 60, Iteration   1:  Res = 2.9337e+01 
+Grid 30, Iteration   3:  Res = 3.9616e+02 
+Grid 15, Iteration   2:  Res = 1.6223e+04 
+Grid 8, Iteration   2:  Res = 4.4440e+04 
+Grid 4, Iteration   2:  Res = 7.4413e+04 
+Grid 8, Iteration  10:  Res = 1.2168e-08 
+Grid 15, Iteration   7:  Res = 1.6982e-07 
+Grid 30, Iteration   7:  Res = 2.4235e+02 
+Grid 60, Iteration  10:  Res = 2.7854e+01 
+Grid 60, Iteration  10:  Res = 2.7240e+01 
+
+Time step 15: Time 511.00 -> 547.50 days
+Grid 60, Iteration   1:  Res = 2.7178e+01 
+Grid 30, Iteration   2:  Res = 9.9393e+02 
+Grid 15, Iteration   2:  Res = 1.8051e+04 
+Grid 8, Iteration   2:  Res = 2.4034e+04 
+Grid 4, Iteration   2:  Res = 9.4504e+04 
+Grid 8, Iteration  15:  Res = 9.5481e-07 
+Grid 15, Iteration   7:  Res = 7.0963e-07 
+Grid 30, Iteration  15:  Res = 5.8268e+02 
+Grid 60, Iteration  10:  Res = 3.5430e+01 
+Grid 60, Iteration  10:  Res = 3.4882e+01 
+
+Time step 16: Time 547.50 -> 584.00 days
+Grid 60, Iteration   1:  Res = 3.4832e+01 
+Grid 30, Iteration   2:  Res = 1.9305e+03 
+Grid 15, Iteration   2:  Res = 1.0694e+04 
+Grid 8, Iteration   4:  Res = 1.9858e+04 
+Grid 4, Iteration   2:  Res = 6.6623e+04 
+Grid 8, Iteration  10:  Res = 4.2936e-09 
+Grid 15, Iteration   8:  Res = 1.3488e-09 
+Grid 30, Iteration  15:  Res = 1.4794e+03 
+Grid 60, Iteration  10:  Res = 7.3247e+01 
+Grid 60, Iteration  10:  Res = 7.2811e+01 
+
+Time step 17: Time 584.00 -> 620.50 days
+Grid 60, Iteration   1:  Res = 7.2779e+01 
+Grid 30, Iteration   2:  Res = 4.0946e+03 
+Grid 15, Iteration   3:  Res = 6.3368e+03 
+Grid 8, Iteration   6:  Res = 1.6234e+04 
+Grid 4, Iteration   2:  Res = 5.8559e+04 
+Grid 8, Iteration  10:  Res = 2.9040e-09 
+Grid 15, Iteration   9:  Res = 6.8765e-07 
+Grid 30, Iteration  15:  Res = 3.6523e+03 
+Grid 60, Iteration  10:  Res = 1.7324e+02 
+Grid 60, Iteration  10:  Res = 1.7279e+02 
+
+Time step 18: Time 620.50 -> 657.00 days
+Grid 60, Iteration   1:  Res = 1.7277e+02 
+Grid 30, Iteration   3:  Res = 2.5186e+03 
+Grid 15, Iteration   3:  Res = 2.0939e+03 
+Grid 8, Iteration   3:  Res = 1.3369e+04 
+Grid 4, Iteration   2:  Res = 6.2349e+04 
+Grid 8, Iteration  12:  Res = 7.4159e-07 
+Grid 15, Iteration   7:  Res = 1.7268e-06 
+Grid 30, Iteration  15:  Res = 5.8998e+03 
+Grid 60, Iteration  10:  Res = 2.7981e+02 
+Grid 60, Iteration  10:  Res = 2.7927e+02 
+
+Time step 19: Time 657.00 -> 693.50 days
+Grid 60, Iteration   1:  Res = 2.7925e+02 
+Grid 30, Iteration   3:  Res = 1.3242e+03 
+Grid 15, Iteration   3:  Res = 1.6458e+03 
+Grid 8, Iteration   3:  Res = 3.1368e+04 
+Grid 4, Iteration   2:  Res = 7.2625e+04 
+Grid 8, Iteration  14:  Res = 4.5169e-10 
+Grid 15, Iteration   9:  Res = 2.6063e-07 
+Grid 30, Iteration  15:  Res = 8.3503e+03 
+Grid 60, Iteration  10:  Res = 3.9716e+02 
+Grid 60, Iteration  10:  Res = 3.9651e+02 
+
+Time step 20: Time 693.50 -> 730.00 days
+Grid 60, Iteration   1:  Res = 3.9648e+02 
+Grid 30, Iteration   3:  Res = 2.1272e+03 
+Grid 15, Iteration   3:  Res = 1.1208e+03 
+Grid 8, Iteration   3:  Res = 2.8104e+04 
+Grid 4, Iteration   2:  Res = 8.2494e+04 
+Grid 8, Iteration  16:  Res = 1.1562e-07 
+Grid 15, Iteration   5:  Res = 6.4845e+00 
+Grid 30, Iteration  15:  Res = 1.1173e+04 
+Grid 60, Iteration  10:  Res = 5.3339e+02 
+Grid 60, Iteration  10:  Res = 5.3271e+02 
+
+Time step 21: Time 730.00 -> 766.50 days
+Grid 60, Iteration   1:  Res = 5.3269e+02 
+Grid 30, Iteration   3:  Res = 4.2478e+03 
+Grid 15, Iteration   3:  Res = 3.3024e+03 
+Grid 8, Iteration   3:  Res = 4.5579e+04 
+Grid 4, Iteration   2:  Res = 2.9791e+05 
+Grid 8, Iteration   9:  Res = 3.7098e-06 
+Grid 15, Iteration   4:  Res = 1.6128e+01 
+Grid 30, Iteration  15:  Res = 1.4542e+04 
+Grid 60, Iteration  10:  Res = 6.9664e+02 
+Grid 60, Iteration  10:  Res = 6.9580e+02 
+
+Time step 22: Time 766.50 -> 803.00 days
+Grid 60, Iteration   1:  Res = 6.9578e+02 
+Grid 30, Iteration   3:  Res = 6.8840e+03 
+Grid 15, Iteration   3:  Res = 5.9994e+03 
+Grid 8, Iteration   2:  Res = 2.3785e+04 
+Grid 4, Iteration   2:  Res = 1.1688e+05 
+Grid 8, Iteration   9:  Res = 5.9124e-11 
+Grid 15, Iteration   4:  Res = 8.6167e+00 
+Grid 30, Iteration  15:  Res = 1.8662e+04 
+Grid 60, Iteration  10:  Res = 8.9673e+02 
+Grid 60, Iteration  10:  Res = 8.9540e+02 
+
+Time step 23: Time 803.00 -> 839.50 days
+Grid 60, Iteration   1:  Res = 8.9535e+02 
+Grid 30, Iteration   3:  Res = 1.0320e+04 
+Grid 15, Iteration   3:  Res = 9.2434e+03 
+Grid 8, Iteration   2:  Res = 4.4542e+04 
+Grid 4, Iteration   2:  Res = 4.0107e+05 
+Grid 8, Iteration  13:  Res = 1.0176e-07 
+Grid 15, Iteration   9:  Res = 2.2651e-08 
+Grid 30, Iteration  15:  Res = 2.3639e+04 
+Grid 60, Iteration  10:  Res = 1.1425e+03 
+Grid 60, Iteration  10:  Res = 1.1410e+03 
+
+Time step 24: Time 839.50 -> 876.00 days
+Grid 60, Iteration   1:  Res = 1.1409e+03 
+Grid 30, Iteration   3:  Res = 1.4337e+04 
+Grid 15, Iteration   3:  Res = 9.8441e+03 
+Grid 8, Iteration   2:  Res = 4.6262e+04 
+Grid 4, Iteration   2:  Res = 6.0432e+05 
+Grid 8, Iteration   7:  Res = 5.2477e+00 
+Grid 15, Iteration   4:  Res = 5.6883e+00 
+Grid 30, Iteration  15:  Res = 3.0231e+04 
+Grid 60, Iteration  10:  Res = 1.4693e+03 
+Grid 60, Iteration  10:  Res = 1.4672e+03 
+
+Time step 25: Time 876.00 -> 912.50 days
+Grid 60, Iteration   1:  Res = 1.4672e+03 
+Grid 30, Iteration   3:  Res = 1.9613e+04 
+Grid 15, Iteration   3:  Res = 1.7057e+04 
+Grid 8, Iteration   2:  Res = 2.4310e+05 
+Grid 4, Iteration   2:  Res = 6.6931e+05 
+Grid 8, Iteration  12:  Res = 4.9929e-10 
+Grid 15, Iteration   4:  Res = 2.5647e+01 
+Grid 30, Iteration  15:  Res = 3.5116e+04 
+Grid 60, Iteration  10:  Res = 6.1851e+02 
+Grid 60, Iteration  10:  Res = 9.7221e-02 
+
+Time step 26: Time 912.50 -> 949.00 days
+Grid 60, Iteration   1:  Res = 5.6164e-02 
+Grid 30, Iteration   2:  Res = 7.2684e+02 
+Grid 15, Iteration   2:  Res = 3.7259e+04 
+Grid 8, Iteration   2:  Res = 1.8896e+05 
+Grid 4, Iteration   2:  Res = 6.9509e+05 
+Grid 8, Iteration  15:  Res = 2.2933e-10 
+Grid 15, Iteration   7:  Res = 9.4672e-01 
+Grid 30, Iteration   9:  Res = 1.2048e+01 
+Grid 60, Iteration   6:  Res = 5.0349e-06 
+
+Time step 27: Time 949.00 -> 985.50 days
+Grid 60, Iteration   1:  Res = 8.3172e-03 
+Grid 30, Iteration   2:  Res = 2.4727e+02 
+Grid 15, Iteration   2:  Res = 4.4813e+04 
+Grid 8, Iteration   2:  Res = 1.7990e+05 
+Grid 4, Iteration   2:  Res = 7.8441e+05 
+Grid 8, Iteration  10:  Res = 7.1772e-06 
+Grid 15, Iteration   8:  Res = 1.6896e+00 
+Grid 30, Iteration  10:  Res = 1.0292e+01 
+Grid 60, Iteration   7:  Res = 3.1262e-08 
+
+Time step 28: Time 985.50 -> 1022.00 days
+Grid 60, Iteration   1:  Res = 5.7863e-03 
+Grid 30, Iteration   2:  Res = 6.0512e+01 
+Grid 15, Iteration   2:  Res = 9.4529e+03 
+Grid 8, Iteration   2:  Res = 1.7662e+05 
+Grid 4, Iteration   2:  Res = 8.1995e+05 
+Grid 8, Iteration  10:  Res = 9.0845e-09 
+Grid 15, Iteration   9:  Res = 2.2785e-07 
+Grid 30, Iteration  15:  Res = 5.1364e-09 
+Grid 60, Iteration   6:  Res = 2.0459e-06 
+
+Time step 29: Time 1022.00 -> 1058.50 days
+Grid 60, Iteration   1:  Res = 5.0452e-03 
+Grid 30, Iteration   2:  Res = 3.2381e+01 
+Grid 15, Iteration   2:  Res = 2.6299e+04 
+Grid 8, Iteration   2:  Res = 1.2017e+05 
+Grid 4, Iteration   2:  Res = 8.6932e+05 
+Grid 8, Iteration  11:  Res = 3.6894e-09 
+Grid 15, Iteration  11:  Res = 1.6259e-08 
+Grid 30, Iteration  14:  Res = 1.3404e+01 
+Grid 60, Iteration   6:  Res = 5.7947e-06 
+
+Time step 30: Time 1058.50 -> 1095.00 days
+Grid 60, Iteration   1:  Res = 4.7616e-03 
+Grid 30, Iteration   2:  Res = 5.2588e+01 
+Grid 15, Iteration   2:  Res = 5.4470e+04 
+Grid 8, Iteration   2:  Res = 1.7862e+05 
+Grid 4, Iteration   2:  Res = 8.7866e+05 
+Grid 8, Iteration  10:  Res = 9.1191e-11 
+Grid 15, Iteration   7:  Res = 3.9249e+00 
+Grid 30, Iteration  15:  Res = 1.5215e+03 
+Grid 60, Iteration  10:  Res = 7.1762e+01 
+Grid 60, Iteration  10:  Res = 7.0908e+01 
+982.33 7.0908e+01 10 
+
+Time step 1: Time 0.00 -> 36.50 days
+Grid 60, Iteration   1:  Res = 9.4160e+03 
+Grid 30, Iteration   3:  Res = 9.9303e+04 
+Grid 15, Iteration   5:  Res = 9.9303e+04 
+Grid 8, Iteration   3:  Res = 9.9303e+04 
+Grid 4, Iteration   4:  Res = 9.9303e+04 
+Grid 8, Iteration  21:  Res = 4.8695e-07 
+Grid 15, Iteration   8:  Res = 8.4467e-07 
+Grid 30, Iteration  15:  Res = 1.5958e-02 
+Grid 60, Iteration   5:  Res = 5.2064e-07 
+
+Time step 2: Time 36.50 -> 73.00 days
+Grid 60, Iteration   1:  Res = 6.8357e-03 
+Grid 30, Iteration   2:  Res = 6.7249e+00 
+Grid 15, Iteration   2:  Res = 5.3069e+01 
+Grid 8, Iteration   2:  Res = 1.7812e+04 
+Grid 4, Iteration   2:  Res = 9.5063e+04 
+Grid 8, Iteration  25:  Res = 2.0620e+05 
+Grid 15, Iteration  20:  Res = 1.8369e+05 
+Grid 30, Iteration  15:  Res = 1.8124e+05 
+Grid 60, Iteration  10:  Res = 1.7133e+04 
+Grid 60, Iteration  10:  Res = 1.7133e+04 
+
+Time step 3: Time 73.00 -> 109.50 days
+Grid 60, Iteration   1:  Res = 1.7133e+04 
+Grid 30, Iteration   3:  Res = 1.8111e+05 
+Grid 15, Iteration   5:  Res = 1.8286e+05 
+Grid 8, Iteration   7:  Res = 1.8970e+05 
+Grid 4, Iteration  25:  Res = 2.2151e+05 
+Grid 8, Iteration  25:  Res = 1.6379e+08 
+Grid 15, Iteration  17:  Res = 8.4769e-08 
+Grid 30, Iteration  15:  Res = 2.0032e+01 
+Grid 60, Iteration   7:  Res = 2.7512e-06 
+
+Time step 4: Time 109.50 -> 146.00 days
+Grid 60, Iteration   1:  Res = 5.9292e-03 
+Grid 30, Iteration   2:  Res = 8.9507e+00 
+Grid 15, Iteration   2:  Res = 4.8436e+03 
+Grid 8, Iteration   2:  Res = 4.2988e+04 
+Grid 4, Iteration   9:  Res = 6.1937e+04 
+Grid 8, Iteration  20:  Res = 9.5807e-09 
+Grid 15, Iteration  10:  Res = 5.7366e-10 
+Grid 30, Iteration  15:  Res = 1.1100e+02 
+Grid 60, Iteration  10:  Res = 2.7853e+01 
+Grid 60, Iteration  10:  Res = 2.7834e+01 
+
+Time step 5: Time 146.00 -> 182.50 days
+Grid 60, Iteration   1:  Res = 2.7833e+01 
+Grid 30, Iteration   3:  Res = 3.5940e+02 
+Grid 15, Iteration   2:  Res = 2.8893e+02 
+Grid 8, Iteration   2:  Res = 9.7939e+03 
+Grid 4, Iteration   2:  Res = 1.2936e+04 
+Grid 8, Iteration  18:  Res = 4.7561e-06 
+Grid 15, Iteration   4:  Res = 5.5254e-01 
+Grid 30, Iteration  11:  Res = 1.3679e+02 
+Grid 60, Iteration  10:  Res = 3.1176e+01 
+Grid 60, Iteration  10:  Res = 3.1141e+01 
+
+Time step 6: Time 182.50 -> 219.00 days
+Grid 60, Iteration   1:  Res = 3.1138e+01 
+Grid 30, Iteration   3:  Res = 4.1573e+02 
+Grid 15, Iteration   2:  Res = 4.0525e+02 
+Grid 8, Iteration   2:  Res = 3.5268e+04 
+Grid 4, Iteration   3:  Res = 3.0304e+04 
+Grid 8, Iteration  12:  Res = 8.1651e-07 
+Grid 15, Iteration   7:  Res = 6.3128e-10 
+Grid 30, Iteration   8:  Res = 1.3884e+02 
+Grid 60, Iteration  10:  Res = 2.8615e+01 
+Grid 60, Iteration  10:  Res = 2.8463e+01 
+
+Time step 7: Time 219.00 -> 255.50 days
+Grid 60, Iteration   1:  Res = 2.8452e+01 
+Grid 30, Iteration   3:  Res = 3.8384e+02 
+Grid 15, Iteration   2:  Res = 7.5314e+02 
+Grid 8, Iteration   2:  Res = 3.7839e+04 
+Grid 4, Iteration   4:  Res = 4.1055e+04 
+Grid 8, Iteration  11:  Res = 5.3200e-08 
+Grid 15, Iteration   7:  Res = 1.1671e-08 
+Grid 30, Iteration  11:  Res = 1.3661e+02 
+Grid 60, Iteration  10:  Res = 2.4545e+01 
+Grid 60, Iteration  10:  Res = 2.4123e+01 
+
+Time step 8: Time 255.50 -> 292.00 days
+Grid 60, Iteration   1:  Res = 2.4086e+01 
+Grid 30, Iteration   3:  Res = 3.1758e+02 
+Grid 15, Iteration   2:  Res = 2.3593e+03 
+Grid 8, Iteration   2:  Res = 3.6046e+04 
+Grid 4, Iteration   3:  Res = 4.8438e+04 
+Grid 8, Iteration  10:  Res = 1.1839e-07 
+Grid 15, Iteration   7:  Res = 1.8352e-07 
+Grid 30, Iteration   3:  Res = 1.5571e+02 
+Grid 60, Iteration  10:  Res = 3.1374e+01 
+Grid 60, Iteration  10:  Res = 3.0580e+01 
+
+Time step 9: Time 292.00 -> 328.50 days
+Grid 60, Iteration   1:  Res = 3.0496e+01 
+Grid 30, Iteration   3:  Res = 3.8044e+02 
+Grid 15, Iteration   2:  Res = 1.7686e+03 
+Grid 8, Iteration   2:  Res = 2.9989e+04 
+Grid 4, Iteration   3:  Res = 3.8374e+04 
+Grid 8, Iteration  25:  Res = 2.0069e+06 
+Grid 15, Iteration  20:  Res = 2.0021e+06 
+Grid 30, Iteration  15:  Res = 2.0014e+06 
+Grid 60, Iteration  10:  Res = 1.8972e+05 
+Grid 60, Iteration  10:  Res = 1.8961e+05 
+
+Time step 10: Time 328.50 -> 365.00 days
+Grid 60, Iteration   1:  Res = 1.8961e+05 
+Grid 30, Iteration   3:  Res = 1.9997e+06 
+Grid 15, Iteration   4:  Res = 1.9997e+06 
+Grid 8, Iteration   3:  Res = 1.9999e+06 
+Grid 4, Iteration   3:  Res = 2.0015e+06 
+Grid 8, Iteration  25:  Res = 1.7819e+08 
+Grid 15, Iteration  20:  Res = 5.0670e-07 
+Grid 30, Iteration  15:  Res = 3.2668e+01 
+Grid 60, Iteration   4:  Res = 3.0568e-01 
+Grid 60, Iteration   7:  Res = 4.0425e-07 
+
+Time step 11: Time 365.00 -> 401.50 days
+Grid 60, Iteration   1:  Res = 1.1855e-02 
+Grid 30, Iteration   2:  Res = 1.0607e+01 
+Grid 15, Iteration   2:  Res = 4.0361e+03 
+Grid 8, Iteration   2:  Res = 4.5671e+04 
+Grid 4, Iteration   3:  Res = 7.4707e+04 
+Grid 8, Iteration  25:  Res = 2.9581e+06 
+Grid 15, Iteration  20:  Res = 2.9410e+06 
+Grid 30, Iteration  15:  Res = 2.9312e+06 
+Grid 60, Iteration  10:  Res = 2.7786e+05 
+Grid 60, Iteration  10:  Res = 2.7775e+05 
+
+Time step 12: Time 401.50 -> 438.00 days
+Grid 60, Iteration   1:  Res = 2.7775e+05 
+Grid 30, Iteration   3:  Res = 2.9292e+06 
+Grid 15, Iteration   5:  Res = 2.9292e+06 
+Grid 8, Iteration   4:  Res = 2.9293e+06 
+Grid 4, Iteration  80:  Res = 2.9295e+06 
+Grid 8, Iteration  25:  Res = 2.1092e+08 
+Grid 15, Iteration  20:  Res = 2.1092e+08 
+Grid 30, Iteration  15:  Res = 2.1090e+08 
+Grid 60, Iteration  10:  Res = 1.9996e+07 
+Grid 60, Iteration  10:  Res = 1.9996e+07 
+
+Time step 13: Time 438.00 -> 474.50 days
+Grid 60, Iteration   1:  Res = 1.9996e+07 
+Grid 30, Iteration   3:  Res = 2.1088e+08 
+Grid 15, Iteration   4:  Res = 2.1088e+08 
+Grid 8, Iteration   3:  Res = 2.1088e+08 
+Grid 4, Iteration   3:  Res = 2.1088e+08 
+Grid 8, Iteration  25:  Res = 1.9577e+08 
+Grid 15, Iteration  20:  Res = 4.8228e-02 
+Grid 30, Iteration  12:  Res = 2.2999e+02 
+Grid 60, Iteration  10:  Res = 2.9566e+01 
+Grid 60, Iteration  10:  Res = 2.9365e+01 
+
+Time step 14: Time 474.50 -> 511.00 days
+Grid 60, Iteration   1:  Res = 2.9337e+01 
+Grid 30, Iteration   3:  Res = 3.9616e+02 
+Grid 15, Iteration   2:  Res = 1.6223e+04 
+Grid 8, Iteration   2:  Res = 4.4440e+04 
+Grid 4, Iteration   2:  Res = 7.4413e+04 
+Grid 8, Iteration  10:  Res = 1.2168e-08 
+Grid 15, Iteration   7:  Res = 1.6982e-07 
+Grid 30, Iteration   7:  Res = 2.4235e+02 
+Grid 60, Iteration  10:  Res = 2.7854e+01 
+Grid 60, Iteration  10:  Res = 2.7240e+01 
+
+Time step 15: Time 511.00 -> 547.50 days
+Grid 60, Iteration   1:  Res = 2.7178e+01 
+Grid 30, Iteration   2:  Res = 9.9393e+02 
+Grid 15, Iteration   2:  Res = 1.8051e+04 
+Grid 8, Iteration   2:  Res = 2.4034e+04 
+Grid 4, Iteration   2:  Res = 9.4504e+04 
+Grid 8, Iteration  15:  Res = 9.5481e-07 
+Grid 15, Iteration   7:  Res = 7.0963e-07 
+Grid 30, Iteration  15:  Res = 5.8268e+02 
+Grid 60, Iteration  10:  Res = 3.5430e+01 
+Grid 60, Iteration  10:  Res = 3.4882e+01 
+
+Time step 16: Time 547.50 -> 584.00 days
+Grid 60, Iteration   1:  Res = 3.4832e+01 
+Grid 30, Iteration   2:  Res = 1.9305e+03 
+Grid 15, Iteration   2:  Res = 1.0694e+04 
+Grid 8, Iteration   4:  Res = 1.9858e+04 
+Grid 4, Iteration   2:  Res = 6.6623e+04 
+Grid 8, Iteration  10:  Res = 4.2936e-09 
+Grid 15, Iteration   8:  Res = 1.3488e-09 
+Grid 30, Iteration  15:  Res = 1.4794e+03 
+Grid 60, Iteration  10:  Res = 7.3247e+01 
+Grid 60, Iteration  10:  Res = 7.2811e+01 
+
+Time step 17: Time 584.00 -> 620.50 days
+Grid 60, Iteration   1:  Res = 7.2779e+01 
+Grid 30, Iteration   2:  Res = 4.0946e+03 
+Grid 15, Iteration   3:  Res = 6.3368e+03 
+Grid 8, Iteration   6:  Res = 1.6234e+04 
+Grid 4, Iteration   2:  Res = 5.8559e+04 
+Grid 8, Iteration  10:  Res = 2.9040e-09 
+Grid 15, Iteration   9:  Res = 6.8765e-07 
+Grid 30, Iteration  15:  Res = 3.6523e+03 
+Grid 60, Iteration  10:  Res = 1.7324e+02 
+Grid 60, Iteration  10:  Res = 1.7279e+02 
+
+Time step 18: Time 620.50 -> 657.00 days
+Grid 60, Iteration   1:  Res = 1.7277e+02 
+Grid 30, Iteration   3:  Res = 2.5186e+03 
+Grid 15, Iteration   3:  Res = 2.0939e+03 
+Grid 8, Iteration   3:  Res = 1.3369e+04 
+Grid 4, Iteration   2:  Res = 6.2349e+04 
+Grid 8, Iteration  12:  Res = 7.4159e-07 
+Grid 15, Iteration   7:  Res = 1.7268e-06 
+Grid 30, Iteration  15:  Res = 5.8998e+03 
+Grid 60, Iteration  10:  Res = 2.7981e+02 
+Grid 60, Iteration  10:  Res = 2.7927e+02 
+
+Time step 19: Time 657.00 -> 693.50 days
+Grid 60, Iteration   1:  Res = 2.7925e+02 
+Grid 30, Iteration   3:  Res = 1.3242e+03 
+Grid 15, Iteration   3:  Res = 1.6458e+03 
+Grid 8, Iteration   3:  Res = 3.1368e+04 
+Grid 4, Iteration   2:  Res = 7.2625e+04 
+Grid 8, Iteration  14:  Res = 4.5169e-10 
+Grid 15, Iteration   9:  Res = 2.6063e-07 
+Grid 30, Iteration  15:  Res = 8.3503e+03 
+Grid 60, Iteration  10:  Res = 3.9716e+02 
+Grid 60, Iteration  10:  Res = 3.9651e+02 
+
+Time step 20: Time 693.50 -> 730.00 days
+Grid 60, Iteration   1:  Res = 3.9648e+02 
+Grid 30, Iteration   3:  Res = 2.1272e+03 
+Grid 15, Iteration   3:  Res = 1.1208e+03 
+Grid 8, Iteration   3:  Res = 2.8104e+04 
+Grid 4, Iteration   2:  Res = 8.2494e+04 
+Grid 8, Iteration  16:  Res = 1.1562e-07 
+Grid 15, Iteration   5:  Res = 6.4845e+00 
+Grid 30, Iteration  15:  Res = 1.1173e+04 
+Grid 60, Iteration  10:  Res = 5.3339e+02 
+Grid 60, Iteration  10:  Res = 5.3271e+02 
+
+Time step 21: Time 730.00 -> 766.50 days
+Grid 60, Iteration   1:  Res = 5.3269e+02 
+Grid 30, Iteration   3:  Res = 4.2478e+03 
+Grid 15, Iteration   3:  Res = 3.3024e+03 
+Grid 8, Iteration   3:  Res = 4.5579e+04 
+Grid 4, Iteration   2:  Res = 2.9791e+05 
+Grid 8, Iteration   9:  Res = 3.7098e-06 
+Grid 15, Iteration   4:  Res = 1.6128e+01 
+Grid 30, Iteration  15:  Res = 1.4542e+04 
+Grid 60, Iteration  10:  Res = 6.9664e+02 
+Grid 60, Iteration  10:  Res = 6.9580e+02 
+
+Time step 22: Time 766.50 -> 803.00 days
+Grid 60, Iteration   1:  Res = 6.9578e+02 
+Grid 30, Iteration   3:  Res = 6.8840e+03 
+Grid 15, Iteration   3:  Res = 5.9994e+03 
+Grid 8, Iteration   2:  Res = 2.3785e+04 
+Grid 4, Iteration   2:  Res = 1.1688e+05 
+Grid 8, Iteration   9:  Res = 5.9124e-11 
+Grid 15, Iteration   4:  Res = 8.6167e+00 
+Grid 30, Iteration  15:  Res = 1.8662e+04 
+Grid 60, Iteration  10:  Res = 8.9673e+02 
+Grid 60, Iteration  10:  Res = 8.9540e+02 
+
+Time step 23: Time 803.00 -> 839.50 days
+Grid 60, Iteration   1:  Res = 8.9535e+02 
+Grid 30, Iteration   3:  Res = 1.0320e+04 
+Grid 15, Iteration   3:  Res = 9.2434e+03 
+Grid 8, Iteration   2:  Res = 4.4542e+04 
+Grid 4, Iteration   2:  Res = 4.0107e+05 
+Grid 8, Iteration  13:  Res = 1.0176e-07 
+Grid 15, Iteration   9:  Res = 2.2651e-08 
+Grid 30, Iteration  15:  Res = 2.3639e+04 
+Grid 60, Iteration  10:  Res = 1.1425e+03 
+Grid 60, Iteration  10:  Res = 1.1410e+03 
+
+Time step 24: Time 839.50 -> 876.00 days
+Grid 60, Iteration   1:  Res = 1.1409e+03 
+Grid 30, Iteration   3:  Res = 1.4337e+04 
+Grid 15, Iteration   3:  Res = 9.8441e+03 
+Grid 8, Iteration   2:  Res = 4.6262e+04 
+Grid 4, Iteration   2:  Res = 6.0432e+05 
+Grid 8, Iteration   7:  Res = 5.2477e+00 
+Grid 15, Iteration   4:  Res = 5.6883e+00 
+Grid 30, Iteration  15:  Res = 3.0231e+04 
+Grid 60, Iteration  10:  Res = 1.4693e+03 
+Grid 60, Iteration  10:  Res = 1.4672e+03 
+
+Time step 25: Time 876.00 -> 912.50 days
+Grid 60, Iteration   1:  Res = 1.4672e+03 
+Grid 30, Iteration   3:  Res = 1.9613e+04 
+Grid 15, Iteration   3:  Res = 1.7057e+04 
+Grid 8, Iteration   2:  Res = 2.4310e+05 
+Grid 4, Iteration   2:  Res = 6.6931e+05 
+Grid 8, Iteration  12:  Res = 4.9929e-10 
+Grid 15, Iteration   4:  Res = 2.5647e+01 
+Grid 30, Iteration  15:  Res = 3.5116e+04 
+Grid 60, Iteration  10:  Res = 6.1851e+02 
+Grid 60, Iteration  10:  Res = 9.7221e-02 
+
+Time step 26: Time 912.50 -> 949.00 days
+Grid 60, Iteration   1:  Res = 5.6164e-02 
+Grid 30, Iteration   2:  Res = 7.2684e+02 
+Grid 15, Iteration   2:  Res = 3.7259e+04 
+Grid 8, Iteration   2:  Res = 1.8896e+05 
+Grid 4, Iteration   2:  Res = 6.9509e+05 
+Grid 8, Iteration  15:  Res = 2.2933e-10 
+Grid 15, Iteration   7:  Res = 9.4672e-01 
+Grid 30, Iteration   9:  Res = 1.2048e+01 
+Grid 60, Iteration   6:  Res = 5.0349e-06 
+
+Time step 27: Time 949.00 -> 985.50 days
+Grid 60, Iteration   1:  Res = 8.3172e-03 
+Grid 30, Iteration   2:  Res = 2.4727e+02 
+Grid 15, Iteration   2:  Res = 4.4813e+04 
+Grid 8, Iteration   2:  Res = 1.7990e+05 
+Grid 4, Iteration   2:  Res = 7.8441e+05 
+Grid 8, Iteration  10:  Res = 7.1772e-06 
+Grid 15, Iteration   8:  Res = 1.6896e+00 
+Grid 30, Iteration  10:  Res = 1.0292e+01 
+Grid 60, Iteration   7:  Res = 3.1262e-08 
+
+Time step 28: Time 985.50 -> 1022.00 days
+Grid 60, Iteration   1:  Res = 5.7863e-03 
+Grid 30, Iteration   2:  Res = 6.0512e+01 
+Grid 15, Iteration   2:  Res = 9.4529e+03 
+Grid 8, Iteration   2:  Res = 1.7662e+05 
+Grid 4, Iteration   2:  Res = 8.1995e+05 
+Grid 8, Iteration  10:  Res = 9.0845e-09 
+Grid 15, Iteration   9:  Res = 2.2785e-07 
+Grid 30, Iteration  15:  Res = 5.1364e-09 
+Grid 60, Iteration   6:  Res = 2.0459e-06 
+
+Time step 29: Time 1022.00 -> 1058.50 days
+Grid 60, Iteration   1:  Res = 5.0452e-03 
+Grid 30, Iteration   2:  Res = 3.2381e+01 
+Grid 15, Iteration   2:  Res = 2.6299e+04 
+Grid 8, Iteration   2:  Res = 1.2017e+05 
+Grid 4, Iteration   2:  Res = 8.6932e+05 
+Grid 8, Iteration  11:  Res = 3.6894e-09 
+Grid 15, Iteration  11:  Res = 1.6259e-08 
+Grid 30, Iteration  14:  Res = 1.3404e+01 
+Grid 60, Iteration   6:  Res = 5.7947e-06 
+
+Time step 30: Time 1058.50 -> 1095.00 days
+Grid 60, Iteration   1:  Res = 4.7616e-03 
+Grid 30, Iteration   2:  Res = 5.2588e+01 
+Grid 15, Iteration   2:  Res = 5.4470e+04 
+Grid 8, Iteration   2:  Res = 1.7862e+05 
+Grid 4, Iteration   2:  Res = 8.7866e+05 
+Grid 8, Iteration  10:  Res = 9.1191e-11 
+Grid 15, Iteration   7:  Res = 3.9249e+00 
+Grid 30, Iteration  15:  Res = 1.5215e+03 
+Grid 60, Iteration  10:  Res = 7.1762e+01 
+Grid 60, Iteration  10:  Res = 7.0908e+01 
+975.72 7.0908e+01 10 
+
+Time step 1: Time 0.00 -> 36.50 days
+Grid 60, Iteration   1:  Res = 9.4160e+03 
+Grid 30, Iteration   3:  Res = 9.9303e+04 
+Grid 15, Iteration   5:  Res = 9.9303e+04 
+Grid 8, Iteration   3:  Res = 9.9303e+04 
+Grid 4, Iteration   4:  Res = 9.9303e+04 
+Grid 8, Iteration  21:  Res = 4.8695e-07 
+Grid 15, Iteration   8:  Res = 8.4467e-07 
+Grid 30, Iteration  15:  Res = 1.5958e-02 
+Grid 60, Iteration   5:  Res = 5.2064e-07 
+
+Time step 2: Time 36.50 -> 73.00 days
+Grid 60, Iteration   1:  Res = 6.8357e-03 
+Grid 30, Iteration   2:  Res = 6.7249e+00 
+Grid 15, Iteration   2:  Res = 5.3069e+01 
+Grid 8, Iteration   2:  Res = 1.7812e+04 
+Grid 4, Iteration   2:  Res = 9.5063e+04 
+Grid 8, Iteration  25:  Res = 2.0620e+05 
+Grid 15, Iteration  20:  Res = 1.8369e+05 
+Grid 30, Iteration  15:  Res = 1.8124e+05 
+Grid 60, Iteration  10:  Res = 1.7133e+04 
+Grid 60, Iteration  10:  Res = 1.7133e+04 
+
+Time step 3: Time 73.00 -> 109.50 days
+Grid 60, Iteration   1:  Res = 1.7133e+04 
+Grid 30, Iteration   3:  Res = 1.8111e+05 
+Grid 15, Iteration   5:  Res = 1.8286e+05 
+Grid 8, Iteration   7:  Res = 1.8970e+05 
+Grid 4, Iteration  25:  Res = 2.2151e+05 
+Grid 8, Iteration  25:  Res = 1.6379e+08 
+Grid 15, Iteration  17:  Res = 8.4769e-08 
+Grid 30, Iteration  15:  Res = 2.0032e+01 
+Grid 60, Iteration   7:  Res = 2.7512e-06 
+
+Time step 4: Time 109.50 -> 146.00 days
+Grid 60, Iteration   1:  Res = 5.9292e-03 
+Grid 30, Iteration   2:  Res = 8.9507e+00 
+Grid 15, Iteration   2:  Res = 4.8436e+03 
+Grid 8, Iteration   2:  Res = 4.2988e+04 
+Grid 4, Iteration   9:  Res = 6.1937e+04 
+Grid 8, Iteration  20:  Res = 9.5807e-09 
+Grid 15, Iteration  10:  Res = 5.7366e-10 
+Grid 30, Iteration  15:  Res = 1.1100e+02 
+Grid 60, Iteration  10:  Res = 2.7853e+01 
+Grid 60, Iteration  10:  Res = 2.7834e+01 
+
+Time step 5: Time 146.00 -> 182.50 days
+Grid 60, Iteration   1:  Res = 2.7833e+01 
+Grid 30, Iteration   3:  Res = 3.5940e+02 
+Grid 15, Iteration   2:  Res = 2.8893e+02 
+Grid 8, Iteration   2:  Res = 9.7939e+03 
+Grid 4, Iteration   2:  Res = 1.2936e+04 
+Grid 8, Iteration  18:  Res = 4.7561e-06 
+Grid 15, Iteration   4:  Res = 5.5254e-01 
+Grid 30, Iteration  11:  Res = 1.3679e+02 
+Grid 60, Iteration  10:  Res = 3.1176e+01 
+Grid 60, Iteration  10:  Res = 3.1141e+01 
+
+Time step 6: Time 182.50 -> 219.00 days
+Grid 60, Iteration   1:  Res = 3.1138e+01 
+Grid 30, Iteration   3:  Res = 4.1573e+02 
+Grid 15, Iteration   2:  Res = 4.0525e+02 
+Grid 8, Iteration   2:  Res = 3.5268e+04 
+Grid 4, Iteration   3:  Res = 3.0304e+04 
+Grid 8, Iteration  12:  Res = 8.1651e-07 
+Grid 15, Iteration   7:  Res = 6.3128e-10 
+Grid 30, Iteration   8:  Res = 1.3884e+02 
+Grid 60, Iteration  10:  Res = 2.8615e+01 
+Grid 60, Iteration  10:  Res = 2.8463e+01 
+
+Time step 7: Time 219.00 -> 255.50 days
+Grid 60, Iteration   1:  Res = 2.8452e+01 
+Grid 30, Iteration   3:  Res = 3.8384e+02 
+Grid 15, Iteration   2:  Res = 7.5314e+02 
+Grid 8, Iteration   2:  Res = 3.7839e+04 
+Grid 4, Iteration   4:  Res = 4.1055e+04 
+Grid 8, Iteration  11:  Res = 5.3200e-08 
+Grid 15, Iteration   7:  Res = 1.1671e-08 
+Grid 30, Iteration  11:  Res = 1.3661e+02 
+Grid 60, Iteration  10:  Res = 2.4545e+01 
+Grid 60, Iteration  10:  Res = 2.4123e+01 
+
+Time step 8: Time 255.50 -> 292.00 days
+Grid 60, Iteration   1:  Res = 2.4086e+01 
+Grid 30, Iteration   3:  Res = 3.1758e+02 
+Grid 15, Iteration   2:  Res = 2.3593e+03 
+Grid 8, Iteration   2:  Res = 3.6046e+04 
+Grid 4, Iteration   3:  Res = 4.8438e+04 
+Grid 8, Iteration  10:  Res = 1.1839e-07 
+Grid 15, Iteration   7:  Res = 1.8352e-07 
+Grid 30, Iteration   3:  Res = 1.5571e+02 
+Grid 60, Iteration  10:  Res = 3.1374e+01 
+Grid 60, Iteration  10:  Res = 3.0580e+01 
+
+Time step 9: Time 292.00 -> 328.50 days
+Grid 60, Iteration   1:  Res = 3.0496e+01 
+Grid 30, Iteration   3:  Res = 3.8044e+02 
+Grid 15, Iteration   2:  Res = 1.7686e+03 
+Grid 8, Iteration   2:  Res = 2.9989e+04 
+Grid 4, Iteration   3:  Res = 3.8374e+04 
+Grid 8, Iteration  25:  Res = 2.0069e+06 
+Grid 15, Iteration  20:  Res = 2.0021e+06 
+Grid 30, Iteration  15:  Res = 2.0014e+06 
+Grid 60, Iteration  10:  Res = 1.8972e+05 
+Grid 60, Iteration  10:  Res = 1.8961e+05 
+
+Time step 10: Time 328.50 -> 365.00 days
+Grid 60, Iteration   1:  Res = 1.8961e+05 
+Grid 30, Iteration   3:  Res = 1.9997e+06 
+Grid 15, Iteration   4:  Res = 1.9997e+06 
+Grid 8, Iteration   3:  Res = 1.9999e+06 
+Grid 4, Iteration   3:  Res = 2.0015e+06 
+Grid 8, Iteration  25:  Res = 1.7819e+08 
+Grid 15, Iteration  20:  Res = 5.0670e-07 
+Grid 30, Iteration  15:  Res = 3.2668e+01 
+Grid 60, Iteration   4:  Res = 3.0568e-01 
+Grid 60, Iteration   7:  Res = 4.0425e-07 
+
+Time step 11: Time 365.00 -> 401.50 days
+Grid 60, Iteration   1:  Res = 1.1855e-02 
+Grid 30, Iteration   2:  Res = 1.0607e+01 
+Grid 15, Iteration   2:  Res = 4.0361e+03 
+Grid 8, Iteration   2:  Res = 4.5671e+04 
+Grid 4, Iteration   3:  Res = 7.4707e+04 
+Grid 8, Iteration  25:  Res = 2.9581e+06 
+Grid 15, Iteration  20:  Res = 2.9410e+06 
+Grid 30, Iteration  15:  Res = 2.9312e+06 
+Grid 60, Iteration  10:  Res = 2.7786e+05 
+Grid 60, Iteration  10:  Res = 2.7775e+05 
+
+Time step 12: Time 401.50 -> 438.00 days
+Grid 60, Iteration   1:  Res = 2.7775e+05 
+Grid 30, Iteration   3:  Res = 2.9292e+06 
+Grid 15, Iteration   5:  Res = 2.9292e+06 
+Grid 8, Iteration   4:  Res = 2.9293e+06 
+Grid 4, Iteration  80:  Res = 2.9295e+06 
+Grid 8, Iteration  25:  Res = 2.1092e+08 
+Grid 15, Iteration  20:  Res = 2.1092e+08 
+Grid 30, Iteration  15:  Res = 2.1090e+08 
+Grid 60, Iteration  10:  Res = 1.9996e+07 
+Grid 60, Iteration  10:  Res = 1.9996e+07 
+
+Time step 13: Time 438.00 -> 474.50 days
+Grid 60, Iteration   1:  Res = 1.9996e+07 
+Grid 30, Iteration   3:  Res = 2.1088e+08 
+Grid 15, Iteration   4:  Res = 2.1088e+08 
+Grid 8, Iteration   3:  Res = 2.1088e+08 
+Grid 4, Iteration   3:  Res = 2.1088e+08 
+Grid 8, Iteration  25:  Res = 1.9577e+08 
+Grid 15, Iteration  20:  Res = 4.8228e-02 
+Grid 30, Iteration  12:  Res = 2.2999e+02 
+Grid 60, Iteration  10:  Res = 2.9566e+01 
+Grid 60, Iteration  10:  Res = 2.9365e+01 
+
+Time step 14: Time 474.50 -> 511.00 days
+Grid 60, Iteration   1:  Res = 2.9337e+01 
+Grid 30, Iteration   3:  Res = 3.9616e+02 
+Grid 15, Iteration   2:  Res = 1.6223e+04 
+Grid 8, Iteration   2:  Res = 4.4440e+04 
+Grid 4, Iteration   2:  Res = 7.4413e+04 
+Grid 8, Iteration  10:  Res = 1.2168e-08 
+Grid 15, Iteration   7:  Res = 1.6982e-07 
+Grid 30, Iteration   7:  Res = 2.4235e+02 
+Grid 60, Iteration  10:  Res = 2.7854e+01 
+Grid 60, Iteration  10:  Res = 2.7240e+01 
+
+Time step 15: Time 511.00 -> 547.50 days
+Grid 60, Iteration   1:  Res = 2.7178e+01 
+Grid 30, Iteration   2:  Res = 9.9393e+02 
+Grid 15, Iteration   2:  Res = 1.8051e+04 
+Grid 8, Iteration   2:  Res = 2.4034e+04 
+Grid 4, Iteration   2:  Res = 9.4504e+04 
+Grid 8, Iteration  15:  Res = 9.5481e-07 
+Grid 15, Iteration   7:  Res = 7.0963e-07 
+Grid 30, Iteration  15:  Res = 5.8268e+02 
+Grid 60, Iteration  10:  Res = 3.5430e+01 
+Grid 60, Iteration  10:  Res = 3.4882e+01 
+
+Time step 16: Time 547.50 -> 584.00 days
+Grid 60, Iteration   1:  Res = 3.4832e+01 
+Grid 30, Iteration   2:  Res = 1.9305e+03 
+Grid 15, Iteration   2:  Res = 1.0694e+04 
+Grid 8, Iteration   4:  Res = 1.9858e+04 
+Grid 4, Iteration   2:  Res = 6.6623e+04 
+Grid 8, Iteration  10:  Res = 4.2936e-09 
+Grid 15, Iteration   8:  Res = 1.3488e-09 
+Grid 30, Iteration  15:  Res = 1.4794e+03 
+Grid 60, Iteration  10:  Res = 7.3247e+01 
+Grid 60, Iteration  10:  Res = 7.2811e+01 
+
+Time step 17: Time 584.00 -> 620.50 days
+Grid 60, Iteration   1:  Res = 7.2779e+01 
+Grid 30, Iteration   2:  Res = 4.0946e+03 
+Grid 15, Iteration   3:  Res = 6.3368e+03 
+Grid 8, Iteration   6:  Res = 1.6234e+04 
+Grid 4, Iteration   2:  Res = 5.8559e+04 
+Grid 8, Iteration  10:  Res = 2.9040e-09 
+Grid 15, Iteration   9:  Res = 6.8765e-07 
+Grid 30, Iteration  15:  Res = 3.6523e+03 
+Grid 60, Iteration  10:  Res = 1.7324e+02 
+Grid 60, Iteration  10:  Res = 1.7279e+02 
+
+Time step 18: Time 620.50 -> 657.00 days
+Grid 60, Iteration   1:  Res = 1.7277e+02 
+Grid 30, Iteration   3:  Res = 2.5186e+03 
+Grid 15, Iteration   3:  Res = 2.0939e+03 
+Grid 8, Iteration   3:  Res = 1.3369e+04 
+Grid 4, Iteration   2:  Res = 6.2349e+04 
+Grid 8, Iteration  12:  Res = 7.4159e-07 
+Grid 15, Iteration   7:  Res = 1.7268e-06 
+Grid 30, Iteration  15:  Res = 5.8998e+03 
+Grid 60, Iteration  10:  Res = 2.7981e+02 
+Grid 60, Iteration  10:  Res = 2.7927e+02 
+
+Time step 19: Time 657.00 -> 693.50 days
+Grid 60, Iteration   1:  Res = 2.7925e+02 
+Grid 30, Iteration   3:  Res = 1.3242e+03 
+Grid 15, Iteration   3:  Res = 1.6458e+03 
+Grid 8, Iteration   3:  Res = 3.1368e+04 
+Grid 4, Iteration   2:  Res = 7.2625e+04 
+Grid 8, Iteration  14:  Res = 4.5169e-10 
+Grid 15, Iteration   9:  Res = 2.6063e-07 
+Grid 30, Iteration  15:  Res = 8.3503e+03 
+Grid 60, Iteration  10:  Res = 3.9716e+02 
+Grid 60, Iteration  10:  Res = 3.9651e+02 
+
+Time step 20: Time 693.50 -> 730.00 days
+Grid 60, Iteration   1:  Res = 3.9648e+02 
+Grid 30, Iteration   3:  Res = 2.1272e+03 
+Grid 15, Iteration   3:  Res = 1.1208e+03 
+Grid 8, Iteration   3:  Res = 2.8104e+04 
+Grid 4, Iteration   2:  Res = 8.2494e+04 
+Grid 8, Iteration  16:  Res = 1.1562e-07 
+Grid 15, Iteration   5:  Res = 6.4845e+00 
+Grid 30, Iteration  15:  Res = 1.1173e+04 
+Grid 60, Iteration  10:  Res = 5.3339e+02 
+Grid 60, Iteration  10:  Res = 5.3271e+02 
+
+Time step 21: Time 730.00 -> 766.50 days
+Grid 60, Iteration   1:  Res = 5.3269e+02 
+Grid 30, Iteration   3:  Res = 4.2478e+03 
+Grid 15, Iteration   3:  Res = 3.3024e+03 
+Grid 8, Iteration   3:  Res = 4.5579e+04 
+Grid 4, Iteration   2:  Res = 2.9791e+05 
+Grid 8, Iteration   9:  Res = 3.7098e-06 
+Grid 15, Iteration   4:  Res = 1.6128e+01 
+Grid 30, Iteration  15:  Res = 1.4542e+04 
+Grid 60, Iteration  10:  Res = 6.9664e+02 
+Grid 60, Iteration  10:  Res = 6.9580e+02 
+
+Time step 22: Time 766.50 -> 803.00 days
+Grid 60, Iteration   1:  Res = 6.9578e+02 
+Grid 30, Iteration   3:  Res = 6.8840e+03 
+Grid 15, Iteration   3:  Res = 5.9994e+03 
+Grid 8, Iteration   2:  Res = 2.3785e+04 
+Grid 4, Iteration   2:  Res = 1.1688e+05 
+Grid 8, Iteration   9:  Res = 5.9124e-11 
+Grid 15, Iteration   4:  Res = 8.6167e+00 
+Grid 30, Iteration  15:  Res = 1.8662e+04 
+Grid 60, Iteration  10:  Res = 8.9673e+02 
+Grid 60, Iteration  10:  Res = 8.9540e+02 
+
+Time step 23: Time 803.00 -> 839.50 days
+Grid 60, Iteration   1:  Res = 8.9535e+02 
+Grid 30, Iteration   3:  Res = 1.0320e+04 
+Grid 15, Iteration   3:  Res = 9.2434e+03 
+Grid 8, Iteration   2:  Res = 4.4542e+04 
+Grid 4, Iteration   2:  Res = 4.0107e+05 
+Grid 8, Iteration  13:  Res = 1.0176e-07 
+Grid 15, Iteration   9:  Res = 2.2651e-08 
+Grid 30, Iteration  15:  Res = 2.3639e+04 
+Grid 60, Iteration  10:  Res = 1.1425e+03 
+Grid 60, Iteration  10:  Res = 1.1410e+03 
+
+Time step 24: Time 839.50 -> 876.00 days
+Grid 60, Iteration   1:  Res = 1.1409e+03 
+Grid 30, Iteration   3:  Res = 1.4337e+04 
+Grid 15, Iteration   3:  Res = 9.8441e+03 
+Grid 8, Iteration   2:  Res = 4.6262e+04 
+Grid 4, Iteration   2:  Res = 6.0432e+05 
+Grid 8, Iteration   7:  Res = 5.2477e+00 
+Grid 15, Iteration   4:  Res = 5.6883e+00 
+Grid 30, Iteration  15:  Res = 3.0231e+04 
+Grid 60, Iteration  10:  Res = 1.4693e+03 
+Grid 60, Iteration  10:  Res = 1.4672e+03 
+
+Time step 25: Time 876.00 -> 912.50 days
+Grid 60, Iteration   1:  Res = 1.4672e+03 
+Grid 30, Iteration   3:  Res = 1.9613e+04 
+Grid 15, Iteration   3:  Res = 1.7057e+04 
+Grid 8, Iteration   2:  Res = 2.4310e+05 
+Grid 4, Iteration   2:  Res = 6.6931e+05 
+Grid 8, Iteration  12:  Res = 4.9929e-10 
+Grid 15, Iteration   4:  Res = 2.5647e+01 
+Grid 30, Iteration  15:  Res = 3.5116e+04 
+Grid 60, Iteration  10:  Res = 6.1851e+02 
+Grid 60, Iteration  10:  Res = 9.7221e-02 
+
+Time step 26: Time 912.50 -> 949.00 days
+Grid 60, Iteration   1:  Res = 5.6164e-02 
+Grid 30, Iteration   2:  Res = 7.2684e+02 
+Grid 15, Iteration   2:  Res = 3.7259e+04 
+Grid 8, Iteration   2:  Res = 1.8896e+05 
+Grid 4, Iteration   2:  Res = 6.9509e+05 
+Grid 8, Iteration  15:  Res = 2.2933e-10 
+Grid 15, Iteration   7:  Res = 9.4672e-01 
+Grid 30, Iteration   9:  Res = 1.2048e+01 
+Grid 60, Iteration   6:  Res = 5.0349e-06 
+
+Time step 27: Time 949.00 -> 985.50 days
+Grid 60, Iteration   1:  Res = 8.3172e-03 
+Grid 30, Iteration   2:  Res = 2.4727e+02 
+Grid 15, Iteration   2:  Res = 4.4813e+04 
+Grid 8, Iteration   2:  Res = 1.7990e+05 
+Grid 4, Iteration   2:  Res = 7.8441e+05 
+Grid 8, Iteration  10:  Res = 7.1772e-06 
+Grid 15, Iteration   8:  Res = 1.6896e+00 
+Grid 30, Iteration  10:  Res = 1.0292e+01 
+Grid 60, Iteration   7:  Res = 3.1262e-08 
+
+Time step 28: Time 985.50 -> 1022.00 days
+Grid 60, Iteration   1:  Res = 5.7863e-03 
+Grid 30, Iteration   2:  Res = 6.0512e+01 
+Grid 15, Iteration   2:  Res = 9.4529e+03 
+Grid 8, Iteration   2:  Res = 1.7662e+05 
+Grid 4, Iteration   2:  Res = 8.1995e+05 
+Grid 8, Iteration  10:  Res = 9.0845e-09 
+Grid 15, Iteration   9:  Res = 2.2785e-07 
+Grid 30, Iteration  15:  Res = 5.1364e-09 
+Grid 60, Iteration   6:  Res = 2.0459e-06 
+
+Time step 29: Time 1022.00 -> 1058.50 days
+Grid 60, Iteration   1:  Res = 5.0452e-03 
+Grid 30, Iteration   2:  Res = 3.2381e+01 
+Grid 15, Iteration   2:  Res = 2.6299e+04 
+Grid 8, Iteration   2:  Res = 1.2017e+05 
+Grid 4, Iteration   2:  Res = 8.6932e+05 
+Grid 8, Iteration  11:  Res = 3.6894e-09 
+Grid 15, Iteration  11:  Res = 1.6259e-08 
+Grid 30, Iteration  14:  Res = 1.3404e+01 
+Grid 60, Iteration   6:  Res = 5.7947e-06 
+
+Time step 30: Time 1058.50 -> 1095.00 days
+Grid 60, Iteration   1:  Res = 4.7616e-03 
+Grid 30, Iteration   2:  Res = 5.2588e+01 
+Grid 15, Iteration   2:  Res = 5.4470e+04 
+Grid 8, Iteration   2:  Res = 1.7862e+05 
+Grid 4, Iteration   2:  Res = 8.7866e+05 
+Grid 8, Iteration  10:  Res = 9.1191e-11 
+Grid 15, Iteration   7:  Res = 3.9249e+00 
+Grid 30, Iteration  15:  Res = 1.5215e+03 
+Grid 60, Iteration  10:  Res = 7.1762e+01 
+Grid 60, Iteration  10:  Res = 7.0908e+01 
+985.57 7.0908e+01 10 
+
+ Newton Test A: SPE10 1:2 
+ RunTime, Residual, Iterations 
+Grid 60, Iteration 100:  Res = 2.1195e-01 
+Grid 60, Iteration  16:  Res = 4.1656e-06 
+Grid 60, Iteration   4:  Res = 7.8645e-03 
+Grid 60, Iteration   2:  Res = 2.0518e-02 
+Grid 60, Iteration   2:  Res = 2.5408e-02 
+Grid 60, Iteration   2:  Res = 4.1230e-02 
+Grid 60, Iteration   2:  Res = 7.1482e-02 
+Grid 60, Iteration   2:  Res = 1.2131e-01 
+Grid 60, Iteration   2:  Res = 1.8871e-01 
+Grid 60, Iteration   2:  Res = 2.5835e-01 
+Grid 60, Iteration   2:  Res = 4.2677e-01 
+Grid 60, Iteration   2:  Res = 2.9884e-01 
+Grid 60, Iteration   2:  Res = 2.8584e-01 
+Grid 60, Iteration   2:  Res = 2.8550e-01 
+Grid 60, Iteration   2:  Res = 1.6432e-01 
+Grid 60, Iteration   2:  Res = 1.8472e-01 
+Grid 60, Iteration   3:  Res = 2.0830e-01 
+Grid 60, Iteration   2:  Res = 2.2427e-01 
+Grid 60, Iteration   3:  Res = 1.7007e-01 
+Grid 60, Iteration   2:  Res = 2.2160e-01 
+Grid 60, Iteration   2:  Res = 1.9335e-01 
+Grid 60, Iteration   3:  Res = 3.0602e-01 
+Grid 60, Iteration   6:  Res = 1.8983e-01 
+Grid 60, Iteration   2:  Res = 2.3012e-01 
+Grid 60, Iteration   2:  Res = 2.9699e-01 
+Grid 60, Iteration   2:  Res = 3.2333e-01 
+Grid 60, Iteration   2:  Res = 4.5351e-01 
+Grid 60, Iteration   7:  Res = 2.9232e-01 
+Grid 60, Iteration   2:  Res = 4.5114e-01 
+Grid 60, Iteration   9:  Res = 1.5498e-01 
+Grid 60, Iteration   2:  Res = 2.6438e-01 
+Grid 60, Iteration   2:  Res = 3.6199e-01 
+Grid 60, Iteration  14:  Res = 7.0002e-06 
+Grid 60, Iteration   2:  Res = 3.7697e-02 
+Grid 60, Iteration   2:  Res = 5.9113e-02 
+Grid 60, Iteration   2:  Res = 6.0374e-02 
+Grid 60, Iteration   2:  Res = 8.2649e-02 
+Grid 60, Iteration   2:  Res = 7.9479e-02 
+Grid 60, Iteration   2:  Res = 8.6524e-02 
+Grid 60, Iteration   2:  Res = 8.6218e-02 
+Grid 60, Iteration   2:  Res = 9.2150e-02 
+Grid 60, Iteration   2:  Res = 8.0537e-02 
+Grid 60, Iteration   2:  Res = 8.3979e-02 
+Grid 60, Iteration   2:  Res = 7.6290e-02 
+Grid 60, Iteration   2:  Res = 6.3140e-02 
+Grid 60, Iteration   2:  Res = 6.3660e-02 
+Grid 60, Iteration   2:  Res = 6.2565e-02 
+Grid 60, Iteration   2:  Res = 6.3391e-02 
+Grid 60, Iteration   2:  Res = 6.4869e-02 
+Grid 60, Iteration   2:  Res = 7.4990e-02 
+Grid 60, Iteration   2:  Res = 6.7273e-02 
+Grid 60, Iteration   2:  Res = 6.8300e-02 
+Grid 60, Iteration   2:  Res = 9.1971e-02 
+Grid 60, Iteration   2:  Res = 1.2959e-01 
+Grid 60, Iteration   2:  Res = 1.4753e-01 
+Grid 60, Iteration   2:  Res = 1.6493e-01 
+Grid 60, Iteration   2:  Res = 1.9551e-01 
+Grid 60, Iteration   2:  Res = 2.2285e-01 
+Grid 60, Iteration   2:  Res = 2.4081e-01 
+Grid 60, Iteration   2:  Res = 2.1455e-01 
+Grid 60, Iteration   2:  Res = 1.4399e-01 
+Grid 60, Iteration   2:  Res = 1.0439e-01 
+Grid 60, Iteration   2:  Res = 1.0082e-01 
+Grid 60, Iteration   2:  Res = 9.7947e-02 
+Grid 60, Iteration   2:  Res = 9.9392e-02 
+Grid 60, Iteration   2:  Res = 8.4699e-02 
+Grid 60, Iteration   2:  Res = 8.6809e-02 
+Grid 60, Iteration   2:  Res = 9.0473e-02 
+Grid 60, Iteration   2:  Res = 1.1376e-01 
+Grid 60, Iteration   2:  Res = 1.2094e-01 
+Grid 60, Iteration   2:  Res = 1.2187e-01 
+Grid 60, Iteration   2:  Res = 9.9757e-02 
+Grid 60, Iteration   2:  Res = 9.6819e-02 
+Grid 60, Iteration   2:  Res = 9.9691e-02 
+Grid 60, Iteration   2:  Res = 9.9086e-02 
+Grid 60, Iteration   2:  Res = 9.0618e-02 
+Grid 60, Iteration   2:  Res = 9.5015e-02 
+Grid 60, Iteration   2:  Res = 9.2783e-02 
+Grid 60, Iteration   2:  Res = 9.6603e-02 
+Grid 60, Iteration   2:  Res = 9.8168e-02 
+Grid 60, Iteration   2:  Res = 9.7580e-02 
+Grid 60, Iteration   2:  Res = 1.0244e-01 
+Grid 60, Iteration   2:  Res = 1.0341e-01 
+Grid 60, Iteration   2:  Res = 1.0208e-01 
+Grid 60, Iteration   2:  Res = 1.0808e-01 
+Grid 60, Iteration   2:  Res = 1.0500e-01 
+Grid 60, Iteration   2:  Res = 1.3601e-01 
+Grid 60, Iteration   2:  Res = 1.4804e-01 
+Grid 60, Iteration   2:  Res = 1.8564e-01 
+Grid 60, Iteration   2:  Res = 1.9866e-01 
+Grid 60, Iteration   2:  Res = 2.2296e-01 
+Grid 60, Iteration   2:  Res = 2.1839e-01 
+Grid 60, Iteration   2:  Res = 2.2601e-01 
+Grid 60, Iteration   2:  Res = 1.9155e-01 
+Grid 60, Iteration   2:  Res = 1.9167e-01 
+Grid 60, Iteration   2:  Res = 2.0195e-01 
+Grid 60, Iteration   2:  Res = 2.0871e-01 
+Grid 60, Iteration   2:  Res = 2.0655e-01 
+Grid 60, Iteration   2:  Res = 1.8912e-01 
+Grid 60, Iteration   2:  Res = 1.3289e-01 
+273.57 1.3289e-01 2 
+Grid 60, Iteration 100:  Res = 2.1195e-01 
+Grid 60, Iteration  16:  Res = 4.1656e-06 
+Grid 60, Iteration   4:  Res = 7.8645e-03 
+Grid 60, Iteration   2:  Res = 2.0518e-02 
+Grid 60, Iteration   2:  Res = 2.5408e-02 
+Grid 60, Iteration   2:  Res = 4.1230e-02 
+Grid 60, Iteration   2:  Res = 7.1482e-02 
+Grid 60, Iteration   2:  Res = 1.2131e-01 
+Grid 60, Iteration   2:  Res = 1.8871e-01 
+Grid 60, Iteration   2:  Res = 2.5835e-01 
+Grid 60, Iteration   2:  Res = 4.2677e-01 
+Grid 60, Iteration   2:  Res = 2.9884e-01 
+Grid 60, Iteration   2:  Res = 2.8584e-01 
+Grid 60, Iteration   2:  Res = 2.8550e-01 
+Grid 60, Iteration   2:  Res = 1.6432e-01 
+Grid 60, Iteration   2:  Res = 1.8472e-01 
+Grid 60, Iteration   3:  Res = 2.0830e-01 
+Grid 60, Iteration   2:  Res = 2.2427e-01 
+Grid 60, Iteration   3:  Res = 1.7007e-01 
+Grid 60, Iteration   2:  Res = 2.2160e-01 
+Grid 60, Iteration   2:  Res = 1.9335e-01 
+Grid 60, Iteration   3:  Res = 3.0602e-01 
+Grid 60, Iteration   6:  Res = 1.8983e-01 
+Grid 60, Iteration   2:  Res = 2.3012e-01 
+Grid 60, Iteration   2:  Res = 2.9699e-01 
+Grid 60, Iteration   2:  Res = 3.2333e-01 
+Grid 60, Iteration   2:  Res = 4.5351e-01 
+Grid 60, Iteration   7:  Res = 2.9232e-01 
+Grid 60, Iteration   2:  Res = 4.5114e-01 
+Grid 60, Iteration   9:  Res = 1.5498e-01 
+Grid 60, Iteration   2:  Res = 2.6438e-01 
+Grid 60, Iteration   2:  Res = 3.6199e-01 
+Grid 60, Iteration  14:  Res = 7.0002e-06 
+Grid 60, Iteration   2:  Res = 3.7697e-02 
+Grid 60, Iteration   2:  Res = 5.9113e-02 
+Grid 60, Iteration   2:  Res = 6.0374e-02 
+Grid 60, Iteration   2:  Res = 8.2649e-02 
+Grid 60, Iteration   2:  Res = 7.9479e-02 
+Grid 60, Iteration   2:  Res = 8.6524e-02 
+Grid 60, Iteration   2:  Res = 8.6218e-02 
+Grid 60, Iteration   2:  Res = 9.2150e-02 
+Grid 60, Iteration   2:  Res = 8.0537e-02 
+Grid 60, Iteration   2:  Res = 8.3979e-02 
+Grid 60, Iteration   2:  Res = 7.6290e-02 
+Grid 60, Iteration   2:  Res = 6.3140e-02 
+Grid 60, Iteration   2:  Res = 6.3660e-02 
+Grid 60, Iteration   2:  Res = 6.2565e-02 
+Grid 60, Iteration   2:  Res = 6.3391e-02 
+Grid 60, Iteration   2:  Res = 6.4869e-02 
+Grid 60, Iteration   2:  Res = 7.4990e-02 
+Grid 60, Iteration   2:  Res = 6.7273e-02 
+Grid 60, Iteration   2:  Res = 6.8300e-02 
+Grid 60, Iteration   2:  Res = 9.1971e-02 
+Grid 60, Iteration   2:  Res = 1.2959e-01 
+Grid 60, Iteration   2:  Res = 1.4753e-01 
+Grid 60, Iteration   2:  Res = 1.6493e-01 
+Grid 60, Iteration   2:  Res = 1.9551e-01 
+Grid 60, Iteration   2:  Res = 2.2285e-01 
+Grid 60, Iteration   2:  Res = 2.4081e-01 
+Grid 60, Iteration   2:  Res = 2.1455e-01 
+Grid 60, Iteration   2:  Res = 1.4399e-01 
+Grid 60, Iteration   2:  Res = 1.0439e-01 
+Grid 60, Iteration   2:  Res = 1.0082e-01 
+Grid 60, Iteration   2:  Res = 9.7947e-02 
+Grid 60, Iteration   2:  Res = 9.9392e-02 
+Grid 60, Iteration   2:  Res = 8.4699e-02 
+Grid 60, Iteration   2:  Res = 8.6809e-02 
+Grid 60, Iteration   2:  Res = 9.0473e-02 
+Grid 60, Iteration   2:  Res = 1.1376e-01 
+Grid 60, Iteration   2:  Res = 1.2094e-01 
+Grid 60, Iteration   2:  Res = 1.2187e-01 
+Grid 60, Iteration   2:  Res = 9.9757e-02 
+Grid 60, Iteration   2:  Res = 9.6819e-02 
+Grid 60, Iteration   2:  Res = 9.9691e-02 
+Grid 60, Iteration   2:  Res = 9.9086e-02 
+Grid 60, Iteration   2:  Res = 9.0618e-02 
+Grid 60, Iteration   2:  Res = 9.5015e-02 
+Grid 60, Iteration   2:  Res = 9.2783e-02 
+Grid 60, Iteration   2:  Res = 9.6603e-02 
+Grid 60, Iteration   2:  Res = 9.8168e-02 
+Grid 60, Iteration   2:  Res = 9.7580e-02 
+Grid 60, Iteration   2:  Res = 1.0244e-01 
+Grid 60, Iteration   2:  Res = 1.0341e-01 
+Grid 60, Iteration   2:  Res = 1.0208e-01 
+Grid 60, Iteration   2:  Res = 1.0808e-01 
+Grid 60, Iteration   2:  Res = 1.0500e-01 
+Grid 60, Iteration   2:  Res = 1.3601e-01 
+Grid 60, Iteration   2:  Res = 1.4804e-01 
+Grid 60, Iteration   2:  Res = 1.8564e-01 
+Grid 60, Iteration   2:  Res = 1.9866e-01 
+Grid 60, Iteration   2:  Res = 2.2296e-01 
+Grid 60, Iteration   2:  Res = 2.1839e-01 
+Grid 60, Iteration   2:  Res = 2.2601e-01 
+Grid 60, Iteration   2:  Res = 1.9155e-01 
+Grid 60, Iteration   2:  Res = 1.9167e-01 
+Grid 60, Iteration   2:  Res = 2.0195e-01 
+Grid 60, Iteration   2:  Res = 2.0871e-01 
+Grid 60, Iteration   2:  Res = 2.0655e-01 
+Grid 60, Iteration   2:  Res = 1.8912e-01 
+Grid 60, Iteration   2:  Res = 1.3289e-01 
+270.32 1.3289e-01 2 
+Grid 60, Iteration 100:  Res = 2.1195e-01 
+Grid 60, Iteration  16:  Res = 4.1656e-06 
+Grid 60, Iteration   4:  Res = 7.8645e-03 
+Grid 60, Iteration   2:  Res = 2.0518e-02 
+Grid 60, Iteration   2:  Res = 2.5408e-02 
+Grid 60, Iteration   2:  Res = 4.1230e-02 
+Grid 60, Iteration   2:  Res = 7.1482e-02 
+Grid 60, Iteration   2:  Res = 1.2131e-01 
+Grid 60, Iteration   2:  Res = 1.8871e-01 
+Grid 60, Iteration   2:  Res = 2.5835e-01 
+Grid 60, Iteration   2:  Res = 4.2677e-01 
+Grid 60, Iteration   2:  Res = 2.9884e-01 
+Grid 60, Iteration   2:  Res = 2.8584e-01 
+Grid 60, Iteration   2:  Res = 2.8550e-01 
+Grid 60, Iteration   2:  Res = 1.6432e-01 
+Grid 60, Iteration   2:  Res = 1.8472e-01 
+Grid 60, Iteration   3:  Res = 2.0830e-01 
+Grid 60, Iteration   2:  Res = 2.2427e-01 
+Grid 60, Iteration   3:  Res = 1.7007e-01 
+Grid 60, Iteration   2:  Res = 2.2160e-01 
+Grid 60, Iteration   2:  Res = 1.9335e-01 
+Grid 60, Iteration   3:  Res = 3.0602e-01 
+Grid 60, Iteration   6:  Res = 1.8983e-01 
+Grid 60, Iteration   2:  Res = 2.3012e-01 
+Grid 60, Iteration   2:  Res = 2.9699e-01 
+Grid 60, Iteration   2:  Res = 3.2333e-01 
+Grid 60, Iteration   2:  Res = 4.5351e-01 
+Grid 60, Iteration   7:  Res = 2.9232e-01 
+Grid 60, Iteration   2:  Res = 4.5114e-01 
+Grid 60, Iteration   9:  Res = 1.5498e-01 
+Grid 60, Iteration   2:  Res = 2.6438e-01 
+Grid 60, Iteration   2:  Res = 3.6199e-01 
+Grid 60, Iteration  14:  Res = 7.0002e-06 
+Grid 60, Iteration   2:  Res = 3.7697e-02 
+Grid 60, Iteration   2:  Res = 5.9113e-02 
+Grid 60, Iteration   2:  Res = 6.0374e-02 
+Grid 60, Iteration   2:  Res = 8.2649e-02 
+Grid 60, Iteration   2:  Res = 7.9479e-02 
+Grid 60, Iteration   2:  Res = 8.6524e-02 
+Grid 60, Iteration   2:  Res = 8.6218e-02 
+Grid 60, Iteration   2:  Res = 9.2150e-02 
+Grid 60, Iteration   2:  Res = 8.0537e-02 
+Grid 60, Iteration   2:  Res = 8.3979e-02 
+Grid 60, Iteration   2:  Res = 7.6290e-02 
+Grid 60, Iteration   2:  Res = 6.3140e-02 
+Grid 60, Iteration   2:  Res = 6.3660e-02 
+Grid 60, Iteration   2:  Res = 6.2565e-02 
+Grid 60, Iteration   2:  Res = 6.3391e-02 
+Grid 60, Iteration   2:  Res = 6.4869e-02 
+Grid 60, Iteration   2:  Res = 7.4990e-02 
+Grid 60, Iteration   2:  Res = 6.7273e-02 
+Grid 60, Iteration   2:  Res = 6.8300e-02 
+Grid 60, Iteration   2:  Res = 9.1971e-02 
+Grid 60, Iteration   2:  Res = 1.2959e-01 
+Grid 60, Iteration   2:  Res = 1.4753e-01 
+Grid 60, Iteration   2:  Res = 1.6493e-01 
+Grid 60, Iteration   2:  Res = 1.9551e-01 
+Grid 60, Iteration   2:  Res = 2.2285e-01 
+Grid 60, Iteration   2:  Res = 2.4081e-01 
+Grid 60, Iteration   2:  Res = 2.1455e-01 
+Grid 60, Iteration   2:  Res = 1.4399e-01 
+Grid 60, Iteration   2:  Res = 1.0439e-01 
+Grid 60, Iteration   2:  Res = 1.0082e-01 
+Grid 60, Iteration   2:  Res = 9.7947e-02 
+Grid 60, Iteration   2:  Res = 9.9392e-02 
+Grid 60, Iteration   2:  Res = 8.4699e-02 
+Grid 60, Iteration   2:  Res = 8.6809e-02 
+Grid 60, Iteration   2:  Res = 9.0473e-02 
+Grid 60, Iteration   2:  Res = 1.1376e-01 
+Grid 60, Iteration   2:  Res = 1.2094e-01 
+Grid 60, Iteration   2:  Res = 1.2187e-01 
+Grid 60, Iteration   2:  Res = 9.9757e-02 
+Grid 60, Iteration   2:  Res = 9.6819e-02 
+Grid 60, Iteration   2:  Res = 9.9691e-02 
+Grid 60, Iteration   2:  Res = 9.9086e-02 
+Grid 60, Iteration   2:  Res = 9.0618e-02 
+Grid 60, Iteration   2:  Res = 9.5015e-02 
+Grid 60, Iteration   2:  Res = 9.2783e-02 
+Grid 60, Iteration   2:  Res = 9.6603e-02 
+Grid 60, Iteration   2:  Res = 9.8168e-02 
+Grid 60, Iteration   2:  Res = 9.7580e-02 
+Grid 60, Iteration   2:  Res = 1.0244e-01 
+Grid 60, Iteration   2:  Res = 1.0341e-01 
+Grid 60, Iteration   2:  Res = 1.0208e-01 
+Grid 60, Iteration   2:  Res = 1.0808e-01 
+Grid 60, Iteration   2:  Res = 1.0500e-01 
+Grid 60, Iteration   2:  Res = 1.3601e-01 
+Grid 60, Iteration   2:  Res = 1.4804e-01 
+Grid 60, Iteration   2:  Res = 1.8564e-01 
+Grid 60, Iteration   2:  Res = 1.9866e-01 
+Grid 60, Iteration   2:  Res = 2.2296e-01 
+Grid 60, Iteration   2:  Res = 2.1839e-01 
+Grid 60, Iteration   2:  Res = 2.2601e-01 
+Grid 60, Iteration   2:  Res = 1.9155e-01 
+Grid 60, Iteration   2:  Res = 1.9167e-01 
+Grid 60, Iteration   2:  Res = 2.0195e-01 
+Grid 60, Iteration   2:  Res = 2.0871e-01 
+Grid 60, Iteration   2:  Res = 2.0655e-01 
+Grid 60, Iteration   2:  Res = 1.8912e-01 
+Grid 60, Iteration   2:  Res = 1.3289e-01 
+271.10 1.3289e-01 2 
+
+ FAS Test B: SPE10 1:4
+ RunTime, Residual, Iterations 
+
+Time step 1: Time 0.00 -> 36.50 days
+Grid 60, Iteration   1:  Res = 2.1972e+04 
+Grid 30, Iteration   3:  Res = 1.1586e+05 
+Grid 15, Iteration   5:  Res = 1.1586e+05 
+Grid 8, Iteration   7:  Res = 1.1586e+05 
+Grid 4, Iteration   9:  Res = 1.1586e+05 
+Grid 2, Iteration 100:  Res = 1.1586e+05 
+Grid 4, Iteration  30:  Res = 1.0546e+08 
+Grid 8, Iteration  25:  Res = 1.0546e+08 
+Grid 15, Iteration  20:  Res = 1.0546e+08 
+Grid 30, Iteration  15:  Res = 1.0546e+08 
+Grid 60, Iteration  10:  Res = 1.9999e+07 
+Grid 60, Iteration  10:  Res = 1.9992e+07 
+
+Time step 2: Time 36.50 -> 73.00 days
+Grid 60, Iteration   1:  Res = 1.9990e+07 
+Grid 30, Iteration   3:  Res = 1.0541e+08 
+Grid 15, Iteration   5:  Res = 1.0541e+08 
+Grid 8, Iteration   7:  Res = 1.0541e+08 
+Grid 4, Iteration   9:  Res = 1.0541e+08 
+Grid 2, Iteration  19:  Res = 1.0541e+08 
+Grid 4, Iteration  15:  Res = 4.4384e-09 
+Grid 8, Iteration  13:  Res = 1.4875e-06 
+Grid 15, Iteration   9:  Res = 1.1572e-07 
+Grid 30, Iteration  14:  Res = 3.4770e-06 
+Grid 60, Iteration   8:  Res = 6.6230e-07 
+
+Time step 3: Time 73.00 -> 109.50 days
+Grid 60, Iteration   1:  Res = 9.1477e-03 
+Grid 30, Iteration   2:  Res = 8.8868e+00 
+Grid 15, Iteration   2:  Res = 3.9747e+04 
+Grid 8, Iteration   2:  Res = 1.6733e+05 
+Grid 4, Iteration   4:  Res = 9.3802e+04 
+Grid 2, Iteration   3:  Res = 2.5881e+04 
+Grid 4, Iteration   8:  Res = 7.0307e-07 
+Grid 8, Iteration   8:  Res = 2.7406e+00 
+Grid 15, Iteration   7:  Res = 8.2861e+00 
+Grid 30, Iteration  14:  Res = 4.2720e-06 
+Grid 60, Iteration   5:  Res = 7.3000e-07 
+
+Time step 4: Time 109.50 -> 146.00 days
+Grid 60, Iteration   1:  Res = 9.6122e-03 
+Grid 30, Iteration   2:  Res = 6.6031e+00 
+Grid 15, Iteration   2:  Res = 3.0468e+03 
+Grid 8, Iteration   2:  Res = 2.4196e+05 
+Grid 4, Iteration   3:  Res = 1.2867e+05 
+Grid 2, Iteration   4:  Res = 4.7906e+04 
+Grid 4, Iteration  11:  Res = 1.5817e+01 
+Grid 8, Iteration  11:  Res = 5.2609e-10 
+Grid 15, Iteration   7:  Res = 2.1063e+01 
+Grid 30, Iteration  15:  Res = 1.2339e-06 
+Grid 60, Iteration   5:  Res = 3.2240e-07 
+
+Time step 5: Time 146.00 -> 182.50 days
+Grid 60, Iteration   1:  Res = 8.7947e-03 
+Grid 30, Iteration   2:  Res = 7.6713e+00 
+Grid 15, Iteration   2:  Res = 1.0476e+04 
+Grid 8, Iteration   2:  Res = 2.1203e+05 
+Grid 4, Iteration   3:  Res = 1.1221e+05 
+Grid 2, Iteration   3:  Res = 1.8069e+05 
+Grid 4, Iteration  12:  Res = 2.9498e-06 
+Grid 8, Iteration  11:  Res = 5.1263e-06 
+Grid 15, Iteration  11:  Res = 4.2180e-06 
+Grid 30, Iteration  14:  Res = 1.7266e-07 
+Grid 60, Iteration   6:  Res = 2.0516e-07 
+
+Time step 6: Time 182.50 -> 219.00 days
+Grid 60, Iteration   1:  Res = 8.0509e-03 
+Grid 30, Iteration   2:  Res = 9.9046e+00 
+Grid 15, Iteration   2:  Res = 6.4489e+03 
+Grid 8, Iteration   2:  Res = 2.0305e+05 
+Grid 4, Iteration   4:  Res = 1.9098e+05 
+Grid 2, Iteration   3:  Res = 2.3634e+05 
+Grid 4, Iteration  13:  Res = 1.9259e-08 
+Grid 8, Iteration  10:  Res = 4.9094e-06 
+Grid 15, Iteration  12:  Res = 3.3203e-08 
+Grid 30, Iteration  15:  Res = 6.7822e-06 
+Grid 60, Iteration   5:  Res = 5.2698e-06 
+
+Time step 7: Time 219.00 -> 255.50 days
+Grid 60, Iteration   1:  Res = 7.4225e-03 
+Grid 30, Iteration   2:  Res = 1.0899e+01 
+Grid 15, Iteration   2:  Res = 6.7793e+03 
+Grid 8, Iteration   2:  Res = 2.0629e+05 
+Grid 4, Iteration   2:  Res = 2.7650e+05 
+Grid 2, Iteration   3:  Res = 1.9186e+05 
+Grid 4, Iteration  10:  Res = 3.8348e-07 
+Grid 8, Iteration  12:  Res = 9.2006e-06 
+Grid 15, Iteration  10:  Res = 7.8144e-10 
+Grid 30, Iteration  13:  Res = 4.1441e-06 
+Grid 60, Iteration   6:  Res = 2.4103e-08 
+
+Time step 8: Time 255.50 -> 292.00 days
+Grid 60, Iteration   1:  Res = 7.0665e-03 
+Grid 30, Iteration   2:  Res = 1.1309e+01 
+Grid 15, Iteration   2:  Res = 7.4069e+03 
+Grid 8, Iteration   2:  Res = 2.1079e+05 
+Grid 4, Iteration   2:  Res = 3.2311e+05 
+Grid 2, Iteration   3:  Res = 2.1438e+05 
+Grid 4, Iteration  10:  Res = 2.2278e-08 
+Grid 8, Iteration  11:  Res = 9.0590e-09 
+Grid 15, Iteration   7:  Res = 5.9693e+00 
+Grid 30, Iteration  13:  Res = 2.6807e-06 
+Grid 60, Iteration   5:  Res = 4.9134e-06 
+
+Time step 9: Time 292.00 -> 328.50 days
+Grid 60, Iteration   1:  Res = 7.0257e-03 
+Grid 30, Iteration   2:  Res = 1.2356e+01 
+Grid 15, Iteration   2:  Res = 1.1543e+04 
+Grid 8, Iteration   2:  Res = 2.0909e+05 
+Grid 4, Iteration   2:  Res = 3.1455e+05 
+Grid 2, Iteration   4:  Res = 4.0878e+05 
+Grid 4, Iteration  10:  Res = 1.7200e-08 
+Grid 8, Iteration  10:  Res = 1.4219e-09 
+Grid 15, Iteration  10:  Res = 7.4059e-06 
+Grid 30, Iteration  15:  Res = 6.0774e-07 
+Grid 60, Iteration   6:  Res = 1.0759e-07 
+
+Time step 10: Time 328.50 -> 365.00 days
+Grid 60, Iteration   1:  Res = 7.2704e-03 
+Grid 30, Iteration   2:  Res = 1.6783e+01 
+Grid 15, Iteration   2:  Res = 1.1370e+04 
+Grid 8, Iteration   2:  Res = 2.1926e+05 
+Grid 4, Iteration   2:  Res = 3.2123e+05 
+Grid 2, Iteration   4:  Res = 3.0099e+05 
+Grid 4, Iteration  12:  Res = 7.6300e-10 
+Grid 8, Iteration  11:  Res = 1.8318e-08 
+Grid 15, Iteration  10:  Res = 4.1496e-07 
+Grid 30, Iteration  14:  Res = 1.6192e-09 
+Grid 60, Iteration   5:  Res = 4.4010e-06 
+
+Time step 11: Time 365.00 -> 401.50 days
+Grid 60, Iteration   1:  Res = 7.6942e-03 
+Grid 30, Iteration   2:  Res = 1.3160e+01 
+Grid 15, Iteration   2:  Res = 1.2967e+04 
+Grid 8, Iteration   2:  Res = 2.2464e+05 
+Grid 4, Iteration   2:  Res = 3.2290e+05 
+Grid 2, Iteration   5:  Res = 4.5916e+05 
+Grid 4, Iteration  10:  Res = 1.7301e-10 
+Grid 8, Iteration  10:  Res = 7.9001e-08 
+Grid 15, Iteration  11:  Res = 2.2046e-06 
+Grid 30, Iteration  15:  Res = 3.1690e-08 
+Grid 60, Iteration   6:  Res = 2.8174e-07 
+
+Time step 12: Time 401.50 -> 438.00 days
+Grid 60, Iteration   1:  Res = 8.1509e-03 
+Grid 30, Iteration   2:  Res = 1.9727e+01 
+Grid 15, Iteration   2:  Res = 1.2600e+04 
+Grid 8, Iteration   2:  Res = 2.3222e+05 
+Grid 4, Iteration   2:  Res = 3.2730e+05 
+Grid 2, Iteration   5:  Res = 3.8181e+05 
+Grid 4, Iteration  11:  Res = 3.8542e-07 
+Grid 8, Iteration  10:  Res = 6.5582e-10 
+Grid 15, Iteration  12:  Res = 1.0220e-08 
+Grid 30, Iteration  10:  Res = 6.5424e+00 
+Grid 60, Iteration   8:  Res = 7.6307e-07 
+
+Time step 13: Time 438.00 -> 474.50 days
+Grid 60, Iteration   1:  Res = 8.4394e-03 
+Grid 30, Iteration   2:  Res = 4.9321e+01 
+Grid 15, Iteration   2:  Res = 1.2759e+04 
+Grid 8, Iteration   2:  Res = 2.3917e+05 
+Grid 4, Iteration   2:  Res = 3.3188e+05 
+Grid 2, Iteration   3:  Res = 4.1688e+05 
+Grid 4, Iteration  10:  Res = 5.0500e-07 
+Grid 8, Iteration  10:  Res = 1.4791e-07 
+Grid 15, Iteration   8:  Res = 1.7910e+00 
+Grid 30, Iteration  15:  Res = 7.9695e-08 
+Grid 60, Iteration   5:  Res = 1.3673e-02 
+Grid 60, Iteration   2:  Res = 5.4319e-08 
+
+Time step 14: Time 474.50 -> 511.00 days
+Grid 60, Iteration   1:  Res = 8.6118e-03 
+Grid 30, Iteration   2:  Res = 5.9782e+01 
+Grid 15, Iteration   2:  Res = 1.4465e+04 
+Grid 8, Iteration   2:  Res = 2.4553e+05 
+Grid 4, Iteration   2:  Res = 3.2069e+05 
+Grid 2, Iteration   3:  Res = 4.0210e+05 
+Grid 4, Iteration  11:  Res = 3.6397e-08 
+Grid 8, Iteration  10:  Res = 1.8531e-10 
+Grid 15, Iteration  12:  Res = 1.9753e-08 
+Grid 30, Iteration  15:  Res = 1.6956e-07 
+Grid 60, Iteration   6:  Res = 5.5137e-06 
+
+Time step 15: Time 511.00 -> 547.50 days
+Grid 60, Iteration   1:  Res = 8.8535e-03 
+Grid 30, Iteration   2:  Res = 1.3969e+02 
+Grid 15, Iteration   2:  Res = 3.0238e+04 
+Grid 8, Iteration   2:  Res = 2.6876e+05 
+Grid 4, Iteration   2:  Res = 3.5452e+05 
+Grid 2, Iteration   3:  Res = 5.0285e+05 
+Grid 4, Iteration  10:  Res = 7.7202e-06 
+Grid 8, Iteration   6:  Res = 1.1794e+01 
+Grid 15, Iteration  10:  Res = 2.3381e+00 
+Grid 30, Iteration  10:  Res = 1.1785e+01 
+Grid 60, Iteration   6:  Res = 4.9595e-02 
+Grid 60, Iteration   6:  Res = 5.8389e-07 
+
+Time step 16: Time 547.50 -> 584.00 days
+Grid 60, Iteration   1:  Res = 8.6040e-03 
+Grid 30, Iteration   2:  Res = 1.1254e+02 
+Grid 15, Iteration   2:  Res = 4.6223e+04 
+Grid 8, Iteration   2:  Res = 9.8450e+04 
+Grid 4, Iteration   2:  Res = 4.7565e+05 
+Grid 2, Iteration   3:  Res = 4.9418e+05 
+Grid 4, Iteration  10:  Res = 9.6891e-07 
+Grid 8, Iteration   7:  Res = 2.0151e+01 
+Grid 15, Iteration   8:  Res = 1.4585e+00 
+Grid 30, Iteration  10:  Res = 1.5432e+01 
+Grid 60, Iteration   8:  Res = 6.7422e-07 
+
+Time step 17: Time 584.00 -> 620.50 days
+Grid 60, Iteration   1:  Res = 8.3032e-03 
+Grid 30, Iteration   2:  Res = 1.6171e+02 
+Grid 15, Iteration   2:  Res = 4.5530e+04 
+Grid 8, Iteration   2:  Res = 5.2222e+05 
+Grid 4, Iteration   4:  Res = 4.2211e+05 
+Grid 2, Iteration   3:  Res = 6.4290e+05 
+Grid 4, Iteration   9:  Res = 3.2156e+02 
+Grid 8, Iteration  11:  Res = 5.5040e-09 
+Grid 15, Iteration  11:  Res = 3.5291e-06 
+Grid 30, Iteration  10:  Res = 9.4287e+00 
+Grid 60, Iteration   7:  Res = 3.8175e-06 
+
+Time step 18: Time 620.50 -> 657.00 days
+Grid 60, Iteration   1:  Res = 8.6113e-03 
+Grid 30, Iteration   2:  Res = 5.8379e+01 
+Grid 15, Iteration   2:  Res = 1.3172e+04 
+Grid 8, Iteration   2:  Res = 3.2618e+05 
+Grid 4, Iteration   2:  Res = 3.8330e+05 
+Grid 2, Iteration   4:  Res = 6.2870e+05 
+Grid 4, Iteration  11:  Res = 1.8056e-06 
+Grid 8, Iteration   8:  Res = 2.0578e+01 
+Grid 15, Iteration  10:  Res = 1.1447e-07 
+Grid 30, Iteration  10:  Res = 4.3683e+00 
+Grid 60, Iteration   8:  Res = 2.8741e-06 
+
+Time step 19: Time 657.00 -> 693.50 days
+Grid 60, Iteration   1:  Res = 8.2853e-03 
+Grid 30, Iteration   2:  Res = 5.2198e+02 
+Grid 15, Iteration   2:  Res = 1.1918e+05 
+Grid 8, Iteration   2:  Res = 3.2888e+05 
+Grid 4, Iteration   2:  Res = 4.5231e+05 
+Grid 2, Iteration   3:  Res = 6.0508e+05 
+Grid 4, Iteration  10:  Res = 5.2694e-07 
+Grid 8, Iteration   9:  Res = 1.1754e+00 
+Grid 15, Iteration  13:  Res = 9.7480e-08 
+Grid 30, Iteration  15:  Res = 1.5044e-06 
+Grid 60, Iteration   8:  Res = 4.4622e-06 
+
+Time step 20: Time 693.50 -> 730.00 days
+Grid 60, Iteration   1:  Res = 8.3908e-03 
+Grid 30, Iteration   2:  Res = 6.5402e+01 
+Grid 15, Iteration   2:  Res = 3.5996e+04 
+Grid 8, Iteration   2:  Res = 3.0421e+05 
+Grid 4, Iteration   2:  Res = 3.9145e+05 
+Grid 2, Iteration   3:  Res = 6.0383e+05 
+Grid 4, Iteration  10:  Res = 4.8547e-07 
+Grid 8, Iteration  13:  Res = 1.2429e-09 
+Grid 15, Iteration   8:  Res = 1.2183e+00 
+Grid 30, Iteration  12:  Res = 3.7438e-01 
+Grid 60, Iteration   7:  Res = 7.9328e-06 
+
+Time step 21: Time 730.00 -> 766.50 days
+Grid 60, Iteration   1:  Res = 8.3997e-03 
+Grid 30, Iteration   2:  Res = 2.4315e+02 
+Grid 15, Iteration   2:  Res = 1.5000e+05 
+Grid 8, Iteration   2:  Res = 5.0042e+05 
+Grid 4, Iteration   4:  Res = 6.1556e+05 
+Grid 2, Iteration   3:  Res = 7.0527e+05 
+Grid 4, Iteration  11:  Res = 6.7446e-07 
+Grid 8, Iteration   7:  Res = 4.7133e+01 
+Grid 15, Iteration   9:  Res = 2.5958e+00 
+Grid 30, Iteration  12:  Res = 3.8278e-01 
+Grid 60, Iteration   8:  Res = 9.5076e-06 
+
+Time step 22: Time 766.50 -> 803.00 days
+Grid 60, Iteration   1:  Res = 8.2880e-03 
+Grid 30, Iteration   2:  Res = 8.5076e+01 
+Grid 15, Iteration   2:  Res = 9.1083e+04 
+Grid 8, Iteration   2:  Res = 4.3547e+05 
+Grid 4, Iteration   5:  Res = 4.9434e+05 
+Grid 2, Iteration   3:  Res = 6.5320e+05 
+Grid 4, Iteration  13:  Res = 1.1792e-06 
+Grid 8, Iteration  11:  Res = 8.2014e-08 
+Grid 15, Iteration  10:  Res = 1.0258e-02 
+Grid 30, Iteration  12:  Res = 4.8241e-01 
+Grid 60, Iteration   8:  Res = 8.8832e-06 
+
+Time step 23: Time 803.00 -> 839.50 days
+Grid 60, Iteration   1:  Res = 8.1902e-03 
+Grid 30, Iteration   2:  Res = 3.7105e+01 
+Grid 15, Iteration   2:  Res = 2.5132e+04 
+Grid 8, Iteration   2:  Res = 3.4611e+05 
+Grid 4, Iteration   2:  Res = 4.2178e+05 
+Grid 2, Iteration   3:  Res = 6.3872e+05 
+Grid 4, Iteration  11:  Res = 4.0376e-09 
+Grid 8, Iteration  10:  Res = 1.5160e-01 
+Grid 15, Iteration  11:  Res = 7.4502e-07 
+Grid 30, Iteration  12:  Res = 6.6674e-01 
+Grid 60, Iteration   4:  Res = 1.3856e-02 
+Grid 60, Iteration   4:  Res = 1.1969e-07 
+
+Time step 24: Time 839.50 -> 876.00 days
+Grid 60, Iteration   1:  Res = 7.8521e-03 
+Grid 30, Iteration   2:  Res = 7.0049e+01 
+Grid 15, Iteration   2:  Res = 4.9683e+04 
+Grid 8, Iteration   2:  Res = 6.6714e+05 
+Grid 4, Iteration   4:  Res = 8.4473e+05 
+Grid 2, Iteration   3:  Res = 7.1010e+05 
+Grid 4, Iteration  11:  Res = 4.2220e-07 
+Grid 8, Iteration  13:  Res = 4.9363e-07 
+Grid 15, Iteration  15:  Res = 2.2027e-07 
+Grid 30, Iteration  11:  Res = 5.6860e-01 
+Grid 60, Iteration   5:  Res = 2.9303e-03 
+Grid 60, Iteration   2:  Res = 6.8298e-07 
+
+Time step 25: Time 876.00 -> 912.50 days
+Grid 60, Iteration   1:  Res = 7.6287e-03 
+Grid 30, Iteration   2:  Res = 6.2583e+01 
+Grid 15, Iteration   2:  Res = 1.9314e+04 
+Grid 8, Iteration   2:  Res = 5.2040e+05 
+Grid 4, Iteration   4:  Res = 4.9028e+05 
+Grid 2, Iteration   3:  Res = 6.7374e+05 
+Grid 4, Iteration  11:  Res = 1.7891e-07 
+Grid 8, Iteration  12:  Res = 4.0820e-08 
+Grid 15, Iteration  13:  Res = 6.7209e-09 
+Grid 30, Iteration  10:  Res = 6.0653e-01 
+Grid 60, Iteration   5:  Res = 1.5933e-02 
+Grid 60, Iteration   3:  Res = 7.9549e-06 
+
+Time step 26: Time 912.50 -> 949.00 days
+Grid 60, Iteration   1:  Res = 7.4413e-03 
+Grid 30, Iteration   2:  Res = 2.9806e+01 
+Grid 15, Iteration   2:  Res = 2.3398e+04 
+Grid 8, Iteration   2:  Res = 5.1806e+05 
+Grid 4, Iteration   3:  Res = 4.9204e+05 
+Grid 2, Iteration   3:  Res = 7.5393e+05 
+Grid 4, Iteration  11:  Res = 2.3886e-09 
+Grid 8, Iteration   9:  Res = 3.0757e-01 
+Grid 15, Iteration   9:  Res = 1.6610e+00 
+Grid 30, Iteration  11:  Res = 1.1099e+00 
+Grid 60, Iteration   9:  Res = 1.3089e-06 
+
+Time step 27: Time 949.00 -> 985.50 days
+Grid 60, Iteration   1:  Res = 7.3152e-03 
+Grid 30, Iteration   2:  Res = 1.6541e+01 
+Grid 15, Iteration   2:  Res = 1.6734e+04 
+Grid 8, Iteration   2:  Res = 3.6944e+05 
+Grid 4, Iteration   2:  Res = 4.4103e+05 
+Grid 2, Iteration   4:  Res = 7.0103e+05 
+Grid 4, Iteration  10:  Res = 1.1171e-06 
+Grid 8, Iteration  11:  Res = 4.6773e-06 
+Grid 15, Iteration  11:  Res = 9.7529e-03 
+Grid 30, Iteration  11:  Res = 9.6404e-01 
+Grid 60, Iteration   7:  Res = 5.2887e-03 
+Grid 60, Iteration   2:  Res = 4.8391e-07 
+
+Time step 28: Time 985.50 -> 1022.00 days
+Grid 60, Iteration   1:  Res = 7.2074e-03 
+Grid 30, Iteration   2:  Res = 2.8728e+01 
+Grid 15, Iteration   2:  Res = 2.0304e+05 
+Grid 8, Iteration   2:  Res = 4.4574e+05 
+Grid 4, Iteration   4:  Res = 6.9815e+05 
+Grid 2, Iteration   3:  Res = 4.2531e+05 
+Grid 4, Iteration  11:  Res = 3.3003e-06 
+Grid 8, Iteration  13:  Res = 7.6123e-10 
+Grid 15, Iteration   9:  Res = 2.0379e-01 
+Grid 30, Iteration  10:  Res = 2.2931e+00 
+Grid 60, Iteration   4:  Res = 1.0729e-01 
+Grid 60, Iteration   5:  Res = 2.1788e-07 
+
+Time step 29: Time 1022.00 -> 1058.50 days
+Grid 60, Iteration   1:  Res = 7.1251e-03 
+Grid 30, Iteration   2:  Res = 1.0861e+01 
+Grid 15, Iteration   2:  Res = 3.8031e+04 
+Grid 8, Iteration   2:  Res = 6.8818e+05 
+Grid 4, Iteration   4:  Res = 5.6806e+05 
+Grid 2, Iteration   4:  Res = 9.8724e+05 
+Grid 4, Iteration  10:  Res = 1.0104e+03 
+Grid 8, Iteration  12:  Res = 3.3951e-07 
+Grid 15, Iteration   9:  Res = 5.3551e-01 
+Grid 30, Iteration   9:  Res = 5.9844e+00 
+Grid 60, Iteration   7:  Res = 1.5332e-06 
+
+Time step 30: Time 1058.50 -> 1095.00 days
+Grid 60, Iteration   1:  Res = 6.9416e-03 
+Grid 30, Iteration   2:  Res = 1.6269e+01 
+Grid 15, Iteration   2:  Res = 1.7065e+05 
+Grid 8, Iteration   2:  Res = 8.0491e+05 
+Grid 4, Iteration   2:  Res = 1.5340e+06 
+Grid 2, Iteration   4:  Res = 1.5697e+06 
+Grid 4, Iteration  10:  Res = 9.5731e+02 
+Grid 8, Iteration  12:  Res = 3.9392e-06 
+Grid 15, Iteration   6:  Res = 2.8807e+01 
+Grid 30, Iteration  14:  Res = 3.0915e-08 
+Grid 60, Iteration   4:  Res = 1.8304e-02 
+Grid 60, Iteration   2:  Res = 6.5753e-06 
+2450.19 6.5753e-06 2 
+
+Time step 1: Time 0.00 -> 36.50 days
+Grid 60, Iteration   1:  Res = 2.1972e+04 
+Grid 30, Iteration   3:  Res = 1.1586e+05 
+Grid 15, Iteration   5:  Res = 1.1586e+05 
+Grid 8, Iteration   7:  Res = 1.1586e+05 
+Grid 4, Iteration   9:  Res = 1.1586e+05 
+Grid 2, Iteration 100:  Res = 1.1586e+05 
+Grid 4, Iteration  30:  Res = 1.0546e+08 
+Grid 8, Iteration  25:  Res = 1.0546e+08 
+Grid 15, Iteration  20:  Res = 1.0546e+08 
+Grid 30, Iteration  15:  Res = 1.0546e+08 
+Grid 60, Iteration  10:  Res = 1.9999e+07 
+Grid 60, Iteration  10:  Res = 1.9992e+07 
+
+Time step 2: Time 36.50 -> 73.00 days
+Grid 60, Iteration   1:  Res = 1.9990e+07 
+Grid 30, Iteration   3:  Res = 1.0541e+08 
+Grid 15, Iteration   5:  Res = 1.0541e+08 
+Grid 8, Iteration   7:  Res = 1.0541e+08 
+Grid 4, Iteration   9:  Res = 1.0541e+08 
+Grid 2, Iteration  19:  Res = 1.0541e+08 
+Grid 4, Iteration  15:  Res = 4.4384e-09 
+Grid 8, Iteration  13:  Res = 1.4875e-06 
+Grid 15, Iteration   9:  Res = 1.1572e-07 
+Grid 30, Iteration  14:  Res = 3.4770e-06 
+Grid 60, Iteration   8:  Res = 6.6230e-07 
+
+Time step 3: Time 73.00 -> 109.50 days
+Grid 60, Iteration   1:  Res = 9.1477e-03 
+Grid 30, Iteration   2:  Res = 8.8868e+00 
+Grid 15, Iteration   2:  Res = 3.9747e+04 
+Grid 8, Iteration   2:  Res = 1.6733e+05 
+Grid 4, Iteration   4:  Res = 9.3802e+04 
+Grid 2, Iteration   3:  Res = 2.5881e+04 
+Grid 4, Iteration   8:  Res = 7.0307e-07 
+Grid 8, Iteration   8:  Res = 2.7406e+00 
+Grid 15, Iteration   7:  Res = 8.2861e+00 
+Grid 30, Iteration  14:  Res = 4.2720e-06 
+Grid 60, Iteration   5:  Res = 7.3000e-07 
+
+Time step 4: Time 109.50 -> 146.00 days
+Grid 60, Iteration   1:  Res = 9.6122e-03 
+Grid 30, Iteration   2:  Res = 6.6031e+00 
+Grid 15, Iteration   2:  Res = 3.0468e+03 
+Grid 8, Iteration   2:  Res = 2.4196e+05 
+Grid 4, Iteration   3:  Res = 1.2867e+05 
+Grid 2, Iteration   4:  Res = 4.7906e+04 
+Grid 4, Iteration  11:  Res = 1.5817e+01 
+Grid 8, Iteration  11:  Res = 5.2609e-10 
+Grid 15, Iteration   7:  Res = 2.1063e+01 
+Grid 30, Iteration  15:  Res = 1.2339e-06 
+Grid 60, Iteration   5:  Res = 3.2240e-07 
+
+Time step 5: Time 146.00 -> 182.50 days
+Grid 60, Iteration   1:  Res = 8.7947e-03 
+Grid 30, Iteration   2:  Res = 7.6713e+00 
+Grid 15, Iteration   2:  Res = 1.0476e+04 
+Grid 8, Iteration   2:  Res = 2.1203e+05 
+Grid 4, Iteration   3:  Res = 1.1221e+05 
+Grid 2, Iteration   3:  Res = 1.8069e+05 
+Grid 4, Iteration  12:  Res = 2.9498e-06 
+Grid 8, Iteration  11:  Res = 5.1263e-06 
+Grid 15, Iteration  11:  Res = 4.2180e-06 
+Grid 30, Iteration  14:  Res = 1.7266e-07 
+Grid 60, Iteration   6:  Res = 2.0516e-07 
+
+Time step 6: Time 182.50 -> 219.00 days
+Grid 60, Iteration   1:  Res = 8.0509e-03 
+Grid 30, Iteration   2:  Res = 9.9046e+00 
+Grid 15, Iteration   2:  Res = 6.4489e+03 
+Grid 8, Iteration   2:  Res = 2.0305e+05 
+Grid 4, Iteration   4:  Res = 1.9098e+05 
+Grid 2, Iteration   3:  Res = 2.3634e+05 
+Grid 4, Iteration  13:  Res = 1.9259e-08 
+Grid 8, Iteration  10:  Res = 4.9094e-06 
+Grid 15, Iteration  12:  Res = 3.3203e-08 
+Grid 30, Iteration  15:  Res = 6.7822e-06 
+Grid 60, Iteration   5:  Res = 5.2698e-06 
+
+Time step 7: Time 219.00 -> 255.50 days
+Grid 60, Iteration   1:  Res = 7.4225e-03 
+Grid 30, Iteration   2:  Res = 1.0899e+01 
+Grid 15, Iteration   2:  Res = 6.7793e+03 
+Grid 8, Iteration   2:  Res = 2.0629e+05 
+Grid 4, Iteration   2:  Res = 2.7650e+05 
+Grid 2, Iteration   3:  Res = 1.9186e+05 
+Grid 4, Iteration  10:  Res = 3.8348e-07 
+Grid 8, Iteration  12:  Res = 9.2006e-06 
+Grid 15, Iteration  10:  Res = 7.8144e-10 
+Grid 30, Iteration  13:  Res = 4.1441e-06 
+Grid 60, Iteration   6:  Res = 2.4103e-08 
+
+Time step 8: Time 255.50 -> 292.00 days
+Grid 60, Iteration   1:  Res = 7.0665e-03 
+Grid 30, Iteration   2:  Res = 1.1309e+01 
+Grid 15, Iteration   2:  Res = 7.4069e+03 
+Grid 8, Iteration   2:  Res = 2.1079e+05 
+Grid 4, Iteration   2:  Res = 3.2311e+05 
+Grid 2, Iteration   3:  Res = 2.1438e+05 
+Grid 4, Iteration  10:  Res = 2.2278e-08 
+Grid 8, Iteration  11:  Res = 9.0590e-09 
+Grid 15, Iteration   7:  Res = 5.9693e+00 
+Grid 30, Iteration  13:  Res = 2.6807e-06 
+Grid 60, Iteration   5:  Res = 4.9134e-06 
+
+Time step 9: Time 292.00 -> 328.50 days
+Grid 60, Iteration   1:  Res = 7.0257e-03 
+Grid 30, Iteration   2:  Res = 1.2356e+01 
+Grid 15, Iteration   2:  Res = 1.1543e+04 
+Grid 8, Iteration   2:  Res = 2.0909e+05 
+Grid 4, Iteration   2:  Res = 3.1455e+05 
+Grid 2, Iteration   4:  Res = 4.0878e+05 
+Grid 4, Iteration  10:  Res = 1.7200e-08 
+Grid 8, Iteration  10:  Res = 1.4219e-09 
+Grid 15, Iteration  10:  Res = 7.4059e-06 
+Grid 30, Iteration  15:  Res = 6.0774e-07 
+Grid 60, Iteration   6:  Res = 1.0759e-07 
+
+Time step 10: Time 328.50 -> 365.00 days
+Grid 60, Iteration   1:  Res = 7.2704e-03 
+Grid 30, Iteration   2:  Res = 1.6783e+01 
+Grid 15, Iteration   2:  Res = 1.1370e+04 
+Grid 8, Iteration   2:  Res = 2.1926e+05 
+Grid 4, Iteration   2:  Res = 3.2123e+05 
+Grid 2, Iteration   4:  Res = 3.0099e+05 
+Grid 4, Iteration  12:  Res = 7.6300e-10 
+Grid 8, Iteration  11:  Res = 1.8318e-08 
+Grid 15, Iteration  10:  Res = 4.1496e-07 
+Grid 30, Iteration  14:  Res = 1.6192e-09 
+Grid 60, Iteration   5:  Res = 4.4010e-06 
+
+Time step 11: Time 365.00 -> 401.50 days
+Grid 60, Iteration   1:  Res = 7.6942e-03 
+Grid 30, Iteration   2:  Res = 1.3160e+01 
+Grid 15, Iteration   2:  Res = 1.2967e+04 
+Grid 8, Iteration   2:  Res = 2.2464e+05 
+Grid 4, Iteration   2:  Res = 3.2290e+05 
+Grid 2, Iteration   5:  Res = 4.5916e+05 
+Grid 4, Iteration  10:  Res = 1.7301e-10 
+Grid 8, Iteration  10:  Res = 7.9001e-08 
+Grid 15, Iteration  11:  Res = 2.2046e-06 
+Grid 30, Iteration  15:  Res = 3.1690e-08 
+Grid 60, Iteration   6:  Res = 2.8174e-07 
+
+Time step 12: Time 401.50 -> 438.00 days
+Grid 60, Iteration   1:  Res = 8.1509e-03 
+Grid 30, Iteration   2:  Res = 1.9727e+01 
+Grid 15, Iteration   2:  Res = 1.2600e+04 
+Grid 8, Iteration   2:  Res = 2.3222e+05 
+Grid 4, Iteration   2:  Res = 3.2730e+05 
+Grid 2, Iteration   5:  Res = 3.8181e+05 
+Grid 4, Iteration  11:  Res = 3.8542e-07 
+Grid 8, Iteration  10:  Res = 6.5582e-10 
+Grid 15, Iteration  12:  Res = 1.0220e-08 
+Grid 30, Iteration  10:  Res = 6.5424e+00 
+Grid 60, Iteration   8:  Res = 7.6307e-07 
+
+Time step 13: Time 438.00 -> 474.50 days
+Grid 60, Iteration   1:  Res = 8.4394e-03 
+Grid 30, Iteration   2:  Res = 4.9321e+01 
+Grid 15, Iteration   2:  Res = 1.2759e+04 
+Grid 8, Iteration   2:  Res = 2.3917e+05 
+Grid 4, Iteration   2:  Res = 3.3188e+05 
+Grid 2, Iteration   3:  Res = 4.1688e+05 
+Grid 4, Iteration  10:  Res = 5.0500e-07 
+Grid 8, Iteration  10:  Res = 1.4791e-07 
+Grid 15, Iteration   8:  Res = 1.7910e+00 
+Grid 30, Iteration  15:  Res = 7.9695e-08 
+Grid 60, Iteration   5:  Res = 1.3673e-02 
+Grid 60, Iteration   2:  Res = 5.4319e-08 
+
+Time step 14: Time 474.50 -> 511.00 days
+Grid 60, Iteration   1:  Res = 8.6118e-03 
+Grid 30, Iteration   2:  Res = 5.9782e+01 
+Grid 15, Iteration   2:  Res = 1.4465e+04 
+Grid 8, Iteration   2:  Res = 2.4553e+05 
+Grid 4, Iteration   2:  Res = 3.2069e+05 
+Grid 2, Iteration   3:  Res = 4.0210e+05 
+Grid 4, Iteration  11:  Res = 3.6397e-08 
+Grid 8, Iteration  10:  Res = 1.8531e-10 
+Grid 15, Iteration  12:  Res = 1.9753e-08 
+Grid 30, Iteration  15:  Res = 1.6956e-07 
+Grid 60, Iteration   6:  Res = 5.5137e-06 
+
+Time step 15: Time 511.00 -> 547.50 days
+Grid 60, Iteration   1:  Res = 8.8535e-03 
+Grid 30, Iteration   2:  Res = 1.3969e+02 
+Grid 15, Iteration   2:  Res = 3.0238e+04 
+Grid 8, Iteration   2:  Res = 2.6876e+05 
+Grid 4, Iteration   2:  Res = 3.5452e+05 
+Grid 2, Iteration   3:  Res = 5.0285e+05 
+Grid 4, Iteration  10:  Res = 7.7202e-06 
+Grid 8, Iteration   6:  Res = 1.1794e+01 
+Grid 15, Iteration  10:  Res = 2.3381e+00 
+Grid 30, Iteration  10:  Res = 1.1785e+01 
+Grid 60, Iteration   6:  Res = 4.9595e-02 
+Grid 60, Iteration   6:  Res = 5.8389e-07 
+
+Time step 16: Time 547.50 -> 584.00 days
+Grid 60, Iteration   1:  Res = 8.6040e-03 
+Grid 30, Iteration   2:  Res = 1.1254e+02 
+Grid 15, Iteration   2:  Res = 4.6223e+04 
+Grid 8, Iteration   2:  Res = 9.8450e+04 
+Grid 4, Iteration   2:  Res = 4.7565e+05 
+Grid 2, Iteration   3:  Res = 4.9418e+05 
+Grid 4, Iteration  10:  Res = 9.6891e-07 
+Grid 8, Iteration   7:  Res = 2.0151e+01 
+Grid 15, Iteration   8:  Res = 1.4585e+00 
+Grid 30, Iteration  10:  Res = 1.5432e+01 
+Grid 60, Iteration   8:  Res = 6.7422e-07 
+
+Time step 17: Time 584.00 -> 620.50 days
+Grid 60, Iteration   1:  Res = 8.3032e-03 
+Grid 30, Iteration   2:  Res = 1.6171e+02 
+Grid 15, Iteration   2:  Res = 4.5530e+04 
+Grid 8, Iteration   2:  Res = 5.2222e+05 
+Grid 4, Iteration   4:  Res = 4.2211e+05 
+Grid 2, Iteration   3:  Res = 6.4290e+05 
+Grid 4, Iteration   9:  Res = 3.2156e+02 
+Grid 8, Iteration  11:  Res = 5.5040e-09 
+Grid 15, Iteration  11:  Res = 3.5291e-06 
+Grid 30, Iteration  10:  Res = 9.4287e+00 
+Grid 60, Iteration   7:  Res = 3.8175e-06 
+
+Time step 18: Time 620.50 -> 657.00 days
+Grid 60, Iteration   1:  Res = 8.6113e-03 
+Grid 30, Iteration   2:  Res = 5.8379e+01 
+Grid 15, Iteration   2:  Res = 1.3172e+04 
+Grid 8, Iteration   2:  Res = 3.2618e+05 
+Grid 4, Iteration   2:  Res = 3.8330e+05 
+Grid 2, Iteration   4:  Res = 6.2870e+05 
+Grid 4, Iteration  11:  Res = 1.8056e-06 
+Grid 8, Iteration   8:  Res = 2.0578e+01 
+Grid 15, Iteration  10:  Res = 1.1447e-07 
+Grid 30, Iteration  10:  Res = 4.3683e+00 
+Grid 60, Iteration   8:  Res = 2.8741e-06 
+
+Time step 19: Time 657.00 -> 693.50 days
+Grid 60, Iteration   1:  Res = 8.2853e-03 
+Grid 30, Iteration   2:  Res = 5.2198e+02 
+Grid 15, Iteration   2:  Res = 1.1918e+05 
+Grid 8, Iteration   2:  Res = 3.2888e+05 
+Grid 4, Iteration   2:  Res = 4.5231e+05 
+Grid 2, Iteration   3:  Res = 6.0508e+05 
+Grid 4, Iteration  10:  Res = 5.2694e-07 
+Grid 8, Iteration   9:  Res = 1.1754e+00 
+Grid 15, Iteration  13:  Res = 9.7480e-08 
+Grid 30, Iteration  15:  Res = 1.5044e-06 
+Grid 60, Iteration   8:  Res = 4.4622e-06 
+
+Time step 20: Time 693.50 -> 730.00 days
+Grid 60, Iteration   1:  Res = 8.3908e-03 
+Grid 30, Iteration   2:  Res = 6.5402e+01 
+Grid 15, Iteration   2:  Res = 3.5996e+04 
+Grid 8, Iteration   2:  Res = 3.0421e+05 
+Grid 4, Iteration   2:  Res = 3.9145e+05 
+Grid 2, Iteration   3:  Res = 6.0383e+05 
+Grid 4, Iteration  10:  Res = 4.8547e-07 
+Grid 8, Iteration  13:  Res = 1.2429e-09 
+Grid 15, Iteration   8:  Res = 1.2183e+00 
+Grid 30, Iteration  12:  Res = 3.7438e-01 
+Grid 60, Iteration   7:  Res = 7.9328e-06 
+
+Time step 21: Time 730.00 -> 766.50 days
+Grid 60, Iteration   1:  Res = 8.3997e-03 
+Grid 30, Iteration   2:  Res = 2.4315e+02 
+Grid 15, Iteration   2:  Res = 1.5000e+05 
+Grid 8, Iteration   2:  Res = 5.0042e+05 
+Grid 4, Iteration   4:  Res = 6.1556e+05 
+Grid 2, Iteration   3:  Res = 7.0527e+05 
+Grid 4, Iteration  11:  Res = 6.7446e-07 
+Grid 8, Iteration   7:  Res = 4.7133e+01 
+Grid 15, Iteration   9:  Res = 2.5958e+00 
+Grid 30, Iteration  12:  Res = 3.8278e-01 
+Grid 60, Iteration   8:  Res = 9.5076e-06 
+
+Time step 22: Time 766.50 -> 803.00 days
+Grid 60, Iteration   1:  Res = 8.2880e-03 
+Grid 30, Iteration   2:  Res = 8.5076e+01 
+Grid 15, Iteration   2:  Res = 9.1083e+04 
+Grid 8, Iteration   2:  Res = 4.3547e+05 
+Grid 4, Iteration   5:  Res = 4.9434e+05 
+Grid 2, Iteration   3:  Res = 6.5320e+05 
+Grid 4, Iteration  13:  Res = 1.1792e-06 
+Grid 8, Iteration  11:  Res = 8.2014e-08 
+Grid 15, Iteration  10:  Res = 1.0258e-02 
+Grid 30, Iteration  12:  Res = 4.8241e-01 
+Grid 60, Iteration   8:  Res = 8.8832e-06 
+
+Time step 23: Time 803.00 -> 839.50 days
+Grid 60, Iteration   1:  Res = 8.1902e-03 
+Grid 30, Iteration   2:  Res = 3.7105e+01 
+Grid 15, Iteration   2:  Res = 2.5132e+04 
+Grid 8, Iteration   2:  Res = 3.4611e+05 
+Grid 4, Iteration   2:  Res = 4.2178e+05 
+Grid 2, Iteration   3:  Res = 6.3872e+05 
+Grid 4, Iteration  11:  Res = 4.0376e-09 
+Grid 8, Iteration  10:  Res = 1.5160e-01 
+Grid 15, Iteration  11:  Res = 7.4502e-07 
+Grid 30, Iteration  12:  Res = 6.6674e-01 
+Grid 60, Iteration   4:  Res = 1.3856e-02 
+Grid 60, Iteration   4:  Res = 1.1969e-07 
+
+Time step 24: Time 839.50 -> 876.00 days
+Grid 60, Iteration   1:  Res = 7.8521e-03 
+Grid 30, Iteration   2:  Res = 7.0049e+01 
+Grid 15, Iteration   2:  Res = 4.9683e+04 
+Grid 8, Iteration   2:  Res = 6.6714e+05 
+Grid 4, Iteration   4:  Res = 8.4473e+05 
+Grid 2, Iteration   3:  Res = 7.1010e+05 
+Grid 4, Iteration  11:  Res = 4.2220e-07 
+Grid 8, Iteration  13:  Res = 4.9363e-07 
+Grid 15, Iteration  15:  Res = 2.2027e-07 
+Grid 30, Iteration  11:  Res = 5.6860e-01 
+Grid 60, Iteration   5:  Res = 2.9303e-03 
+Grid 60, Iteration   2:  Res = 6.8298e-07 
+
+Time step 25: Time 876.00 -> 912.50 days
+Grid 60, Iteration   1:  Res = 7.6287e-03 
+Grid 30, Iteration   2:  Res = 6.2583e+01 
+Grid 15, Iteration   2:  Res = 1.9314e+04 
+Grid 8, Iteration   2:  Res = 5.2040e+05 
+Grid 4, Iteration   4:  Res = 4.9028e+05 
+Grid 2, Iteration   3:  Res = 6.7374e+05 
+Grid 4, Iteration  11:  Res = 1.7891e-07 
+Grid 8, Iteration  12:  Res = 4.0820e-08 
+Grid 15, Iteration  13:  Res = 6.7209e-09 
+Grid 30, Iteration  10:  Res = 6.0653e-01 
+Grid 60, Iteration   5:  Res = 1.5933e-02 
+Grid 60, Iteration   3:  Res = 7.9549e-06 
+
+Time step 26: Time 912.50 -> 949.00 days
+Grid 60, Iteration   1:  Res = 7.4413e-03 
+Grid 30, Iteration   2:  Res = 2.9806e+01 
+Grid 15, Iteration   2:  Res = 2.3398e+04 
+Grid 8, Iteration   2:  Res = 5.1806e+05 
+Grid 4, Iteration   3:  Res = 4.9204e+05 
+Grid 2, Iteration   3:  Res = 7.5393e+05 
+Grid 4, Iteration  11:  Res = 2.3886e-09 
+Grid 8, Iteration   9:  Res = 3.0757e-01 
+Grid 15, Iteration   9:  Res = 1.6610e+00 
+Grid 30, Iteration  11:  Res = 1.1099e+00 
+Grid 60, Iteration   9:  Res = 1.3089e-06 
+
+Time step 27: Time 949.00 -> 985.50 days
+Grid 60, Iteration   1:  Res = 7.3152e-03 
+Grid 30, Iteration   2:  Res = 1.6541e+01 
+Grid 15, Iteration   2:  Res = 1.6734e+04 
+Grid 8, Iteration   2:  Res = 3.6944e+05 
+Grid 4, Iteration   2:  Res = 4.4103e+05 
+Grid 2, Iteration   4:  Res = 7.0103e+05 
+Grid 4, Iteration  10:  Res = 1.1171e-06 
+Grid 8, Iteration  11:  Res = 4.6773e-06 
+Grid 15, Iteration  11:  Res = 9.7529e-03 
+Grid 30, Iteration  11:  Res = 9.6404e-01 
+Grid 60, Iteration   7:  Res = 5.2887e-03 
+Grid 60, Iteration   2:  Res = 4.8391e-07 
+
+Time step 28: Time 985.50 -> 1022.00 days
+Grid 60, Iteration   1:  Res = 7.2074e-03 
+Grid 30, Iteration   2:  Res = 2.8728e+01 
+Grid 15, Iteration   2:  Res = 2.0304e+05 
+Grid 8, Iteration   2:  Res = 4.4574e+05 
+Grid 4, Iteration   4:  Res = 6.9815e+05 
+Grid 2, Iteration   3:  Res = 4.2531e+05 
+Grid 4, Iteration  11:  Res = 3.3003e-06 
+Grid 8, Iteration  13:  Res = 7.6123e-10 
+Grid 15, Iteration   9:  Res = 2.0379e-01 
+Grid 30, Iteration  10:  Res = 2.2931e+00 
+Grid 60, Iteration   4:  Res = 1.0729e-01 
+Grid 60, Iteration   5:  Res = 2.1788e-07 
+
+Time step 29: Time 1022.00 -> 1058.50 days
+Grid 60, Iteration   1:  Res = 7.1251e-03 
+Grid 30, Iteration   2:  Res = 1.0861e+01 
+Grid 15, Iteration   2:  Res = 3.8031e+04 
+Grid 8, Iteration   2:  Res = 6.8818e+05 
+Grid 4, Iteration   4:  Res = 5.6806e+05 
+Grid 2, Iteration   4:  Res = 9.8724e+05 
+Grid 4, Iteration  10:  Res = 1.0104e+03 
+Grid 8, Iteration  12:  Res = 3.3951e-07 
+Grid 15, Iteration   9:  Res = 5.3551e-01 
+Grid 30, Iteration   9:  Res = 5.9844e+00 
+Grid 60, Iteration   7:  Res = 1.5332e-06 
+
+Time step 30: Time 1058.50 -> 1095.00 days
+Grid 60, Iteration   1:  Res = 6.9416e-03 
+Grid 30, Iteration   2:  Res = 1.6269e+01 
+Grid 15, Iteration   2:  Res = 1.7065e+05 
+Grid 8, Iteration   2:  Res = 8.0491e+05 
+Grid 4, Iteration   2:  Res = 1.5340e+06 
+Grid 2, Iteration   4:  Res = 1.5697e+06 
+Grid 4, Iteration  10:  Res = 9.5731e+02 
+Grid 8, Iteration  12:  Res = 3.9392e-06 
+Grid 15, Iteration   6:  Res = 2.8807e+01 
+Grid 30, Iteration  14:  Res = 3.0915e-08 
+Grid 60, Iteration   4:  Res = 1.8304e-02 
+Grid 60, Iteration   2:  Res = 6.5753e-06 
+1969.20 6.5753e-06 2 
+
+Time step 1: Time 0.00 -> 36.50 days
+Grid 60, Iteration   1:  Res = 2.1972e+04 
+Grid 30, Iteration   3:  Res = 1.1586e+05 
+Grid 15, Iteration   5:  Res = 1.1586e+05 
+Grid 8, Iteration   7:  Res = 1.1586e+05 
+Grid 4, Iteration   9:  Res = 1.1586e+05 
+Grid 2, Iteration 100:  Res = 1.1586e+05 
+Grid 4, Iteration  30:  Res = 1.0546e+08 
+Grid 8, Iteration  25:  Res = 1.0546e+08 
+Grid 15, Iteration  20:  Res = 1.0546e+08 
+Grid 30, Iteration  15:  Res = 1.0546e+08 
+Grid 60, Iteration  10:  Res = 1.9999e+07 
+Grid 60, Iteration  10:  Res = 1.9992e+07 
+
+Time step 2: Time 36.50 -> 73.00 days
+Grid 60, Iteration   1:  Res = 1.9990e+07 
+Grid 30, Iteration   3:  Res = 1.0541e+08 
+Grid 15, Iteration   5:  Res = 1.0541e+08 
+Grid 8, Iteration   7:  Res = 1.0541e+08 
+Grid 4, Iteration   9:  Res = 1.0541e+08 
+Grid 2, Iteration  19:  Res = 1.0541e+08 
+Grid 4, Iteration  15:  Res = 4.4384e-09 
+Grid 8, Iteration  13:  Res = 1.4875e-06 
+Grid 15, Iteration   9:  Res = 1.1572e-07 
+Grid 30, Iteration  14:  Res = 3.4770e-06 
+Grid 60, Iteration   8:  Res = 6.6230e-07 
+
+Time step 3: Time 73.00 -> 109.50 days
+Grid 60, Iteration   1:  Res = 9.1477e-03 
+Grid 30, Iteration   2:  Res = 8.8868e+00 
+Grid 15, Iteration   2:  Res = 3.9747e+04 
+Grid 8, Iteration   2:  Res = 1.6733e+05 
+Grid 4, Iteration   4:  Res = 9.3802e+04 
+Grid 2, Iteration   3:  Res = 2.5881e+04 
+Grid 4, Iteration   8:  Res = 7.0307e-07 
+Grid 8, Iteration   8:  Res = 2.7406e+00 
+Grid 15, Iteration   7:  Res = 8.2861e+00 
+Grid 30, Iteration  14:  Res = 4.2720e-06 
+Grid 60, Iteration   5:  Res = 7.3000e-07 
+
+Time step 4: Time 109.50 -> 146.00 days
+Grid 60, Iteration   1:  Res = 9.6122e-03 
+Grid 30, Iteration   2:  Res = 6.6031e+00 
+Grid 15, Iteration   2:  Res = 3.0468e+03 
+Grid 8, Iteration   2:  Res = 2.4196e+05 
+Grid 4, Iteration   3:  Res = 1.2867e+05 
+Grid 2, Iteration   4:  Res = 4.7906e+04 
+Grid 4, Iteration  11:  Res = 1.5817e+01 
+Grid 8, Iteration  11:  Res = 5.2609e-10 
+Grid 15, Iteration   7:  Res = 2.1063e+01 
+Grid 30, Iteration  15:  Res = 1.2339e-06 
+Grid 60, Iteration   5:  Res = 3.2240e-07 
+
+Time step 5: Time 146.00 -> 182.50 days
+Grid 60, Iteration   1:  Res = 8.7947e-03 
+Grid 30, Iteration   2:  Res = 7.6713e+00 
+Grid 15, Iteration   2:  Res = 1.0476e+04 
+Grid 8, Iteration   2:  Res = 2.1203e+05 
+Grid 4, Iteration   3:  Res = 1.1221e+05 
+Grid 2, Iteration   3:  Res = 1.8069e+05 
+Grid 4, Iteration  12:  Res = 2.9498e-06 
+Grid 8, Iteration  11:  Res = 5.1263e-06 
+Grid 15, Iteration  11:  Res = 4.2180e-06 
+Grid 30, Iteration  14:  Res = 1.7266e-07 
+Grid 60, Iteration   6:  Res = 2.0516e-07 
+
+Time step 6: Time 182.50 -> 219.00 days
+Grid 60, Iteration   1:  Res = 8.0509e-03 
+Grid 30, Iteration   2:  Res = 9.9046e+00 
+Grid 15, Iteration   2:  Res = 6.4489e+03 
+Grid 8, Iteration   2:  Res = 2.0305e+05 
+Grid 4, Iteration   4:  Res = 1.9098e+05 
+Grid 2, Iteration   3:  Res = 2.3634e+05 
+Grid 4, Iteration  13:  Res = 1.9259e-08 
+Grid 8, Iteration  10:  Res = 4.9094e-06 
+Grid 15, Iteration  12:  Res = 3.3203e-08 
+Grid 30, Iteration  15:  Res = 6.7822e-06 
+Grid 60, Iteration   5:  Res = 5.2698e-06 
+
+Time step 7: Time 219.00 -> 255.50 days
+Grid 60, Iteration   1:  Res = 7.4225e-03 
+Grid 30, Iteration   2:  Res = 1.0899e+01 
+Grid 15, Iteration   2:  Res = 6.7793e+03 
+Grid 8, Iteration   2:  Res = 2.0629e+05 
+Grid 4, Iteration   2:  Res = 2.7650e+05 
+Grid 2, Iteration   3:  Res = 1.9186e+05 
+Grid 4, Iteration  10:  Res = 3.8348e-07 
+Grid 8, Iteration  12:  Res = 9.2006e-06 
+Grid 15, Iteration  10:  Res = 7.8144e-10 
+Grid 30, Iteration  13:  Res = 4.1441e-06 
+Grid 60, Iteration   6:  Res = 2.4103e-08 
+
+Time step 8: Time 255.50 -> 292.00 days
+Grid 60, Iteration   1:  Res = 7.0665e-03 
+Grid 30, Iteration   2:  Res = 1.1309e+01 
+Grid 15, Iteration   2:  Res = 7.4069e+03 
+Grid 8, Iteration   2:  Res = 2.1079e+05 
+Grid 4, Iteration   2:  Res = 3.2311e+05 
+Grid 2, Iteration   3:  Res = 2.1438e+05 
+Grid 4, Iteration  10:  Res = 2.2278e-08 
+Grid 8, Iteration  11:  Res = 9.0590e-09 
+Grid 15, Iteration   7:  Res = 5.9693e+00 
+Grid 30, Iteration  13:  Res = 2.6807e-06 
+Grid 60, Iteration   5:  Res = 4.9134e-06 
+
+Time step 9: Time 292.00 -> 328.50 days
+Grid 60, Iteration   1:  Res = 7.0257e-03 
+Grid 30, Iteration   2:  Res = 1.2356e+01 
+Grid 15, Iteration   2:  Res = 1.1543e+04 
+Grid 8, Iteration   2:  Res = 2.0909e+05 
+Grid 4, Iteration   2:  Res = 3.1455e+05 
+Grid 2, Iteration   4:  Res = 4.0878e+05 
+Grid 4, Iteration  10:  Res = 1.7200e-08 
+Grid 8, Iteration  10:  Res = 1.4219e-09 
+Grid 15, Iteration  10:  Res = 7.4059e-06 
+Grid 30, Iteration  15:  Res = 6.0774e-07 
+Grid 60, Iteration   6:  Res = 1.0759e-07 
+
+Time step 10: Time 328.50 -> 365.00 days
+Grid 60, Iteration   1:  Res = 7.2704e-03 
+Grid 30, Iteration   2:  Res = 1.6783e+01 
+Grid 15, Iteration   2:  Res = 1.1370e+04 
+Grid 8, Iteration   2:  Res = 2.1926e+05 
+Grid 4, Iteration   2:  Res = 3.2123e+05 
+Grid 2, Iteration   4:  Res = 3.0099e+05 
+Grid 4, Iteration  12:  Res = 7.6300e-10 
+Grid 8, Iteration  11:  Res = 1.8318e-08 
+Grid 15, Iteration  10:  Res = 4.1496e-07 
+Grid 30, Iteration  14:  Res = 1.6192e-09 
+Grid 60, Iteration   5:  Res = 4.4010e-06 
+
+Time step 11: Time 365.00 -> 401.50 days
+Grid 60, Iteration   1:  Res = 7.6942e-03 
+Grid 30, Iteration   2:  Res = 1.3160e+01 
+Grid 15, Iteration   2:  Res = 1.2967e+04 
+Grid 8, Iteration   2:  Res = 2.2464e+05 
+Grid 4, Iteration   2:  Res = 3.2290e+05 
+Grid 2, Iteration   5:  Res = 4.5916e+05 
+Grid 4, Iteration  10:  Res = 1.7301e-10 
+Grid 8, Iteration  10:  Res = 7.9001e-08 
+Grid 15, Iteration  11:  Res = 2.2046e-06 
+Grid 30, Iteration  15:  Res = 3.1690e-08 
+Grid 60, Iteration   6:  Res = 2.8174e-07 
+
+Time step 12: Time 401.50 -> 438.00 days
+Grid 60, Iteration   1:  Res = 8.1509e-03 
+Grid 30, Iteration   2:  Res = 1.9727e+01 
+Grid 15, Iteration   2:  Res = 1.2600e+04 
+Grid 8, Iteration   2:  Res = 2.3222e+05 
+Grid 4, Iteration   2:  Res = 3.2730e+05 
+Grid 2, Iteration   5:  Res = 3.8181e+05 
+Grid 4, Iteration  11:  Res = 3.8542e-07 
+Grid 8, Iteration  10:  Res = 6.5582e-10 
+Grid 15, Iteration  12:  Res = 1.0220e-08 
+Grid 30, Iteration  10:  Res = 6.5424e+00 
+Grid 60, Iteration   8:  Res = 7.6307e-07 
+
+Time step 13: Time 438.00 -> 474.50 days
+Grid 60, Iteration   1:  Res = 8.4394e-03 
+Grid 30, Iteration   2:  Res = 4.9321e+01 
+Grid 15, Iteration   2:  Res = 1.2759e+04 
+Grid 8, Iteration   2:  Res = 2.3917e+05 
+Grid 4, Iteration   2:  Res = 3.3188e+05 
+Grid 2, Iteration   3:  Res = 4.1688e+05 
+Grid 4, Iteration  10:  Res = 5.0500e-07 
+Grid 8, Iteration  10:  Res = 1.4791e-07 
+Grid 15, Iteration   8:  Res = 1.7910e+00 
+Grid 30, Iteration  15:  Res = 7.9695e-08 
+Grid 60, Iteration   5:  Res = 1.3673e-02 
+Grid 60, Iteration   2:  Res = 5.4319e-08 
+
+Time step 14: Time 474.50 -> 511.00 days
+Grid 60, Iteration   1:  Res = 8.6118e-03 
+Grid 30, Iteration   2:  Res = 5.9782e+01 
+Grid 15, Iteration   2:  Res = 1.4465e+04 
+Grid 8, Iteration   2:  Res = 2.4553e+05 
+Grid 4, Iteration   2:  Res = 3.2069e+05 
+Grid 2, Iteration   3:  Res = 4.0210e+05 
+Grid 4, Iteration  11:  Res = 3.6397e-08 
+Grid 8, Iteration  10:  Res = 1.8531e-10 
+Grid 15, Iteration  12:  Res = 1.9753e-08 
+Grid 30, Iteration  15:  Res = 1.6956e-07 
+Grid 60, Iteration   6:  Res = 5.5137e-06 
+
+Time step 15: Time 511.00 -> 547.50 days
+Grid 60, Iteration   1:  Res = 8.8535e-03 
+Grid 30, Iteration   2:  Res = 1.3969e+02 
+Grid 15, Iteration   2:  Res = 3.0238e+04 
+Grid 8, Iteration   2:  Res = 2.6876e+05 
+Grid 4, Iteration   2:  Res = 3.5452e+05 
+Grid 2, Iteration   3:  Res = 5.0285e+05 
+Grid 4, Iteration  10:  Res = 7.7202e-06 
+Grid 8, Iteration   6:  Res = 1.1794e+01 
+Grid 15, Iteration  10:  Res = 2.3381e+00 
+Grid 30, Iteration  10:  Res = 1.1785e+01 
+Grid 60, Iteration   6:  Res = 4.9595e-02 
+Grid 60, Iteration   6:  Res = 5.8389e-07 
+
+Time step 16: Time 547.50 -> 584.00 days
+Grid 60, Iteration   1:  Res = 8.6040e-03 
+Grid 30, Iteration   2:  Res = 1.1254e+02 
+Grid 15, Iteration   2:  Res = 4.6223e+04 
+Grid 8, Iteration   2:  Res = 9.8450e+04 
+Grid 4, Iteration   2:  Res = 4.7565e+05 
+Grid 2, Iteration   3:  Res = 4.9418e+05 
+Grid 4, Iteration  10:  Res = 9.6891e-07 
+Grid 8, Iteration   7:  Res = 2.0151e+01 
+Grid 15, Iteration   8:  Res = 1.4585e+00 
+Grid 30, Iteration  10:  Res = 1.5432e+01 
+Grid 60, Iteration   8:  Res = 6.7422e-07 
+
+Time step 17: Time 584.00 -> 620.50 days
+Grid 60, Iteration   1:  Res = 8.3032e-03 
+Grid 30, Iteration   2:  Res = 1.6171e+02 
+Grid 15, Iteration   2:  Res = 4.5530e+04 
+Grid 8, Iteration   2:  Res = 5.2222e+05 
+Grid 4, Iteration   4:  Res = 4.2211e+05 
+Grid 2, Iteration   3:  Res = 6.4290e+05 
+Grid 4, Iteration   9:  Res = 3.2156e+02 
+Grid 8, Iteration  11:  Res = 5.5040e-09 
+Grid 15, Iteration  11:  Res = 3.5291e-06 
+Grid 30, Iteration  10:  Res = 9.4287e+00 
+Grid 60, Iteration   7:  Res = 3.8175e-06 
+
+Time step 18: Time 620.50 -> 657.00 days
+Grid 60, Iteration   1:  Res = 8.6113e-03 
+Grid 30, Iteration   2:  Res = 5.8379e+01 
+Grid 15, Iteration   2:  Res = 1.3172e+04 
+Grid 8, Iteration   2:  Res = 3.2618e+05 
+Grid 4, Iteration   2:  Res = 3.8330e+05 
+Grid 2, Iteration   4:  Res = 6.2870e+05 
+Grid 4, Iteration  11:  Res = 1.8056e-06 
+Grid 8, Iteration   8:  Res = 2.0578e+01 
+Grid 15, Iteration  10:  Res = 1.1447e-07 
+Grid 30, Iteration  10:  Res = 4.3683e+00 
+Grid 60, Iteration   8:  Res = 2.8741e-06 
+
+Time step 19: Time 657.00 -> 693.50 days
+Grid 60, Iteration   1:  Res = 8.2853e-03 
+Grid 30, Iteration   2:  Res = 5.2198e+02 
+Grid 15, Iteration   2:  Res = 1.1918e+05 
+Grid 8, Iteration   2:  Res = 3.2888e+05 
+Grid 4, Iteration   2:  Res = 4.5231e+05 
+Grid 2, Iteration   3:  Res = 6.0508e+05 
+Grid 4, Iteration  10:  Res = 5.2694e-07 
+Grid 8, Iteration   9:  Res = 1.1754e+00 
+Grid 15, Iteration  13:  Res = 9.7480e-08 
+Grid 30, Iteration  15:  Res = 1.5044e-06 
+Grid 60, Iteration   8:  Res = 4.4622e-06 
+
+Time step 20: Time 693.50 -> 730.00 days
+Grid 60, Iteration   1:  Res = 8.3908e-03 
+Grid 30, Iteration   2:  Res = 6.5402e+01 
+Grid 15, Iteration   2:  Res = 3.5996e+04 
+Grid 8, Iteration   2:  Res = 3.0421e+05 
+Grid 4, Iteration   2:  Res = 3.9145e+05 
+Grid 2, Iteration   3:  Res = 6.0383e+05 
+Grid 4, Iteration  10:  Res = 4.8547e-07 
+Grid 8, Iteration  13:  Res = 1.2429e-09 
+Grid 15, Iteration   8:  Res = 1.2183e+00 
+Grid 30, Iteration  12:  Res = 3.7438e-01 
+Grid 60, Iteration   7:  Res = 7.9328e-06 
+
+Time step 21: Time 730.00 -> 766.50 days
+Grid 60, Iteration   1:  Res = 8.3997e-03 
+Grid 30, Iteration   2:  Res = 2.4315e+02 
+Grid 15, Iteration   2:  Res = 1.5000e+05 
+Grid 8, Iteration   2:  Res = 5.0042e+05 
+Grid 4, Iteration   4:  Res = 6.1556e+05 
+Grid 2, Iteration   3:  Res = 7.0527e+05 
+Grid 4, Iteration  11:  Res = 6.7446e-07 
+Grid 8, Iteration   7:  Res = 4.7133e+01 
+Grid 15, Iteration   9:  Res = 2.5958e+00 
+Grid 30, Iteration  12:  Res = 3.8278e-01 
+Grid 60, Iteration   8:  Res = 9.5076e-06 
+
+Time step 22: Time 766.50 -> 803.00 days
+Grid 60, Iteration   1:  Res = 8.2880e-03 
+Grid 30, Iteration   2:  Res = 8.5076e+01 
+Grid 15, Iteration   2:  Res = 9.1083e+04 
+Grid 8, Iteration   2:  Res = 4.3547e+05 
+Grid 4, Iteration   5:  Res = 4.9434e+05 
+Grid 2, Iteration   3:  Res = 6.5320e+05 
+Grid 4, Iteration  13:  Res = 1.1792e-06 
+Grid 8, Iteration  11:  Res = 8.2014e-08 
+Grid 15, Iteration  10:  Res = 1.0258e-02 
+Grid 30, Iteration  12:  Res = 4.8241e-01 
+Grid 60, Iteration   8:  Res = 8.8832e-06 
+
+Time step 23: Time 803.00 -> 839.50 days
+Grid 60, Iteration   1:  Res = 8.1902e-03 
+Grid 30, Iteration   2:  Res = 3.7105e+01 
+Grid 15, Iteration   2:  Res = 2.5132e+04 
+Grid 8, Iteration   2:  Res = 3.4611e+05 
+Grid 4, Iteration   2:  Res = 4.2178e+05 
+Grid 2, Iteration   3:  Res = 6.3872e+05 
+Grid 4, Iteration  11:  Res = 4.0376e-09 
+Grid 8, Iteration  10:  Res = 1.5160e-01 
+Grid 15, Iteration  11:  Res = 7.4502e-07 
+Grid 30, Iteration  12:  Res = 6.6674e-01 
+Grid 60, Iteration   4:  Res = 1.3856e-02 
+Grid 60, Iteration   4:  Res = 1.1969e-07 
+
+Time step 24: Time 839.50 -> 876.00 days
+Grid 60, Iteration   1:  Res = 7.8521e-03 
+Grid 30, Iteration   2:  Res = 7.0049e+01 
+Grid 15, Iteration   2:  Res = 4.9683e+04 
+Grid 8, Iteration   2:  Res = 6.6714e+05 
+Grid 4, Iteration   4:  Res = 8.4473e+05 
+Grid 2, Iteration   3:  Res = 7.1010e+05 
+Grid 4, Iteration  11:  Res = 4.2220e-07 
+Grid 8, Iteration  13:  Res = 4.9363e-07 
+Grid 15, Iteration  15:  Res = 2.2027e-07 
+Grid 30, Iteration  11:  Res = 5.6860e-01 
+Grid 60, Iteration   5:  Res = 2.9303e-03 
+Grid 60, Iteration   2:  Res = 6.8298e-07 
+
+Time step 25: Time 876.00 -> 912.50 days
+Grid 60, Iteration   1:  Res = 7.6287e-03 
+Grid 30, Iteration   2:  Res = 6.2583e+01 
+Grid 15, Iteration   2:  Res = 1.9314e+04 
+Grid 8, Iteration   2:  Res = 5.2040e+05 
+Grid 4, Iteration   4:  Res = 4.9028e+05 
+Grid 2, Iteration   3:  Res = 6.7374e+05 
+Grid 4, Iteration  11:  Res = 1.7891e-07 
+Grid 8, Iteration  12:  Res = 4.0820e-08 
+Grid 15, Iteration  13:  Res = 6.7209e-09 
+Grid 30, Iteration  10:  Res = 6.0653e-01 
+Grid 60, Iteration   5:  Res = 1.5933e-02 
+Grid 60, Iteration   3:  Res = 7.9549e-06 
+
+Time step 26: Time 912.50 -> 949.00 days
+Grid 60, Iteration   1:  Res = 7.4413e-03 
+Grid 30, Iteration   2:  Res = 2.9806e+01 
+Grid 15, Iteration   2:  Res = 2.3398e+04 
+Grid 8, Iteration   2:  Res = 5.1806e+05 
+Grid 4, Iteration   3:  Res = 4.9204e+05 
+Grid 2, Iteration   3:  Res = 7.5393e+05 
+Grid 4, Iteration  11:  Res = 2.3886e-09 
+Grid 8, Iteration   9:  Res = 3.0757e-01 
+Grid 15, Iteration   9:  Res = 1.6610e+00 
+Grid 30, Iteration  11:  Res = 1.1099e+00 
+Grid 60, Iteration   9:  Res = 1.3089e-06 
+
+Time step 27: Time 949.00 -> 985.50 days
+Grid 60, Iteration   1:  Res = 7.3152e-03 
+Grid 30, Iteration   2:  Res = 1.6541e+01 
+Grid 15, Iteration   2:  Res = 1.6734e+04 
+Grid 8, Iteration   2:  Res = 3.6944e+05 
+Grid 4, Iteration   2:  Res = 4.4103e+05 
+Grid 2, Iteration   4:  Res = 7.0103e+05 
+Grid 4, Iteration  10:  Res = 1.1171e-06 
+Grid 8, Iteration  11:  Res = 4.6773e-06 
+Grid 15, Iteration  11:  Res = 9.7529e-03 
+Grid 30, Iteration  11:  Res = 9.6404e-01 
+Grid 60, Iteration   7:  Res = 5.2887e-03 
+Grid 60, Iteration   2:  Res = 4.8391e-07 
+
+Time step 28: Time 985.50 -> 1022.00 days
+Grid 60, Iteration   1:  Res = 7.2074e-03 
+Grid 30, Iteration   2:  Res = 2.8728e+01 
+Grid 15, Iteration   2:  Res = 2.0304e+05 
+Grid 8, Iteration   2:  Res = 4.4574e+05 
+Grid 4, Iteration   4:  Res = 6.9815e+05 
+Grid 2, Iteration   3:  Res = 4.2531e+05 
+Grid 4, Iteration  11:  Res = 3.3003e-06 
+Grid 8, Iteration  13:  Res = 7.6123e-10 
+Grid 15, Iteration   9:  Res = 2.0379e-01 
+Grid 30, Iteration  10:  Res = 2.2931e+00 
+Grid 60, Iteration   4:  Res = 1.0729e-01 
+Grid 60, Iteration   5:  Res = 2.1788e-07 
+
+Time step 29: Time 1022.00 -> 1058.50 days
+Grid 60, Iteration   1:  Res = 7.1251e-03 
+Grid 30, Iteration   2:  Res = 1.0861e+01 
+Grid 15, Iteration   2:  Res = 3.8031e+04 
+Grid 8, Iteration   2:  Res = 6.8818e+05 
+Grid 4, Iteration   4:  Res = 5.6806e+05 
+Grid 2, Iteration   4:  Res = 9.8724e+05 
+Grid 4, Iteration  10:  Res = 1.0104e+03 
+Grid 8, Iteration  12:  Res = 3.3951e-07 
+Grid 15, Iteration   9:  Res = 5.3551e-01 
+Grid 30, Iteration   9:  Res = 5.9844e+00 
+Grid 60, Iteration   7:  Res = 1.5332e-06 
+
+Time step 30: Time 1058.50 -> 1095.00 days
+Grid 60, Iteration   1:  Res = 6.9416e-03 
+Grid 30, Iteration   2:  Res = 1.6269e+01 
+Grid 15, Iteration   2:  Res = 1.7065e+05 
+Grid 8, Iteration   2:  Res = 8.0491e+05 
+Grid 4, Iteration   2:  Res = 1.5340e+06 
+Grid 2, Iteration   4:  Res = 1.5697e+06 
+Grid 4, Iteration  10:  Res = 9.5731e+02 
+Grid 8, Iteration  12:  Res = 3.9392e-06 
+Grid 15, Iteration   6:  Res = 2.8807e+01 
+Grid 30, Iteration  14:  Res = 3.0915e-08 
+Grid 60, Iteration   4:  Res = 1.8304e-02 
+Grid 60, Iteration   2:  Res = 6.5753e-06 
+2158.84 6.5753e-06 2 
+
+ Newton Test B: SPE10 1:4
+ RunTime, Residual, Iterations 
+Grid 60, Iteration  64:  Res = 1.4699e-01 
+Grid 60, Iteration   2:  Res = 3.4557e-01 
+Grid 60, Iteration   2:  Res = 2.3139e+00 
+Grid 60, Iteration   2:  Res = 3.1530e+00 
+Grid 60, Iteration   7:  Res = 1.0265e+00 
+Grid 60, Iteration  22:  Res = 6.8379e-06 
+Grid 60, Iteration   2:  Res = 6.9052e-02 
+Grid 60, Iteration   2:  Res = 8.2321e-02 
+Grid 60, Iteration   2:  Res = 1.2849e-01 
+Grid 60, Iteration   2:  Res = 1.3881e-01 
+Grid 60, Iteration   2:  Res = 1.1283e-01 
+Grid 60, Iteration   2:  Res = 1.0032e-01 
+Grid 60, Iteration   2:  Res = 7.5419e-02 
+Grid 60, Iteration   2:  Res = 6.5929e-02 
+Grid 60, Iteration   2:  Res = 7.2907e-02 
+Grid 60, Iteration   2:  Res = 7.2517e-02 
+Grid 60, Iteration   2:  Res = 5.6947e-02 
+Grid 60, Iteration   2:  Res = 5.4043e-02 
+Grid 60, Iteration   2:  Res = 5.6782e-02 
+Grid 60, Iteration   2:  Res = 5.8267e-02 
+Grid 60, Iteration   2:  Res = 5.7607e-02 
+Grid 60, Iteration   2:  Res = 5.7844e-02 
+Grid 60, Iteration   2:  Res = 5.7086e-02 
+Grid 60, Iteration   2:  Res = 5.5980e-02 
+Grid 60, Iteration   2:  Res = 5.3735e-02 
+Grid 60, Iteration   2:  Res = 4.6509e-02 
+Grid 60, Iteration   2:  Res = 6.1369e-02 
+Grid 60, Iteration   2:  Res = 6.4676e-02 
+Grid 60, Iteration   2:  Res = 7.4802e-02 
+Grid 60, Iteration   2:  Res = 8.6242e-02 
+Grid 60, Iteration   2:  Res = 1.0068e-01 
+Grid 60, Iteration   2:  Res = 1.1889e-01 
+Grid 60, Iteration   2:  Res = 1.7059e-01 
+Grid 60, Iteration   2:  Res = 1.8460e-01 
+Grid 60, Iteration   2:  Res = 1.8078e-01 
+Grid 60, Iteration   2:  Res = 1.6642e-01 
+Grid 60, Iteration   2:  Res = 2.5323e-01 
+Grid 60, Iteration   2:  Res = 2.8212e-01 
+Grid 60, Iteration   2:  Res = 3.0187e-01 
+Grid 60, Iteration   2:  Res = 2.8372e-01 
+Grid 60, Iteration   2:  Res = 3.2771e-01 
+Grid 60, Iteration   2:  Res = 3.1970e-01 
+Grid 60, Iteration   2:  Res = 2.8514e-01 
+Grid 60, Iteration   2:  Res = 2.6441e-01 
+Grid 60, Iteration   2:  Res = 2.4889e-01 
+Grid 60, Iteration   2:  Res = 2.4494e-01 
+Grid 60, Iteration   2:  Res = 2.2461e-01 
+Grid 60, Iteration   2:  Res = 2.1965e-01 
+Grid 60, Iteration   2:  Res = 2.1625e-01 
+Grid 60, Iteration   2:  Res = 2.1002e-01 
+Grid 60, Iteration   2:  Res = 3.0840e-01 
+Grid 60, Iteration   2:  Res = 2.5938e-01 
+Grid 60, Iteration   2:  Res = 3.0980e-01 
+Grid 60, Iteration   3:  Res = 3.2055e-01 
+Grid 60, Iteration   2:  Res = 4.7208e-01 
+Grid 60, Iteration   2:  Res = 4.2970e-01 
+Grid 60, Iteration   2:  Res = 3.2319e-01 
+Grid 60, Iteration   2:  Res = 2.8478e-01 
+Grid 60, Iteration   2:  Res = 2.5048e-01 
+Grid 60, Iteration   2:  Res = 2.2316e-01 
+Grid 60, Iteration   2:  Res = 1.9751e-01 
+Grid 60, Iteration   2:  Res = 1.7472e-01 
+Grid 60, Iteration   2:  Res = 1.7408e-01 
+Grid 60, Iteration   2:  Res = 1.7361e-01 
+Grid 60, Iteration   2:  Res = 1.7771e-01 
+Grid 60, Iteration   2:  Res = 1.9405e-01 
+Grid 60, Iteration   2:  Res = 1.8206e-01 
+Grid 60, Iteration   2:  Res = 1.7303e-01 
+Grid 60, Iteration   2:  Res = 1.5572e-01 
+Grid 60, Iteration   2:  Res = 1.4314e-01 
+Grid 60, Iteration   2:  Res = 1.3447e-01 
+Grid 60, Iteration   2:  Res = 1.2450e-01 
+Grid 60, Iteration   2:  Res = 1.2320e-01 
+Grid 60, Iteration   2:  Res = 1.2746e-01 
+Grid 60, Iteration   2:  Res = 1.1780e-01 
+Grid 60, Iteration   2:  Res = 1.2337e-01 
+Grid 60, Iteration   2:  Res = 1.2828e-01 
+Grid 60, Iteration   2:  Res = 1.2726e-01 
+Grid 60, Iteration   2:  Res = 1.2792e-01 
+Grid 60, Iteration   2:  Res = 1.1793e-01 
+Grid 60, Iteration   2:  Res = 1.2420e-01 
+Grid 60, Iteration   2:  Res = 1.2819e-01 
+Grid 60, Iteration   2:  Res = 1.1595e-01 
+Grid 60, Iteration   2:  Res = 1.1059e-01 
+Grid 60, Iteration   2:  Res = 1.0780e-01 
+Grid 60, Iteration   2:  Res = 1.2348e-01 
+Grid 60, Iteration   2:  Res = 1.3401e-01 
+Grid 60, Iteration   2:  Res = 1.3057e-01 
+Grid 60, Iteration   2:  Res = 1.2953e-01 
+Grid 60, Iteration   2:  Res = 1.3897e-01 
+Grid 60, Iteration   2:  Res = 1.1527e-01 
+Grid 60, Iteration   2:  Res = 1.4321e-01 
+Grid 60, Iteration   2:  Res = 1.4531e-01 
+Grid 60, Iteration   2:  Res = 1.5458e-01 
+Grid 60, Iteration   2:  Res = 1.4350e-01 
+Grid 60, Iteration   2:  Res = 1.2651e-01 
+Grid 60, Iteration   2:  Res = 1.1492e-01 
+Grid 60, Iteration   2:  Res = 1.2152e-01 
+Grid 60, Iteration   2:  Res = 1.2480e-01 
+Grid 60, Iteration   2:  Res = 1.1976e-01 
+966.43 1.1976e-01 2 
+Grid 60, Iteration  64:  Res = 1.4699e-01 
+Grid 60, Iteration   2:  Res = 3.4557e-01 
+Grid 60, Iteration   2:  Res = 2.3139e+00 
+Grid 60, Iteration   2:  Res = 3.1530e+00 
+Grid 60, Iteration   7:  Res = 1.0265e+00 
+Grid 60, Iteration  22:  Res = 6.8379e-06 
+Grid 60, Iteration   2:  Res = 6.9052e-02 
+Grid 60, Iteration   2:  Res = 8.2321e-02 
+Grid 60, Iteration   2:  Res = 1.2849e-01 
+Grid 60, Iteration   2:  Res = 1.3881e-01 
+Grid 60, Iteration   2:  Res = 1.1283e-01 
+Grid 60, Iteration   2:  Res = 1.0032e-01 
+Grid 60, Iteration   2:  Res = 7.5419e-02 
+Grid 60, Iteration   2:  Res = 6.5929e-02 
+Grid 60, Iteration   2:  Res = 7.2907e-02 
+Grid 60, Iteration   2:  Res = 7.2517e-02 
+Grid 60, Iteration   2:  Res = 5.6947e-02 
+Grid 60, Iteration   2:  Res = 5.4043e-02 
+Grid 60, Iteration   2:  Res = 5.6782e-02 
+Grid 60, Iteration   2:  Res = 5.8267e-02 
+Grid 60, Iteration   2:  Res = 5.7607e-02 
+Grid 60, Iteration   2:  Res = 5.7844e-02 
+Grid 60, Iteration   2:  Res = 5.7086e-02 
+Grid 60, Iteration   2:  Res = 5.5980e-02 
+Grid 60, Iteration   2:  Res = 5.3735e-02 
+Grid 60, Iteration   2:  Res = 4.6509e-02 
+Grid 60, Iteration   2:  Res = 6.1369e-02 
+Grid 60, Iteration   2:  Res = 6.4676e-02 
+Grid 60, Iteration   2:  Res = 7.4802e-02 
+Grid 60, Iteration   2:  Res = 8.6242e-02 
+Grid 60, Iteration   2:  Res = 1.0068e-01 
+Grid 60, Iteration   2:  Res = 1.1889e-01 
+Grid 60, Iteration   2:  Res = 1.7059e-01 
+Grid 60, Iteration   2:  Res = 1.8460e-01 
+Grid 60, Iteration   2:  Res = 1.8078e-01 
+Grid 60, Iteration   2:  Res = 1.6642e-01 
+Grid 60, Iteration   2:  Res = 2.5323e-01 
+Grid 60, Iteration   2:  Res = 2.8212e-01 
+Grid 60, Iteration   2:  Res = 3.0187e-01 
+Grid 60, Iteration   2:  Res = 2.8372e-01 
+Grid 60, Iteration   2:  Res = 3.2771e-01 
+Grid 60, Iteration   2:  Res = 3.1970e-01 
+Grid 60, Iteration   2:  Res = 2.8514e-01 
+Grid 60, Iteration   2:  Res = 2.6441e-01 
+Grid 60, Iteration   2:  Res = 2.4889e-01 
+Grid 60, Iteration   2:  Res = 2.4494e-01 
+Grid 60, Iteration   2:  Res = 2.2461e-01 
+Grid 60, Iteration   2:  Res = 2.1965e-01 
+Grid 60, Iteration   2:  Res = 2.1625e-01 
+Grid 60, Iteration   2:  Res = 2.1002e-01 
+Grid 60, Iteration   2:  Res = 3.0840e-01 
+Grid 60, Iteration   2:  Res = 2.5938e-01 
+Grid 60, Iteration   2:  Res = 3.0980e-01 
+Grid 60, Iteration   3:  Res = 3.2055e-01 
+Grid 60, Iteration   2:  Res = 4.7208e-01 
+Grid 60, Iteration   2:  Res = 4.2970e-01 
+Grid 60, Iteration   2:  Res = 3.2319e-01 
+Grid 60, Iteration   2:  Res = 2.8478e-01 
+Grid 60, Iteration   2:  Res = 2.5048e-01 
+Grid 60, Iteration   2:  Res = 2.2316e-01 
+Grid 60, Iteration   2:  Res = 1.9751e-01 
+Grid 60, Iteration   2:  Res = 1.7472e-01 
+Grid 60, Iteration   2:  Res = 1.7408e-01 
+Grid 60, Iteration   2:  Res = 1.7361e-01 
+Grid 60, Iteration   2:  Res = 1.7771e-01 
+Grid 60, Iteration   2:  Res = 1.9405e-01 
+Grid 60, Iteration   2:  Res = 1.8206e-01 
+Grid 60, Iteration   2:  Res = 1.7303e-01 
+Grid 60, Iteration   2:  Res = 1.5572e-01 
+Grid 60, Iteration   2:  Res = 1.4314e-01 
+Grid 60, Iteration   2:  Res = 1.3447e-01 
+Grid 60, Iteration   2:  Res = 1.2450e-01 
+Grid 60, Iteration   2:  Res = 1.2320e-01 
+Grid 60, Iteration   2:  Res = 1.2746e-01 
+Grid 60, Iteration   2:  Res = 1.1780e-01 
+Grid 60, Iteration   2:  Res = 1.2337e-01 
+Grid 60, Iteration   2:  Res = 1.2828e-01 
+Grid 60, Iteration   2:  Res = 1.2726e-01 
+Grid 60, Iteration   2:  Res = 1.2792e-01 
+Grid 60, Iteration   2:  Res = 1.1793e-01 
+Grid 60, Iteration   2:  Res = 1.2420e-01 
+Grid 60, Iteration   2:  Res = 1.2819e-01 
+Grid 60, Iteration   2:  Res = 1.1595e-01 
+Grid 60, Iteration   2:  Res = 1.1059e-01 
+Grid 60, Iteration   2:  Res = 1.0780e-01 
+Grid 60, Iteration   2:  Res = 1.2348e-01 
+Grid 60, Iteration   2:  Res = 1.3401e-01 
+Grid 60, Iteration   2:  Res = 1.3057e-01 
+Grid 60, Iteration   2:  Res = 1.2953e-01 
+Grid 60, Iteration   2:  Res = 1.3897e-01 
+Grid 60, Iteration   2:  Res = 1.1527e-01 
+Grid 60, Iteration   2:  Res = 1.4321e-01 
+Grid 60, Iteration   2:  Res = 1.4531e-01 
+Grid 60, Iteration   2:  Res = 1.5458e-01 
+Grid 60, Iteration   2:  Res = 1.4350e-01 
+Grid 60, Iteration   2:  Res = 1.2651e-01 
+Grid 60, Iteration   2:  Res = 1.1492e-01 
+Grid 60, Iteration   2:  Res = 1.2152e-01 
+Grid 60, Iteration   2:  Res = 1.2480e-01 
+Grid 60, Iteration   2:  Res = 1.1976e-01 
+964.88 1.1976e-01 2 
+Grid 60, Iteration  64:  Res = 1.4699e-01 
+Grid 60, Iteration   2:  Res = 3.4557e-01 
+Grid 60, Iteration   2:  Res = 2.3139e+00 
+Grid 60, Iteration   2:  Res = 3.1530e+00 
+Grid 60, Iteration   7:  Res = 1.0265e+00 
+Grid 60, Iteration  22:  Res = 6.8379e-06 
+Grid 60, Iteration   2:  Res = 6.9052e-02 
+Grid 60, Iteration   2:  Res = 8.2321e-02 
+Grid 60, Iteration   2:  Res = 1.2849e-01 
+Grid 60, Iteration   2:  Res = 1.3881e-01 
+Grid 60, Iteration   2:  Res = 1.1283e-01 
+Grid 60, Iteration   2:  Res = 1.0032e-01 
+Grid 60, Iteration   2:  Res = 7.5419e-02 
+Grid 60, Iteration   2:  Res = 6.5929e-02 
+Grid 60, Iteration   2:  Res = 7.2907e-02 
+Grid 60, Iteration   2:  Res = 7.2517e-02 
+Grid 60, Iteration   2:  Res = 5.6947e-02 
+Grid 60, Iteration   2:  Res = 5.4043e-02 
+Grid 60, Iteration   2:  Res = 5.6782e-02 
+Grid 60, Iteration   2:  Res = 5.8267e-02 
+Grid 60, Iteration   2:  Res = 5.7607e-02 
+Grid 60, Iteration   2:  Res = 5.7844e-02 
+Grid 60, Iteration   2:  Res = 5.7086e-02 
+Grid 60, Iteration   2:  Res = 5.5980e-02 
+Grid 60, Iteration   2:  Res = 5.3735e-02 
+Grid 60, Iteration   2:  Res = 4.6509e-02 
+Grid 60, Iteration   2:  Res = 6.1369e-02 
+Grid 60, Iteration   2:  Res = 6.4676e-02 
+Grid 60, Iteration   2:  Res = 7.4802e-02 
+Grid 60, Iteration   2:  Res = 8.6242e-02 
+Grid 60, Iteration   2:  Res = 1.0068e-01 
+Grid 60, Iteration   2:  Res = 1.1889e-01 
+Grid 60, Iteration   2:  Res = 1.7059e-01 
+Grid 60, Iteration   2:  Res = 1.8460e-01 
+Grid 60, Iteration   2:  Res = 1.8078e-01 
+Grid 60, Iteration   2:  Res = 1.6642e-01 
+Grid 60, Iteration   2:  Res = 2.5323e-01 
+Grid 60, Iteration   2:  Res = 2.8212e-01 
+Grid 60, Iteration   2:  Res = 3.0187e-01 
+Grid 60, Iteration   2:  Res = 2.8372e-01 
+Grid 60, Iteration   2:  Res = 3.2771e-01 
+Grid 60, Iteration   2:  Res = 3.1970e-01 
+Grid 60, Iteration   2:  Res = 2.8514e-01 
+Grid 60, Iteration   2:  Res = 2.6441e-01 
+Grid 60, Iteration   2:  Res = 2.4889e-01 
+Grid 60, Iteration   2:  Res = 2.4494e-01 
+Grid 60, Iteration   2:  Res = 2.2461e-01 
+Grid 60, Iteration   2:  Res = 2.1965e-01 
+Grid 60, Iteration   2:  Res = 2.1625e-01 
+Grid 60, Iteration   2:  Res = 2.1002e-01 
+Grid 60, Iteration   2:  Res = 3.0840e-01 
+Grid 60, Iteration   2:  Res = 2.5938e-01 
+Grid 60, Iteration   2:  Res = 3.0980e-01 
+Grid 60, Iteration   3:  Res = 3.2055e-01 
+Grid 60, Iteration   2:  Res = 4.7208e-01 
+Grid 60, Iteration   2:  Res = 4.2970e-01 
+Grid 60, Iteration   2:  Res = 3.2319e-01 
+Grid 60, Iteration   2:  Res = 2.8478e-01 
+Grid 60, Iteration   2:  Res = 2.5048e-01 
+Grid 60, Iteration   2:  Res = 2.2316e-01 
+Grid 60, Iteration   2:  Res = 1.9751e-01 
+Grid 60, Iteration   2:  Res = 1.7472e-01 
+Grid 60, Iteration   2:  Res = 1.7408e-01 
+Grid 60, Iteration   2:  Res = 1.7361e-01 
+Grid 60, Iteration   2:  Res = 1.7771e-01 
+Grid 60, Iteration   2:  Res = 1.9405e-01 
+Grid 60, Iteration   2:  Res = 1.8206e-01 
+Grid 60, Iteration   2:  Res = 1.7303e-01 
+Grid 60, Iteration   2:  Res = 1.5572e-01 
+Grid 60, Iteration   2:  Res = 1.4314e-01 
+Grid 60, Iteration   2:  Res = 1.3447e-01 
+Grid 60, Iteration   2:  Res = 1.2450e-01 
+Grid 60, Iteration   2:  Res = 1.2320e-01 
+Grid 60, Iteration   2:  Res = 1.2746e-01 
+Grid 60, Iteration   2:  Res = 1.1780e-01 
+Grid 60, Iteration   2:  Res = 1.2337e-01 
+Grid 60, Iteration   2:  Res = 1.2828e-01 
+Grid 60, Iteration   2:  Res = 1.2726e-01 
+Grid 60, Iteration   2:  Res = 1.2792e-01 
+Grid 60, Iteration   2:  Res = 1.1793e-01 
+Grid 60, Iteration   2:  Res = 1.2420e-01 
+Grid 60, Iteration   2:  Res = 1.2819e-01 
+Grid 60, Iteration   2:  Res = 1.1595e-01 
+Grid 60, Iteration   2:  Res = 1.1059e-01 
+Grid 60, Iteration   2:  Res = 1.0780e-01 
+Grid 60, Iteration   2:  Res = 1.2348e-01 
+Grid 60, Iteration   2:  Res = 1.3401e-01 
+Grid 60, Iteration   2:  Res = 1.3057e-01 
+Grid 60, Iteration   2:  Res = 1.2953e-01 
+Grid 60, Iteration   2:  Res = 1.3897e-01 
+Grid 60, Iteration   2:  Res = 1.1527e-01 
+Grid 60, Iteration   2:  Res = 1.4321e-01 
+Grid 60, Iteration   2:  Res = 1.4531e-01 
+Grid 60, Iteration   2:  Res = 1.5458e-01 
+Grid 60, Iteration   2:  Res = 1.4350e-01 
+Grid 60, Iteration   2:  Res = 1.2651e-01 
+Grid 60, Iteration   2:  Res = 1.1492e-01 
+Grid 60, Iteration   2:  Res = 1.2152e-01 
+Grid 60, Iteration   2:  Res = 1.2480e-01 
+Grid 60, Iteration   2:  Res = 1.1976e-01 
+966.53 1.1976e-01 2 
+
+ FAS Test C: SPE10 1:8
+ RunTime, Residual, Iterations 
+
+Time step 1: Time 0.00 -> 36.50 days
+Grid 60, Iteration   1:  Res = 4.7089e+04 
+Grid 30, Iteration   3:  Res = 1.2415e+05 
+Grid 15, Iteration   5:  Res = 1.2415e+05 
+Grid 8, Iteration   7:  Res = 1.2415e+05 
+Grid 4, Iteration   9:  Res = 1.2415e+05 
+Grid 2, Iteration  29:  Res = 1.2415e+05 
+Grid 4, Iteration  30:  Res = 5.2655e+07 
+Grid 8, Iteration  25:  Res = 4.5443e+07 
+Grid 15, Iteration  14:  Res = 3.1436e-08 
+Grid 30, Iteration  15:  Res = 1.1978e-01 
+Grid 60, Iteration   6:  Res = 3.0755e-06 
+
+Time step 2: Time 36.50 -> 73.00 days
+Grid 60, Iteration   1:  Res = 1.6561e-02 
+Grid 30, Iteration   2:  Res = 3.9370e+00 
+Grid 15, Iteration   2:  Res = 1.7931e+04 
+Grid 8, Iteration   2:  Res = 5.5476e+04 
+Grid 4, Iteration   3:  Res = 7.2523e+04 
+Grid 2, Iteration   3:  Res = 6.7771e+04 
+Grid 4, Iteration  11:  Res = 1.4379e-10 
+Grid 8, Iteration  12:  Res = 2.3931e-06 
+Grid 15, Iteration  11:  Res = 5.3063e-07 
+Grid 30, Iteration  15:  Res = 1.1251e-02 
+Grid 60, Iteration   7:  Res = 5.6378e-06 
+
+Time step 3: Time 73.00 -> 109.50 days
+Grid 60, Iteration   1:  Res = 1.4205e-02 
+Grid 30, Iteration   2:  Res = 3.9251e+00 
+Grid 15, Iteration   2:  Res = 4.9055e+03 
+Grid 8, Iteration   2:  Res = 7.3059e+04 
+Grid 4, Iteration   2:  Res = 8.0861e+04 
+Grid 2, Iteration   4:  Res = 1.0024e+05 
+Grid 4, Iteration   8:  Res = 6.8230e+00 
+Grid 8, Iteration  12:  Res = 7.4032e-06 
+Grid 15, Iteration  17:  Res = 5.3729e-08 
+Grid 30, Iteration  15:  Res = 6.3648e-03 
+Grid 60, Iteration   6:  Res = 8.7286e-06 
+
+Time step 4: Time 109.50 -> 146.00 days
+Grid 60, Iteration   1:  Res = 1.2861e-02 
+Grid 30, Iteration   2:  Res = 8.6706e+00 
+Grid 15, Iteration   2:  Res = 4.3186e+03 
+Grid 8, Iteration   2:  Res = 7.7569e+04 
+Grid 4, Iteration   3:  Res = 8.4806e+04 
+Grid 2, Iteration   5:  Res = 1.0282e+05 
+Grid 4, Iteration  13:  Res = 7.3075e-08 
+Grid 8, Iteration  14:  Res = 3.6036e-07 
+Grid 15, Iteration  13:  Res = 1.9096e-07 
+Grid 30, Iteration  15:  Res = 7.6707e-04 
+Grid 60, Iteration   7:  Res = 1.5388e-06 
+
+Time step 5: Time 146.00 -> 182.50 days
+Grid 60, Iteration   1:  Res = 1.1750e-02 
+Grid 30, Iteration   2:  Res = 7.0938e+00 
+Grid 15, Iteration   2:  Res = 3.5012e+03 
+Grid 8, Iteration   2:  Res = 1.0892e+05 
+Grid 4, Iteration   3:  Res = 1.0501e+05 
+Grid 2, Iteration   3:  Res = 1.3188e+05 
+Grid 4, Iteration  14:  Res = 1.1406e-06 
+Grid 8, Iteration  15:  Res = 1.4144e-08 
+Grid 15, Iteration  12:  Res = 3.9035e-02 
+Grid 30, Iteration  15:  Res = 8.3941e-03 
+Grid 60, Iteration   7:  Res = 5.7955e-07 
+
+Time step 6: Time 182.50 -> 219.00 days
+Grid 60, Iteration   1:  Res = 1.0784e-02 
+Grid 30, Iteration   2:  Res = 7.3275e+00 
+Grid 15, Iteration   2:  Res = 2.5519e+03 
+Grid 8, Iteration   2:  Res = 1.1022e+05 
+Grid 4, Iteration   2:  Res = 1.3223e+05 
+Grid 2, Iteration   3:  Res = 1.1975e+05 
+Grid 4, Iteration  12:  Res = 2.9647e-08 
+Grid 8, Iteration  14:  Res = 8.0268e-07 
+Grid 15, Iteration  12:  Res = 2.1210e-06 
+Grid 30, Iteration  15:  Res = 1.8511e-04 
+Grid 60, Iteration   7:  Res = 5.7192e-06 
+
+Time step 7: Time 219.00 -> 255.50 days
+Grid 60, Iteration   1:  Res = 1.0604e-02 
+Grid 30, Iteration   2:  Res = 7.7156e+00 
+Grid 15, Iteration   2:  Res = 2.5091e+03 
+Grid 8, Iteration   2:  Res = 1.1361e+05 
+Grid 4, Iteration   2:  Res = 1.5164e+05 
+Grid 2, Iteration   3:  Res = 1.4094e+05 
+Grid 4, Iteration  12:  Res = 2.4754e-09 
+Grid 8, Iteration  13:  Res = 1.5662e-07 
+Grid 15, Iteration  14:  Res = 3.7916e-08 
+Grid 30, Iteration  15:  Res = 2.5353e-04 
+Grid 60, Iteration   4:  Res = 3.0453e-02 
+Grid 60, Iteration   3:  Res = 4.9850e-06 
+
+Time step 8: Time 255.50 -> 292.00 days
+Grid 60, Iteration   1:  Res = 1.1158e-02 
+Grid 30, Iteration   2:  Res = 1.7021e+01 
+Grid 15, Iteration   2:  Res = 2.8759e+03 
+Grid 8, Iteration   2:  Res = 1.1838e+05 
+Grid 4, Iteration   2:  Res = 1.7341e+05 
+Grid 2, Iteration   4:  Res = 2.8736e+05 
+Grid 4, Iteration  13:  Res = 6.9401e-06 
+Grid 8, Iteration  14:  Res = 6.5577e-07 
+Grid 15, Iteration  14:  Res = 8.0975e-06 
+Grid 30, Iteration  12:  Res = 4.8808e+00 
+Grid 60, Iteration   8:  Res = 4.4803e-07 
+
+Time step 9: Time 292.00 -> 328.50 days
+Grid 60, Iteration   1:  Res = 1.1789e-02 
+Grid 30, Iteration   2:  Res = 1.3912e+01 
+Grid 15, Iteration   2:  Res = 3.0217e+03 
+Grid 8, Iteration   2:  Res = 1.2286e+05 
+Grid 4, Iteration   2:  Res = 1.7238e+05 
+Grid 2, Iteration   4:  Res = 2.4075e+05 
+Grid 4, Iteration  12:  Res = 4.4610e-06 
+Grid 8, Iteration  11:  Res = 1.9091e+01 
+Grid 15, Iteration  14:  Res = 3.5752e-10 
+Grid 30, Iteration  15:  Res = 2.7233e-02 
+Grid 60, Iteration   7:  Res = 1.2570e-06 
+
+Time step 10: Time 328.50 -> 365.00 days
+Grid 60, Iteration   1:  Res = 1.2094e-02 
+Grid 30, Iteration   2:  Res = 9.5451e+00 
+Grid 15, Iteration   2:  Res = 2.1638e+03 
+Grid 8, Iteration   2:  Res = 1.2759e+05 
+Grid 4, Iteration   2:  Res = 1.7264e+05 
+Grid 2, Iteration   5:  Res = 2.3161e+05 
+Grid 4, Iteration  15:  Res = 4.5987e-08 
+Grid 8, Iteration  14:  Res = 2.3659e-09 
+Grid 15, Iteration   9:  Res = 4.1619e+00 
+Grid 30, Iteration  14:  Res = 7.8566e-02 
+Grid 60, Iteration   8:  Res = 6.9643e-06 
+
+Time step 11: Time 365.00 -> 401.50 days
+Grid 60, Iteration   1:  Res = 1.2228e-02 
+Grid 30, Iteration   2:  Res = 5.7281e+01 
+Grid 15, Iteration   2:  Res = 1.9917e+04 
+Grid 8, Iteration   2:  Res = 2.1031e+05 
+Grid 4, Iteration   4:  Res = 1.9284e+05 
+Grid 2, Iteration   4:  Res = 3.3821e+05 
+Grid 4, Iteration   9:  Res = 4.9129e+00 
+Grid 8, Iteration  12:  Res = 9.4942e-07 
+Grid 15, Iteration   8:  Res = 1.8737e+01 
+Grid 30, Iteration  15:  Res = 2.8527e-01 
+Grid 60, Iteration   8:  Res = 6.1632e-07 
+
+Time step 12: Time 401.50 -> 438.00 days
+Grid 60, Iteration   1:  Res = 1.2101e-02 
+Grid 30, Iteration   2:  Res = 4.9213e+01 
+Grid 15, Iteration   2:  Res = 1.4832e+04 
+Grid 8, Iteration   2:  Res = 1.6483e+05 
+Grid 4, Iteration   2:  Res = 1.9172e+05 
+Grid 2, Iteration   4:  Res = 3.3706e+05 
+Grid 4, Iteration  12:  Res = 8.4980e-06 
+Grid 8, Iteration  13:  Res = 1.7452e-08 
+Grid 15, Iteration   8:  Res = 2.3363e+01 
+Grid 30, Iteration  15:  Res = 2.1379e-01 
+Grid 60, Iteration   5:  Res = 2.6186e-02 
+Grid 60, Iteration   3:  Res = 5.8297e-06 
+
+Time step 13: Time 438.00 -> 474.50 days
+Grid 60, Iteration   1:  Res = 1.2223e-02 
+Grid 30, Iteration   2:  Res = 8.6717e+01 
+Grid 15, Iteration   2:  Res = 1.8413e+04 
+Grid 8, Iteration   2:  Res = 1.8452e+05 
+Grid 4, Iteration   2:  Res = 2.2237e+05 
+Grid 2, Iteration   3:  Res = 3.6847e+05 
+Grid 4, Iteration  10:  Res = 1.6503e+02 
+Grid 8, Iteration  11:  Res = 1.8630e-01 
+Grid 15, Iteration  15:  Res = 6.0944e-07 
+Grid 30, Iteration  13:  Res = 2.8645e+00 
+Grid 60, Iteration   8:  Res = 1.5665e-06 
+
+Time step 14: Time 474.50 -> 511.00 days
+Grid 60, Iteration   1:  Res = 1.2496e-02 
+Grid 30, Iteration   2:  Res = 4.6136e+01 
+Grid 15, Iteration   2:  Res = 1.1627e+04 
+Grid 8, Iteration   2:  Res = 2.1255e+05 
+Grid 4, Iteration   3:  Res = 1.4188e+05 
+Grid 2, Iteration   2:  Res = 1.0930e+06 
+Grid 4, Iteration  11:  Res = 5.1746e+01 
+Grid 8, Iteration   9:  Res = 3.3524e+02 
+Grid 15, Iteration  14:  Res = 3.4946e-07 
+Grid 30, Iteration  15:  Res = 5.2431e-01 
+Grid 60, Iteration   6:  Res = 1.6959e-02 
+Grid 60, Iteration   3:  Res = 8.3427e-07 
+
+Time step 15: Time 511.00 -> 547.50 days
+Grid 60, Iteration   1:  Res = 1.2499e-02 
+Grid 30, Iteration   2:  Res = 7.3902e+02 
+Grid 15, Iteration   2:  Res = 2.6279e+05 
+Grid 8, Iteration   3:  Res = 1.2921e+05 
+Grid 4, Iteration   4:  Res = 4.9288e+04 
+Grid 2, Iteration   4:  Res = 3.2921e+05 
+Grid 4, Iteration   9:  Res = 2.1280e+02 
+Grid 8, Iteration  15:  Res = 1.9169e-06 
+Grid 15, Iteration  15:  Res = 3.5018e-07 
+Grid 30, Iteration  14:  Res = 6.4587e-02 
+Grid 60, Iteration   8:  Res = 7.7312e-07 
+
+Time step 16: Time 547.50 -> 584.00 days
+Grid 60, Iteration   1:  Res = 1.2348e-02 
+Grid 30, Iteration   2:  Res = 4.2805e+02 
+Grid 15, Iteration   2:  Res = 2.6782e+05 
+Grid 8, Iteration   4:  Res = 2.4156e+05 
+Grid 4, Iteration   3:  Res = 9.5922e+04 
+Grid 2, Iteration   4:  Res = 3.7719e+05 
+Grid 4, Iteration   9:  Res = 1.8490e+02 
+Grid 8, Iteration  13:  Res = 8.0856e-10 
+Grid 15, Iteration  14:  Res = 2.5438e-06 
+Grid 30, Iteration  15:  Res = 2.5617e-02 
+Grid 60, Iteration   8:  Res = 5.5349e-07 
+
+Time step 17: Time 584.00 -> 620.50 days
+Grid 60, Iteration   1:  Res = 1.2090e-02 
+Grid 30, Iteration   2:  Res = 1.2449e+02 
+Grid 15, Iteration   2:  Res = 2.2729e+04 
+Grid 8, Iteration   2:  Res = 4.1234e+05 
+Grid 4, Iteration   4:  Res = 2.1811e+05 
+Grid 2, Iteration   3:  Res = 5.3669e+05 
+Grid 4, Iteration  13:  Res = 6.4198e-07 
+Grid 8, Iteration  11:  Res = 1.8352e+01 
+Grid 15, Iteration  16:  Res = 1.8438e-08 
+Grid 30, Iteration  12:  Res = 1.7304e+00 
+Grid 60, Iteration   4:  Res = 8.2765e-02 
+Grid 60, Iteration   4:  Res = 7.2696e-07 
+
+Time step 18: Time 620.50 -> 657.00 days
+Grid 60, Iteration   1:  Res = 1.1832e-02 
+Grid 30, Iteration   2:  Res = 1.3775e+02 
+Grid 15, Iteration   2:  Res = 9.2896e+04 
+Grid 8, Iteration   2:  Res = 3.5691e+05 
+Grid 4, Iteration   3:  Res = 2.1496e+05 
+Grid 2, Iteration   2:  Res = 3.8728e+05 
+Grid 4, Iteration   8:  Res = 7.7139e+01 
+Grid 8, Iteration  12:  Res = 4.3551e-06 
+Grid 15, Iteration  16:  Res = 2.3553e-06 
+Grid 30, Iteration  15:  Res = 3.2019e-02 
+Grid 60, Iteration   8:  Res = 4.2135e-07 
+
+Time step 19: Time 657.00 -> 693.50 days
+Grid 60, Iteration   1:  Res = 1.1604e-02 
+Grid 30, Iteration   2:  Res = 8.5064e+01 
+Grid 15, Iteration   2:  Res = 7.4311e+04 
+Grid 8, Iteration   2:  Res = 5.1630e+05 
+Grid 4, Iteration   3:  Res = 2.3329e+05 
+Grid 2, Iteration   3:  Res = 4.5049e+05 
+Grid 4, Iteration   7:  Res = 1.0760e+02 
+Grid 8, Iteration  15:  Res = 3.7154e-10 
+Grid 15, Iteration  10:  Res = 9.8153e+00 
+Grid 30, Iteration  15:  Res = 3.2733e-02 
+Grid 60, Iteration  10:  Res = 1.0432e-06 
+
+Time step 20: Time 693.50 -> 730.00 days
+Grid 60, Iteration   1:  Res = 1.1362e-02 
+Grid 30, Iteration   2:  Res = 4.1365e+01 
+Grid 15, Iteration   2:  Res = 3.4522e+04 
+Grid 8, Iteration   2:  Res = 4.2987e+05 
+Grid 4, Iteration   2:  Res = 6.1961e+05 
+Grid 2, Iteration   4:  Res = 5.6460e+05 
+Grid 4, Iteration  10:  Res = 1.4470e+02 
+Grid 8, Iteration  13:  Res = 1.0160e-07 
+Grid 15, Iteration  10:  Res = 6.0595e-01 
+Grid 30, Iteration  14:  Res = 2.9876e-02 
+Grid 60, Iteration   8:  Res = 1.6031e-06 
+
+Time step 21: Time 730.00 -> 766.50 days
+Grid 60, Iteration   1:  Res = 1.1266e-02 
+Grid 30, Iteration   2:  Res = 9.0956e+01 
+Grid 15, Iteration   2:  Res = 5.2217e+04 
+Grid 8, Iteration   2:  Res = 7.7527e+05 
+Grid 4, Iteration   3:  Res = 3.8683e+05 
+Grid 2, Iteration   3:  Res = 9.4412e+05 
+Grid 4, Iteration  14:  Res = 8.7525e-06 
+Grid 8, Iteration  13:  Res = 1.4791e-08 
+Grid 15, Iteration  16:  Res = 3.2503e-07 
+Grid 30, Iteration  13:  Res = 8.6751e-01 
+Grid 60, Iteration   6:  Res = 1.6534e-02 
+Grid 60, Iteration   3:  Res = 5.9115e-07 
+
+Time step 22: Time 766.50 -> 803.00 days
+Grid 60, Iteration   1:  Res = 1.1150e-02 
+Grid 30, Iteration   2:  Res = 4.8870e+01 
+Grid 15, Iteration   2:  Res = 7.0006e+04 
+Grid 8, Iteration   2:  Res = 3.5139e+05 
+Grid 4, Iteration   2:  Res = 6.3802e+05 
+Grid 2, Iteration   4:  Res = 4.4755e+05 
+Grid 4, Iteration  10:  Res = 1.3126e+02 
+Grid 8, Iteration  13:  Res = 4.4881e-06 
+Grid 15, Iteration  10:  Res = 1.6731e+00 
+Grid 30, Iteration  15:  Res = 2.9579e-02 
+Grid 60, Iteration   8:  Res = 1.3147e-06 
+
+Time step 23: Time 803.00 -> 839.50 days
+Grid 60, Iteration   1:  Res = 1.1041e-02 
+Grid 30, Iteration   2:  Res = 3.4726e+01 
+Grid 15, Iteration   2:  Res = 1.5863e+04 
+Grid 8, Iteration   2:  Res = 5.0724e+05 
+Grid 4, Iteration   2:  Res = 7.2880e+05 
+Grid 2, Iteration   6:  Res = 6.3702e+05 
+Grid 4, Iteration  13:  Res = 1.4955e-06 
+Grid 8, Iteration  13:  Res = 3.5305e-08 
+Grid 15, Iteration  13:  Res = 5.6223e-06 
+Grid 30, Iteration  15:  Res = 1.3166e-03 
+Grid 60, Iteration   4:  Res = 4.8073e-02 
+Grid 60, Iteration   2:  Res = 2.4654e-02 
+
+Time step 24: Time 839.50 -> 876.00 days
+Grid 60, Iteration   1:  Res = 1.0807e-02 
+Grid 30, Iteration   2:  Res = 3.0569e+01 
+Grid 15, Iteration   2:  Res = 2.2419e+04 
+Grid 8, Iteration   2:  Res = 4.8283e+05 
+Grid 4, Iteration   2:  Res = 7.2875e+05 
+Grid 2, Iteration   3:  Res = 6.0127e+05 
+Grid 4, Iteration  10:  Res = 6.9657e+01 
+Grid 8, Iteration  12:  Res = 6.6203e-08 
+Grid 15, Iteration  14:  Res = 9.5436e-07 
+Grid 30, Iteration  12:  Res = 4.2797e-01 
+Grid 60, Iteration   6:  Res = 1.9533e-02 
+Grid 60, Iteration   3:  Res = 1.8865e-06 
+
+Time step 25: Time 876.00 -> 912.50 days
+Grid 60, Iteration   1:  Res = 1.0737e-02 
+Grid 30, Iteration   2:  Res = 2.2287e+01 
+Grid 15, Iteration   2:  Res = 1.0459e+04 
+Grid 8, Iteration   2:  Res = 4.3743e+05 
+Grid 4, Iteration   2:  Res = 6.4374e+05 
+Grid 2, Iteration   5:  Res = 4.1267e+05 
+Grid 4, Iteration  15:  Res = 2.6015e-06 
+Grid 8, Iteration  13:  Res = 9.9605e-09 
+Grid 15, Iteration  12:  Res = 1.0255e-01 
+Grid 30, Iteration  12:  Res = 6.5925e-01 
+Grid 60, Iteration   6:  Res = 1.6541e-02 
+Grid 60, Iteration   3:  Res = 2.1135e-06 
+
+Time step 26: Time 912.50 -> 949.00 days
+Grid 60, Iteration   1:  Res = 1.0577e-02 
+Grid 30, Iteration   2:  Res = 1.7466e+01 
+Grid 15, Iteration   2:  Res = 1.8863e+04 
+Grid 8, Iteration   2:  Res = 8.0834e+05 
+Grid 4, Iteration   3:  Res = 4.1189e+05 
+Grid 2, Iteration   4:  Res = 9.2450e+05 
+Grid 4, Iteration  15:  Res = 7.7288e-07 
+Grid 8, Iteration  13:  Res = 1.4754e-07 
+Grid 15, Iteration  16:  Res = 1.1999e-07 
+Grid 30, Iteration  15:  Res = 1.1292e-05 
+Grid 60, Iteration   6:  Res = 2.1299e-02 
+Grid 60, Iteration   2:  Res = 2.7735e-03 
+
+Time step 27: Time 949.00 -> 985.50 days
+Grid 60, Iteration   1:  Res = 1.0304e-02 
+Grid 30, Iteration   2:  Res = 1.9859e+01 
+Grid 15, Iteration   2:  Res = 1.9065e+04 
+Grid 8, Iteration   2:  Res = 7.4539e+05 
+Grid 4, Iteration   3:  Res = 6.4136e+05 
+Grid 2, Iteration   4:  Res = 1.1775e+06 
+Grid 4, Iteration  14:  Res = 1.4455e-07 
+Grid 8, Iteration  14:  Res = 2.7179e-09 
+Grid 15, Iteration  14:  Res = 4.2511e-07 
+Grid 30, Iteration  15:  Res = 4.0069e-05 
+Grid 60, Iteration   9:  Res = 8.9012e-07 
+
+Time step 28: Time 985.50 -> 1022.00 days
+Grid 60, Iteration   1:  Res = 1.0162e-02 
+Grid 30, Iteration   2:  Res = 3.0216e+01 
+Grid 15, Iteration   2:  Res = 3.4528e+04 
+Grid 8, Iteration   2:  Res = 6.8372e+05 
+Grid 4, Iteration   4:  Res = 6.5190e+05 
+Grid 2, Iteration   3:  Res = 9.7315e+05 
+Grid 4, Iteration  14:  Res = 1.8152e-07 
+Grid 8, Iteration  12:  Res = 1.4672e-06 
+Grid 15, Iteration   8:  Res = 9.9396e+00 
+Grid 30, Iteration  15:  Res = 2.1318e-04 
+Grid 60, Iteration   8:  Res = 2.7267e-06 
+
+Time step 29: Time 1022.00 -> 1058.50 days
+Grid 60, Iteration   1:  Res = 1.0195e-02 
+Grid 30, Iteration   2:  Res = 2.3547e+01 
+Grid 15, Iteration   2:  Res = 4.8180e+04 
+Grid 8, Iteration   2:  Res = 6.4159e+05 
+Grid 4, Iteration   2:  Res = 7.3572e+05 
+Grid 2, Iteration   3:  Res = 1.0701e+06 
+Grid 4, Iteration  12:  Res = 2.5681e-08 
+Grid 8, Iteration  11:  Res = 1.0579e-06 
+Grid 15, Iteration  10:  Res = 3.3078e-01 
+Grid 30, Iteration  11:  Res = 1.2007e+00 
+Grid 60, Iteration   8:  Res = 4.1168e-07 
+
+Time step 30: Time 1058.50 -> 1095.00 days
+Grid 60, Iteration   1:  Res = 1.0087e-02 
+Grid 30, Iteration   2:  Res = 2.9310e+01 
+Grid 15, Iteration   2:  Res = 7.3621e+04 
+Grid 8, Iteration   2:  Res = 6.2773e+05 
+Grid 4, Iteration   2:  Res = 8.4662e+05 
+Grid 2, Iteration   4:  Res = 1.0718e+06 
+Grid 4, Iteration  11:  Res = 7.9659e-10 
+Grid 8, Iteration  12:  Res = 9.5077e-08 
+Grid 15, Iteration  14:  Res = 3.8520e-06 
+Grid 30, Iteration  15:  Res = 1.0349e-04 
+Grid 60, Iteration   5:  Res = 2.5341e-02 
+Grid 60, Iteration   3:  Res = 7.6621e-07 
+9442.25 7.6621e-07 3 
+
+Time step 1: Time 0.00 -> 36.50 days
+Grid 60, Iteration   1:  Res = 4.7089e+04 
+Grid 30, Iteration   3:  Res = 1.2415e+05 
+Grid 15, Iteration   5:  Res = 1.2415e+05 
+Grid 8, Iteration   7:  Res = 1.2415e+05 
+Grid 4, Iteration   9:  Res = 1.2415e+05 
+Grid 2, Iteration  29:  Res = 1.2415e+05 
+Grid 4, Iteration  30:  Res = 5.2655e+07 
+Grid 8, Iteration  25:  Res = 4.5443e+07 
+Grid 15, Iteration  14:  Res = 3.1436e-08 
+Grid 30, Iteration  15:  Res 

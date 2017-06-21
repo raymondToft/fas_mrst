@@ -71,8 +71,8 @@ constraints = struct('numSteps',numSteps,'totTime',totTime, 'tol',tol, 'maxits',
   
 %% Run Simulations
 nSimulations = 5;
-diary 'TestCase_Mobility_48*48*4Grid_Newton.txt'
-fprintf('This is the testing results from running Newton with different mobility ratios');
+diary '1_mobilityRatio_Newton.txt'
+fprintf('This is the testing results from running Newton with different mobility ratios. Grid: 48*48*4, Perm: 30');
 
 %Test F -> Mobility ratio 5:4
 fprintf('\n Newton Test F: Mobility ratio 5:4\n');

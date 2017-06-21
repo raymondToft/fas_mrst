@@ -72,8 +72,8 @@ constraints = struct('numSteps',numSteps,'totTime',totTime, 'tol',tol, 'maxits',
 %% Run Simulations
 nSimulations = 5;
 
-diary 'TestCase_Mobility_48*48*4Grid_FAS.txt'
-fprintf('This is the testing results from running FAS with different mobility ratios');
+diary '1_mobilityRatio_FAS_banach09.txt'
+fprintf('This is the testing results from running FAS with different mobility ratios. Grid: 48*48*4, Perm: 30');
 
 %Test F -> Mobility ratio 5:4
 fprintf('\n FAS Test F: Mobility ratio 5:4\n');

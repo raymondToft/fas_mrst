@@ -71,29 +71,13 @@ maxits   = 100;                  % max number of Newton its
 constraints = struct('numSteps',numSteps,'totTime',totTime, 'tol',tol, 'maxits', maxits);
   
 %% Run Simulations
-nSimulations = 3;
+nSimulations = 1;
 
-diary '9_TestCase_SPE10.txt'
+diary '9_TestCase_SPE10_atLeast4Layers.txt'
 fprintf('This is the testing results from running both FAS and Newton with different number of SPE10 layers');
-% 
+%
+for i=1:3 
 %Test A 
-newModel.homogeneous = 'spe10';
-[newModel.grid, W, rock] = getSPE10setup(1:2);
-mp = 0.1;
-rock.poro(rock.poro < mp) = mp;
-newModel.poro = rock.poro;
-rock.perm = rock.perm(:, 1);
-newModel.perm = rock.perm;
-
-fprintf('\n FAS Test A: SPE10 1:2 \n');
-fprintf(' RunTime, Residual, Iterations \n');
-result_A_FAS = runSumulationFAS(newModel, constraints, nSimulations);
-
-fprintf('\n Newton Test A: SPE10 1:2 \n');
-fprintf(' RunTime, Residual, Iterations \n');
-result_A_N = runSumulationNewton(newModel, constraints, nSimulations);
-
-%Test B 
 newModel.homogeneous = 'spe10';
 [newModel.grid, W, rock] = getSPE10setup(1:4);
 mp = 0.1;
@@ -102,15 +86,16 @@ newModel.poro = rock.poro;
 rock.perm = rock.perm(:, 1);
 newModel.perm = rock.perm;
 
-fprintf('\n FAS Test B: SPE10 1:4\n');
+fprintf('\n FAS Test A: SPE10 1:4 \n');
 fprintf(' RunTime, Residual, Iterations \n');
-result_B_FAS = runSumulationFAS(newModel, constraints, nSimulations);
+result_A_FAS = runSumulationFAS(newModel, constraints, nSimulations);
 
-fprintf('\n Newton Test B: SPE10 1:4\n');
+fprintf('\n Newton Test A: SPE10 1:4 \n');
 fprintf(' RunTime, Residual, Iterations \n');
-result_B_N = runSumulationNewton(newModel, constraints, nSimulations);
+result_A_N = runSumulationNewton(newModel, constraints, nSimulations);
 
-%Test C newModel.homogeneous = 'spe10';
+%Test B 
+newModel.homogeneous = 'spe10';
 [newModel.grid, W, rock] = getSPE10setup(1:8);
 mp = 0.1;
 rock.poro(rock.poro < mp) = mp;
@@ -118,16 +103,15 @@ newModel.poro = rock.poro;
 rock.perm = rock.perm(:, 1);
 newModel.perm = rock.perm;
 
-fprintf('\n FAS Test C: SPE10 1:8\n');
+fprintf('\n FAS Test B: SPE10 1:8\n');
 fprintf(' RunTime, Residual, Iterations \n');
-result_C_FAS = runSumulationFAS(newModel, constraints,nSimulations);
+result_B_FAS = runSumulationFAS(newModel, constraints, nSimulations);
 
-fprintf('\n Newton Test C: SPE10 1:8\n');
+fprintf('\n Newton Test B: SPE10 1:8\n');
 fprintf(' RunTime, Residual, Iterations \n');
-result_C_N = runSumulationNewton(newModel, constraints,nSimulations);
+result_B_N = runSumulationNewton(newModel, constraints, nSimulations);
 
-
-%Test D newModel.homogeneous = 'spe10';
+%Test C newModel.homogeneous = 'spe10';
 [newModel.grid, W, rock] = getSPE10setup(1:12);
 mp = 0.1;
 rock.poro(rock.poro < mp) = mp;
@@ -135,16 +119,16 @@ newModel.poro = rock.poro;
 rock.perm = rock.perm(:, 1);
 newModel.perm = rock.perm;
 
-fprintf('\n FAS Test D: SPE10 1:12\n');
+fprintf('\n FAS Test C: SPE10 1:12\n');
 fprintf(' RunTime, Residual, Iterations \n');
 result_C_FAS = runSumulationFAS(newModel, constraints,nSimulations);
 
-fprintf('\n Newton Test D: SPE10 1:12\n');
+fprintf('\n Newton Test C: SPE10 1:12\n');
 fprintf(' RunTime, Residual, Iterations \n');
 result_C_N = runSumulationNewton(newModel, constraints,nSimulations);
 
 
-%Test E newModel.homogeneous = 'spe10';
+%Test D newModel.homogeneous = 'spe10';
 [newModel.grid, W, rock] = getSPE10setup(1:16);
 mp = 0.1;
 rock.poro(rock.poro < mp) = mp;
@@ -152,14 +136,31 @@ newModel.poro = rock.poro;
 rock.perm = rock.perm(:, 1);
 newModel.perm = rock.perm;
 
-fprintf('\n FAS Test E: SPE10 1:16\n');
+fprintf('\n FAS Test D: SPE10 1:16\n');
 fprintf(' RunTime, Residual, Iterations \n');
 result_C_FAS = runSumulationFAS(newModel, constraints,nSimulations);
 
-fprintf('\n Newton Test E: SPE10 1:16\n');
+fprintf('\n Newton Test D: SPE10 1:16\n');
 fprintf(' RunTime, Residual, Iterations \n');
 result_C_N = runSumulationNewton(newModel, constraints,nSimulations);
 
+
+%Test E newModel.homogeneous = 'spe10';
+[newModel.grid, W, rock] = getSPE10setup(1:20);
+mp = 0.1;
+rock.poro(rock.poro < mp) = mp;
+newModel.poro = rock.poro;
+rock.perm = rock.perm(:, 1);
+newModel.perm = rock.perm;
+
+fprintf('\n FAS Test E: SPE10 1:20\n');
+fprintf(' RunTime, Residual, Iterations \n');
+result_C_FAS = runSumulationFAS(newModel, constraints,nSimulations);
+
+fprintf('\n Newton Test E: SPE10 1:20\n');
+fprintf(' RunTime, Residual, Iterations \n');
+result_C_N = runSumulationNewton(newModel, constraints,nSimulations);
+end
 
 % 
 % fprintf('MobilityRatio Maximum Average relAverage Variance relVariance')
