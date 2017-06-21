@@ -1,0 +1,120 @@
+This is the testing results from running FAS with different mobility ratios. Grid: 48*48*4, Perm: 30
+ FAS Test F: Mobility ratio 5:4
+ RunTime, Residual, Iterations 
+345.98 2.2855e-08 4 
+
+ FAS Test A: Mobility ratio 1:1
+ RunTime, Residual, Iterations 
+333.79 2.5172e-08 4 
+
+ FAS Test B: Mobility ratio 1:2
+ RunTime, Residual, Iterations 
+344.68 9.8944e-08 4 
+
+ FAS Test C: Mobility ratio 1:5
+ RunTime, Residual, Iterations 
+298.01 1.8455e-07 4 
+
+ FAS Test D: Mobility ratio 1:10
+ RunTime, Residual, Iterations 
+311.24 5.9859e-08 4 
+
+ FAS Test E: Mobility ratio 1:15
+ RunTime, Residual, Iterations 
+315.39 2.0784e-08 4 
+
+ FAS Test F: Mobility ratio 5:4
+ RunTime, Residual, Iterations 
+343.99 2.2855e-08 4 
+
+ FAS Test A: Mobility ratio 1:1
+ RunTime, Residual, Iterations 
+333.56 2.5172e-08 4 
+
+ FAS Test B: Mobility ratio 1:2
+ RunTime, Residual, Iterations 
+344.80 9.8944e-08 4 
+
+ FAS Test C: Mobility ratio 1:5
+ RunTime, Residual, Iterations 
+298.27 1.8455e-07 4 
+
+ FAS Test D: Mobility ratio 1:10
+ RunTime, Residual, Iterations 
+311.20 5.9859e-08 4 
+
+ FAS Test E: Mobility ratio 1:15
+ RunTime, Residual, Iterations 
+315.08 2.0784e-08 4 
+
+ FAS Test F: Mobility ratio 5:4
+ RunTime, Residual, Iterations 
+343.75 2.2855e-08 4 
+
+ FAS Test A: Mobility ratio 1:1
+ RunTime, Residual, Iterations 
+333.44 2.5172e-08 4 
+
+ FAS Test B: Mobility ratio 1:2
+ RunTime, Residual, Iterations 
+345.52 9.8944e-08 4 
+
+ FAS Test C: Mobility ratio 1:5
+ RunTime, Residual, Iterations 
+298.17 1.8455e-07 4 
+
+ FAS Test D: Mobility ratio 1:10
+ RunTime, Residual, Iterations 
+311.34 5.9859e-08 4 
+
+ FAS Test E: Mobility ratio 1:15
+ RunTime, Residual, Iterations 
+314.73 2.0784e-08 4 
+
+ FAS Test F: Mobility ratio 5:4
+ RunTime, Residual, Iterations 
+343.18 2.2855e-08 4 
+
+ FAS Test A: Mobility ratio 1:1
+ RunTime, Residual, Iterations 
+336.65 2.5172e-08 4 
+
+ FAS Test B: Mobility ratio 1:2
+ RunTime, Residual, Iterations 
+341.62 9.8944e-08 4 
+
+ FAS Test C: Mobility ratio 1:5
+ RunTime, Residual, Iterations 
+298.28 1.8455e-07 4 
+
+ FAS Test D: Mobility ratio 1:10
+ RunTime, Residual, Iterations 
+311.30 5.9859e-08 4 
+
+ FAS Test E: Mobility ratio 1:15
+ RunTime, Residual, Iterations 
+314.33 2.0784e-08 4 
+
+ FAS Test F: Mobility ratio 5:4
+ RunTime, Residual, Iterations 
+343.55 2.2855e-08 4 
+
+ FAS Test A: Mobility ratio 1:1
+ RunTime, Residual, Iterations 
+337.38 2.5172e-08 4 
+
+ FAS Test B: Mobility ratio 1:2
+ RunTime, Residual, Iterations 
+341.40 9.8944e-08 4 
+
+ FAS Test C: Mobility ratio 1:5
+ RunTime, Residual, Iterations 
+297.98 1.8455e-07 4 
+
+ FAS Test D: Mobility ratio 1:10
+ RunTime, Residual, Iterations 
+310.76 5.9859e-08 4 
+
+ FAS Test E: Mobility ratio 1:15
+ RunTime, Residual, Iterations 
+314.64 2.0784e-08 4 

@@ -1,0 +1,120 @@
+This is the testing results from running Newton with different mobility ratios. Grid: 48*48*4, Perm: 30
+ Newton Test F: Mobility ratio 5:4
+ RunTime, Residual, Iterations 
+327.63 1.1468e-07 3 
+
+ Newton Test A: Mobility ratio 1:1
+ RunTime, Residual, Iterations 
+314.92 1.3991e-09 3 
+
+ Newton Test B: Mobility ratio 1:2
+ RunTime, Residual, Iterations 
+263.77 5.2857e-08 3 
+
+ Newton Test C: Mobility ratio 1:5
+ RunTime, Residual, Iterations 
+250.63 2.7837e-10 3 
+
+ Newton Test D: Mobility ratio 1:10
+ RunTime, Residual, Iterations 
+288.45 7.6224e-11 3 
+
+ Newton Test E: Mobility ratio 1:15
+ RunTime, Residual, Iterations 
+281.45 2.8096e-11 3 
+
+ Newton Test F: Mobility ratio 5:4
+ RunTime, Residual, Iterations 
+324.76 1.1468e-07 3 
+
+ Newton Test A: Mobility ratio 1:1
+ RunTime, Residual, Iterations 
+312.80 1.3991e-09 3 
+
+ Newton Test B: Mobility ratio 1:2
+ RunTime, Residual, Iterations 
+300.72 5.2857e-08 3 
+
+ Newton Test C: Mobility ratio 1:5
+ RunTime, Residual, Iterations 
+275.61 2.7837e-10 3 
+
+ Newton Test D: Mobility ratio 1:10
+ RunTime, Residual, Iterations 
+249.35 7.6224e-11 3 
+
+ Newton Test E: Mobility ratio 1:15
+ RunTime, Residual, Iterations 
+238.05 2.8096e-11 3 
+
+ Newton Test F: Mobility ratio 5:4
+ RunTime, Residual, Iterations 
+337.86 1.1468e-07 3 
+
+ Newton Test A: Mobility ratio 1:1
+ RunTime, Residual, Iterations 
+319.20 1.3991e-09 3 
+
+ Newton Test B: Mobility ratio 1:2
+ RunTime, Residual, Iterations 
+319.39 5.2857e-08 3 
+
+ Newton Test C: Mobility ratio 1:5
+ RunTime, Residual, Iterations 
+275.74 2.7837e-10 3 
+
+ Newton Test D: Mobility ratio 1:10
+ RunTime, Residual, Iterations 
+241.03 7.6224e-11 3 
+
+ Newton Test E: Mobility ratio 1:15
+ RunTime, Residual, Iterations 
+253.95 2.8096e-11 3 
+
+ Newton Test F: Mobility ratio 5:4
+ RunTime, Residual, Iterations 
+331.74 1.1468e-07 3 
+
+ Newton Test A: Mobility ratio 1:1
+ RunTime, Residual, Iterations 
+313.65 1.3991e-09 3 
+
+ Newton Test B: Mobility ratio 1:2
+ RunTime, Residual, Iterations 
+317.92 5.2857e-08 3 
+
+ Newton Test C: Mobility ratio 1:5
+ RunTime, Residual, Iterations 
+300.05 2.7837e-10 3 
+
+ Newton Test D: Mobility ratio 1:10
+ RunTime, Residual, Iterations 
+284.78 7.6224e-11 3 
+
+ Newton Test E: Mobility ratio 1:15
+ RunTime, Residual, Iterations 
+239.65 2.8096e-11 3 
+
+ Newton Test F: Mobility ratio 5:4
+ RunTime, Residual, Iterations 
+285.42 1.1468e-07 3 
+
+ Newton Test A: Mobility ratio 1:1
+ RunTime, Residual, Iterations 
+325.80 1.3991e-09 3 
+
+ Newton Test B: Mobility ratio 1:2
+ RunTime, Residual, Iterations 
+308.56 5.2857e-08 3 
+
+ Newton Test C: Mobility ratio 1:5
+ RunTime, Residual, Iterations 
+289.66 2.7837e-10 3 
+
+ Newton Test D: Mobility ratio 1:10
+ RunTime, Residual, Iterations 
+306.92 7.6224e-11 3 
+
+ Newton Test E: Mobility ratio 1:15
+ RunTime, Residual, Iterations 
+276.75 2.8096e-11 3 

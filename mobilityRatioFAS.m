@@ -70,11 +70,11 @@ maxits   = 100;                  % max number of Newton its
 constraints = struct('numSteps',numSteps,'totTime',totTime, 'tol',tol, 'maxits', maxits);
   
 %% Run Simulations
-nSimulations = 5;
+nSimulations = 1;
 
-diary '1_mobilityRatio_FAS_banach09.txt'
+diary '1_mobilityRatio_FAS_banach06_for.txt'
 fprintf('This is the testing results from running FAS with different mobility ratios. Grid: 48*48*4, Perm: 30');
-
+for i=1:5
 %Test F -> Mobility ratio 5:4
 fprintf('\n FAS Test F: Mobility ratio 5:4\n');
 fprintf(' RunTime, Residual, Iterations \n');
@@ -116,22 +116,22 @@ fprintf(' RunTime, Residual, Iterations \n');
 newModel.muO = 15*centi*poise;
 result_E = runSumulation(newModel, constraints, nSimulations);
 
+end
 
 
+%fprintf('MobilityRatio Maximum Average relAverage Variance relVariance')
 
-fprintf('MobilityRatio Maximum Average relAverage Variance relVariance')
+%refineAndPrintResults(result_A,'MobilityRatio')
 
-refineAndPrintResults(result_A,'MobilityRatio')
+%refineAndPrintResults(result_B,'MobilityRatio')
 
-refineAndPrintResults(result_B,'MobilityRatio')
+%refineAndPrintResults(result_C,'MobilityRatio')
 
-refineAndPrintResults(result_C,'MobilityRatio')
+%refineAndPrintResults(result_D,'MobilityRatio')
 
-refineAndPrintResults(result_D,'MobilityRatio')
+%refineAndPrintResults(result_E,'MobilityRatio')
 
-refineAndPrintResults(result_E,'MobilityRatio')
-
-refineAndPrintResults(result_F,'MobilityRatio')
+%refineAndPrintResults(result_F,'MobilityRatio')
 
 diary off
 

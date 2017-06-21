@@ -70,10 +70,10 @@ maxits   = 100;                  % max number of Newton its
 constraints = struct('numSteps',numSteps,'totTime',totTime, 'tol',tol, 'maxits', maxits);
   
 %% Run Simulations
-nSimulations = 5;
-diary '1_mobilityRatio_Newton.txt'
+nSimulations = 1;
+diary '1_mobilityRatio_Newton_banach07_for.txt'
 fprintf('This is the testing results from running Newton with different mobility ratios. Grid: 48*48*4, Perm: 30');
-
+for i=1:5
 %Test F -> Mobility ratio 5:4
 fprintf('\n Newton Test F: Mobility ratio 5:4\n');
 fprintf(' RunTime, Residual, Iterations \n');
@@ -115,7 +115,7 @@ fprintf(' RunTime, Residual, Iterations \n');
 newModel.muO = 15*centi*poise;
 result_E = runSumulation(newModel, constraints, nSimulations);
 
-
+end
 
 
 %fprintf('MobilityRatio Maximum Average relAverage Variance relVariance')
